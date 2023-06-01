@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Exercise: Provide storage for the IT department testing and training'
-    module: 'Module: Guided Project - Azure Files and Azure Blobs'
+    module: 'Guided Project - Azure Files and Azure Blobs'
 ---
 
 ## Architecture diagram
