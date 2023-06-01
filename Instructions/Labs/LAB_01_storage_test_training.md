@@ -16,8 +16,7 @@ The IT department needs to prototype different storage scenarios and to train ne
 
 ## Exercise instructions
 
-> [!NOTE]
-> To complete this lab you will need an [Azure subscription](https://azure.microsoft.com/free/).
+>**Note**: To complete this lab you will need an [Azure subscription](https://azure.microsoft.com/free/).
 
 1. Create and deploy a resource group to hold all your guided project resources. [Learn more about resource groups](https://learn.microsoft.com/azure/azure-resource-manager/management/manage-resource-groups-portal)
     - In the Azure portal, search for and select **Resource groups**.
@@ -62,5 +61,4 @@ The IT department needs to prototype different storage scenarios and to train ne
     - Ensure **Public network access** is set to **Enabled from all networks**.
     - Be sure to **Save** your changes. 
 
-> [!NOTE]
-> For additional practice complete the [Create an Azure Storage Account](https://learn.microsoft.com/training/modules/create-azure-storage-account/) module. The module has a sandbox where you can practice creating a storage account.
+>**Note**: For additional practice complete the [Create an Azure Storage Account](https://learn.microsoft.com/training/modules/create-azure-storage-account/) module. The module has a sandbox where you can practice creating a storage account.
