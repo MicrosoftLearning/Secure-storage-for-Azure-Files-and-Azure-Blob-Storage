@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Exercise: Provide private storage for internal company documents'
-    module: 'Module: Guided Project - Azure Files and Azure Blobs'
+    module: 'Guided Project - Azure Files and Azure Blobs'
 ---
 
 The company needs storage for their offices and departments. This content is private to the company and shouldn't be shared without consent. This storage requires high availability if there's a regional outage. The company wants to use this storage to back up the public website storage. 
