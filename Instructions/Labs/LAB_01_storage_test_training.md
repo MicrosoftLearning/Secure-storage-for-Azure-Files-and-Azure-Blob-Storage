@@ -7,10 +7,12 @@ lab:
 The IT department needs to prototype different storage scenarios and to train new personnel. The content isn't important enough to back up and doesn't need to be restored if the data is overwritten or removed. A simple configuration that can be easily changed is desired.
 
 ## Architecture diagram
+![Diagram with one storage account](../Media/task-1.png)
 
-| Storage Plan  | Tasks|
-| --- | --- |
-| ![Diagram with one storage account][../media/task-1.png] | <ul><li>Establish a naming convention. </li><li> Create a storage account. </li><li>Configure basic settings for security and networking. </li></ul> |
+## Skilling tasks
+- Establish a naming convention. 
+- Create a storage account. 
+- Configure basic settings for security and networking. 
 
 ## Exercise instructions
 
