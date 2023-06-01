@@ -10,8 +10,7 @@ The IT department needs to prototype different storage scenarios and to train ne
 
 | Storage Plan  | Tasks|
 | --- | --- |
-| :::image type="content" source="../Media/task-1.png" alt-text="Diagram with one storage account." border="true"::: | <ul><li>Establish a naming convention. </li><li> Create a storage account. </li><li>Configure basic settings for security and networking. </li></ul> |
-
+| ![Diagram with one storage account][../media/task-1.png] | <ul><li>Establish a naming convention. </li><li> Create a storage account. </li><li>Configure basic settings for security and networking. </li></ul> |
 
 ## Exercise instructions
 
