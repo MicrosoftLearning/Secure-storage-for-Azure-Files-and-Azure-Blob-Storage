@@ -6,14 +6,17 @@ lab:
 
 ## Architecture diagram
 
-| Storage Plan  | Tasks|
-| --- | --- |
-| :::image type="content" source="../media/task-4.png" alt-text="Diagram with a storage account, file share, and directory." border="true"::: | <ul><li>Create a storage account. </li><li> Configure a file share and directory. </li><li> Configure snapshots and practice restoring files. </li><li> Restrict access to a specific virtual network and subnet. </li></ul> |
+![Diagram with a storage account, file share, and directory](../Media/task-4.png)
+
+## Skilling tasks
+- Create a storage account. 
+- Configure a file share and directory. 
+- Configure snapshots and practice restoring files. 
+- Restrict access to a specific virtual network and subnet. 
 
 ## Exercise instructions
 
-> [!NOTE]
-> To complete this lab you will need an [Azure subscription](https://azure.microsoft.com/free/).
+>**Note**: To complete this lab you will need an [Azure subscription](https://azure.microsoft.com/free/).
 
 1. Create a storage account for the finance department's shared files.  [Learn more about storage accounts for Azure Files deployments](https://learn.microsoft.com/azure/storage/files/storage-files-planning#management-concepts)
 
@@ -68,5 +71,4 @@ lab:
     - Verify the message *not authorized to perform this operation*. 
 
 
-> [!NOTE]
-> For additional practice complete the [Configure Azure storage security](https://learn.microsoft.com/training/modules/configure-storage-security/) module. The module has an interactive lab simulation where you can get more practice creating secure storage. 
+>**Note**: For additional practice complete the [Configure Azure storage security](https://learn.microsoft.com/training/modules/configure-storage-security/) module. The module has an interactive lab simulation where you can get more practice creating secure storage. 
