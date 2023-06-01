@@ -1,6 +1,6 @@
 ---
 demo:
-    title: 'Demo: Deploying an ARM Template'
+    title: 'Demo: Example'
     module: 'Module 1: Exploring Azure Resource Manager'
 ---
 
