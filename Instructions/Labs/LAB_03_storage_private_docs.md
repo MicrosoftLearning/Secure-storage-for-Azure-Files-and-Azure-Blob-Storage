@@ -8,14 +8,18 @@ The company needs storage for their offices and departments. This content is pri
 
 ## Architecture diagram
 
-| Storage Plan | Tasks|
-| --- | --- |
-| :::image type="content" source="../media/task-3.png" alt-text="Diagram with one storage account and two blob containers." border="true"::: | <ul><li>Create a storage account.<li>Create a storage container with restricted access.</li><li>Configure a shared access signature for partners.</li><li>Back up the public website storage.<li>Implement lifecycle management to move content to the cool tier.</li></ul>|
+![Diagram with one storage account and two blob containers[(../Media/task-3.png)
+
+## Skilling tasks
+- Create a storage account.
+- Create a storage container with restricted access.
+- Configure a shared access signature for partners.
+- Back up the public website storage.
+- Implement lifecycle management to move content to the cool tier.
 
 ## Exercise instructions
 
-> [!NOTE]
-> To complete this lab you will need an [Azure subscription](https://azure.microsoft.com/free/).
+>**Note**: To complete this lab you will need an [Azure subscription](https://azure.microsoft.com/free/).
 
 1. Create a storage account for the internal private company documents.
     - In the portal, search for and select **Storage accounts**.  
