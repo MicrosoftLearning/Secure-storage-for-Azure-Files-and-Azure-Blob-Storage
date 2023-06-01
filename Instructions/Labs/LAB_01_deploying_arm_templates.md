@@ -1,80 +1,65 @@
 ---
 lab:
-    title: 'Lab: Deploying Azure Resource Manager templates'
-    module: 'Module 1: Exploring Azure Resource Manager'
+    title: 'Exercise: Provide storage for the IT department testing and training'
+    module: 'Module: Guided Project - Azure Files and Azure Blobs'
 ---
 
-# Lab: Deploying Azure Resource Manager templates
-# Student lab manual
+The IT department needs to prototype different storage scenarios and to train new personnel. The content isn't important enough to back up and doesn't need to be restored if the data is overwritten or removed. A simple configuration that can be easily changed is desired.
 
-## Lab scenario
+## Architecture diagram
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lobortis, erat vel egestas faucibus, dui magna semper velit, id congue sapien lectus id turpis. Nam egestas tempus enim. Ut venenatis vehicula ex, id rutrum odio lacinia at. Donec congue, tortor sed fermentum imperdiet, mauris mi auctor dui, ac cursus ex augue a odio. Aliquam erat volutpat. Vivamus faucibus fringilla augue in dignissim. Quisque sit amet nulla id risus gravida auctor. Ut in est varius, cursus odio rhoncus, placerat erat. Suspendisse nec metus est.
+| Storage Plan  | Tasks|
+| --- | --- |
+| :::image type="content" source="../media/task-1.png" alt-text="Diagram with one storage account." border="true"::: | <ul><li>Establish a naming convention. </li><li> Create a storage account. </li><li>Configure basic settings for security and networking. </li></ul> |
 
-## Objectives
 
-After you complete this lab, you will be able to:
+## Exercise instructions
 
-- Cras tincidunt massa et nunc vulputate, eget vestibulum massa tincidunt. 
+> [!NOTE]
+> To complete this lab you will need an [Azure subscription](https://azure.microsoft.com/free/).
 
-- Maecenas suscipit at nisl vitae malesuada. 
+1. Create and deploy a resource group to hold all your guided project resources. [Learn more about resource groups](https://learn.microsoft.com/azure/azure-resource-manager/management/manage-resource-groups-portal)
+    - In the Azure portal, search for and select **Resource groups**.
+    - Click **+ Create**.
+    - Give your resource group a **name**. Use this resource group for all project resources.
+    - Select a **region**. Use this region throughout the project. 
+    - Click **Review and create** to validate the resource group.
+    - Click **Create** to deploy the resource group.
 
-- Suspendisse eu arcu id velit consequat venenatis.
+1. Create and deploy a storage account to support testing and training. [Learn more about the types of storage accounts](https://learn.microsoft.com/azure/storage/common/storage-account-overview#types-of-storage-accounts)
+    - In the Azure portal, search for and select  **Storage accounts**. 
+    - Click **+ Create**.
+    - On the **Basics** tab, select your **Resource group**.
+    - Provide a **Storage account name**.
+    - Set the **Performance** to **Standard**. 
+    - Click **Review**, and then **Create**. 
+    - Wait for the storage account to deploy and then **Go to resource**.  
 
-## Lab Setup
+1. The data in this storage account doesn't require high availability or durability. A lowest cost storage solution is desired. [Learn more about storage account redundancy](https://learn.microsoft.com//azure/storage/common/storage-redundancy)
+    - In your storage account, select the **Redundancy** blade.
+    - Select **Locally-redundant storage (LRS)** in the **Redundancy** drop-down. 
+    - Be sure to **Save** your changes. 
+    - Refresh the page and notice the content only exists in the primary data center. 
 
-  - **Estimated Time**: 00 minutes
+1. The storage account should only accept requests from secure connections. [Learn more about requiring secure transfer from secure connections](https://learn.microsoft.com/azure/storage/common/storage-require-secure-transfer)
+    - In the **Settings** section, click the **Configuration** blade.
+    - Ensure **Secure transfer required** is **Enabled**.
+    - Be sure to **Save** your changes. 
 
-## Instructions
+1. The storage account should use at least TLS version 1.2. [Learn more about transport layer security (TLS)](https://learn.microsoft.com//azure/storage/common/transport-layer-security-configure-minimum-version?tabs=portal)
+    - In the **Settings** section, click the **Configuration** blade.
+    - Ensure the **Minimal TLS version** is set to **Version 1.2**. 
 
-### Before you start
 
-#### Setup Task
+1. Until the storage is needed again, disable requests to the storage account for both shared keys and shared access signatures. [Learn more about disabling shared keys](https://learn.microsoft.com/azure/storage/common/shared-key-authorization-prevent?tabs=portal#disable-shared-key-authorization)
+    - In the **Settings** section, click the **Configuration** blade.
+    - Ensure **Allow storage account key access** is **Disabled**. 
+    - Be sure to **Save** your changes. 
 
-1. Integer dolor purus, gravida eu sem id, efficitur aliquet neque. 
+1. Ensure the storage account allows public access from all networks.  
+    - In the **Security + networking** section, click the **Networking** blade.
+    - Ensure **Public network access** is set to **Enabled from all networks**.
+    - Be sure to **Save** your changes. 
 
-1. Suspendisse viverra mauris in metus laoreet consectetur. 
-
-1. Sed diam risus, convallis quis condimentum at, egestas malesuada libero. 
-
-### Exercise 0: 
-
-#### Task 0: 
-
-1. Quisque dictum convallis metus, vitae vestibulum turpis dapibus non.
-
-    1. Suspendisse commodo tempor convallis. 
-
-    1. Nunc eget quam facilisis, imperdiet felis ut, blandit nibh. 
-
-    1. Phasellus pulvinar ornare sem, ut imperdiet justo volutpat et.
-
-1. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
-
-1. Vestibulum hendrerit orci urna, non aliquet eros eleifend vitae. 
-
-1. Curabitur nibh dui, vestibulum cursus neque commodo, aliquet accumsan risus. 
-
-    ```
-    Sed at malesuada orci, eu volutpat ex
-    ```
-
-1. In ac odio vulputate, faucibus lorem at, sagittis felis.
-
-1. Fusce tincidunt sapien nec dolor congue facilisis lacinia quis urna.
-
-    > **Note**: Ut feugiat est id ultrices gravida.
-
-1. Phasellus urna lacus, luctus at suscipit vitae, maximus ac nisl. 
-
-    - Morbi in tortor finibus, tempus dolor a, cursus lorem. 
-
-    - Maecenas id risus pharetra, viverra elit quis, lacinia odio. 
-
-    - Etiam rutrum pretium enim. 
-
-1. Curabitur in pretium urna, nec ullamcorper diam. 
-
-#### Review
-
-Maecenas fringilla ac purus non tincidunt. Aenean pellentesque velit id suscipit tempus. Cras at ullamcorper odio.
+> [!NOTE]
+> For additional practice complete the [Create an Azure Storage Account](https://learn.microsoft.com/training/modules/create-azure-storage-account/) module. The module has a sandbox where you can practice creating a storage account.
