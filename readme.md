@@ -1,5 +1,7 @@
 # INF99X: Sample Course
 
+**Looking for HTML pages?** https://microsoftlearning.github.io/Secure-storage-for-Azure-Files-and-Azure-Blob-Storage/
+
 **Are you an MCT?** - Have a look at our [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/)
 
 ## What are we doing?
