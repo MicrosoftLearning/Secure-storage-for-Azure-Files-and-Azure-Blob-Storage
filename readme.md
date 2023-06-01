@@ -1,4 +1,4 @@
-# INF99X: Sample Course
+# INF99X: Sample Course (Test and Dev)
 
 Looking for the **[HTML pages](https://microsoftlearning.github.io/Secure-storage-for-Azure-Files-and-Azure-Blob-Storage/)**?
 
