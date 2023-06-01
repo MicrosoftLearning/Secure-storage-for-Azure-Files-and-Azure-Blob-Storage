@@ -9,14 +9,20 @@ The company is designing and developing a new app. Developers need to ensure the
 
 ## Architecture diagram
 
-| Storage Plan  | Tasks|
-| --- | --- |
-| :::image type="content" source="../media/task-5.png" alt-text="Diagram with a storage account, managed identities, and a key vault." border="true"::: | <ul><li>Create a storage account. </li><li> Configure a user-assigned managed identity. </li><li>  Configure a system-assigned managed identity.</li><li>  Configure a key vault with key.  </li><li>  Configure a container with immutable storage. </li><li>  Configure an encryption scope. </li></ul> |
+![Diagram with a storage account, managed identities, and a key vault.](../Media/task-5.png)
+
+## Skilling tasks
+
+- Create a storage account. 
+- Configure a user-assigned managed identity. 
+- Configure a system-assigned managed identity.
+- Configure a key vault with key. 
+- Configure a container with immutable storage.
+- Configure an encryption scope. 
 
 ## Exercise instructions
 
-> [!NOTE]
-> To complete this lab you will need an [Azure subscription](https://azure.microsoft.com/free/).
+>**Note**: To complete this lab you will need an [Azure subscription](https://azure.microsoft.com/free/).
 
 1. Provide a storage account for the app. 
 
@@ -90,5 +96,4 @@ The company is designing and developing a new app. Developers need to ensure the
         - Set infrastructure encryption to **Enable**. 
 
 
-> [!NOTE]
-> For additional practice complete the [Secure and isolate access to Azure resources by using network security groups and service endpoints](https://learn.microsoft.com/training/modules/secure-and-isolate-with-nsg-and-service-endpoints/) module. The module has a sandbox where you can get more practice restricting access to storage.
+>**Note**: For additional practice complete the [Secure and isolate access to Azure resources by using network security groups and service endpoints](https://learn.microsoft.com/training/modules/secure-and-isolate-with-nsg-and-service-endpoints/) module. The module has a sandbox where you can get more practice restricting access to storage.
