@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Exercise - Provide storage for the public website'
-    module: 'Module: Guided Project - Azure Files and Azure Blobs'
+    module: 'Guided Project - Azure Files and Azure Blobs'
 ---
 
 The company website supplies product images, videos, marketing literature, and customer success stories. Customers are located worldwide and demand is rapidly expanding. The content is mission-critical and requires low latency load times. It's important to keep track of the document versions and to quickly restore documents if they're deleted.
