@@ -8,14 +8,17 @@ The company website supplies product images, videos, marketing literature, and c
 
 ## Architecture diagram
 
-| Storage Plan  | Tasks|
-| --- | --- |
-| :::image type="content" source="../media/task-2.png" alt-text="Diagram with one storage account and one blob container." border="true"::: | <ul><li>Create a storage account with anonymous public access. </li><li> Create a blob storage container. </li><li> Enable soft delete and versioning. </li></ul> |
+![Diagram with one storage account and one blob container.](../Media/task-2.png)
+
+## Skilling tasks
+- Create a storage account with anonymous public access.
+- Create a blob storage container.
+- Enable soft delete and versioning.
+
 
 ## Exercise instructions
 
-> [!NOTE]
-> To complete this lab you will need an [Azure subscription](https://azure.microsoft.com/free/).
+>**Note**: To complete this lab you will need an [Azure subscription](https://azure.microsoft.com/free/).
 
 1. Create a storage account to support the public website.
 
@@ -78,5 +81,4 @@ The company website supplies product images, videos, marketing literature, and c
     - Don't forget to **Save**.
 
     
-> [!NOTE]
-> For additional practice complete the [Configure Azure blob storage](https://learn.microsoft.com/training/modules/configure-blob-storage/) module. The module has an interactive lab simulation where you can get more practice creating blob storage. 
+>**Note**: For additional practice complete the [Configure Azure blob storage](https://learn.microsoft.com/training/modules/configure-blob-storage/) module. The module has an interactive lab simulation where you can get more practice creating blob storage. 
