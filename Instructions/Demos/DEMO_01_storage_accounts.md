@@ -1,9 +1,9 @@
 ---
 demo:
-    title: 'Demonstrations: Create and Configure Storage Accounts'
+    title: 'Demonstration: Create and Configure Storage Accounts'
     module: 'Guided Project - Azure Files and Azure Blobs'
 ---
-## Demonstration – Create and Configure Storage Accounts
+## Demonstration – Create and configure storage accounts
 
 In this demonstration, we will explore storage accounts.
 
@@ -29,7 +29,7 @@ In this demonstration, we will explore storage accounts.
 
 1. Select the **standard** performance. There is a slide to highlight the differences between Standard and Premium. Learn more, [Types of storage accounts](https://learn.microsoft.com/azure/storage/common/storage-account-overview).
 
-1. Select **Redundancy** as **Locally-redundant** storage. There is a slide to review [Azure storage redundancy](https://docs.microsoft.com/azure/storage/common/storage-redundancy).
+1. Select **Redundancy** as **Locally-redundant** storage. There is a slide to review redundancy options. Learn more, [Azure storage redundancy](https://docs.microsoft.com/azure/storage/common/storage-redundancy).
 
 1. Move to the **Advanced** tab. In the **Security** section highlight these settings. Note we are only covering a few things to get the student started on their first lab. 
 
@@ -39,7 +39,7 @@ In this demonstration, we will explore storage accounts.
 
     - **Minimum TLS version**. Explain that Transport Layer Service is for securing communications over the network. TLS is an improved version of SSL. Your developers may ask you what versions are available. Learn more, [Transport Layer Service](https://learn.microsoft.com/azure/storage/common/transport-layer-security-configure-minimum-version).
 
-1. Explain that other tabs will be covered as you go through the labs.
+1. Explain that other tabs will be covered as students go through the labs.
 
 1. Click **Review** and ensure there are no validation errors. Discuss possible validation errors. 
 
