@@ -12,15 +12,11 @@ In this demonstration, we will explore Azure Files storage and storage networkin
 
 1. Before beginning the demonstration, let's review what Azure File storage is and how it is different from Azure blob storage. Learn more, [Scenarios for Azure Storage](https://learn.microsoft.com/azure/storage/common/storage-introduction).
 
-![Screenshot of the slide comparing Azure Files and blob storage options.](Static/APL-1003-ENU-TrainerPrepGuide_image12.jpeg)
-
 1. Access the Azure portal.
 
 1. Create a new Azure storage account. This account will be used to address the shared files requirements.
 
 1. For **Performance** select **Premium**. Premium file shares are for enterprise or high-performance file share applications. Our scenario requirement is for a corporate file share. Use this slide to review the options.
-
-![Screenshot of the slide showing Azure File premium and standard performance levels.](Static/APL-1003-ENU-TrainerPrepGuide_image13.jpeg)
 
 1. For Redundancy select Zone-redundant storage. This is recommended for high availability scenarios and protects against datacenter failures.
 
