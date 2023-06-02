@@ -47,4 +47,4 @@ In this demonstration, we will explore storage accounts.
 
 1. Show how to **Go to the resource**. Discuss other ways of getting to the resource.
 
->**Note**: Students should be ready for LAB_01.
+>**Note**: Students should now be able to complete LAB_01.
