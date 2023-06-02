@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Exercise - Provide storage for the public website'
+    title: 'Exercise: Provide storage for the public website'
     module: 'Guided Project - Azure Files and Azure Blobs'
 ---
 
