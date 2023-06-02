@@ -113,6 +113,6 @@ In this demonstration, we will explore blob storage.
 
 1. **Create** the rule. Explain that it may take 5-10 minutes for the source container to replicate. Explain that students will take that time during the lab. 
 
-> **Note:** Students should now be able to complete LAB02 and LAB03. 
+> **Note:** Students should now be able to complete LAB_02 and LAB_03. 
 
   
