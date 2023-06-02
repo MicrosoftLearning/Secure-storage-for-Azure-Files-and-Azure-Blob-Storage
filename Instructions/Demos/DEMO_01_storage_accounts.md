@@ -1,6 +1,6 @@
 ---
 demo:
-    title: 'Create and Configure Storage Accounts'
+    title: 'Demonstrations: Create and Configure Storage Accounts'
     module: 'Guided Project - Azure Files and Azure Blobs'
 ---
 ## Demonstration – Create and Configure Storage Accounts
