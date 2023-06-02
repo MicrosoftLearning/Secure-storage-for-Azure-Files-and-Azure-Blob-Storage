@@ -3,11 +3,11 @@ demo:
     title: 'Demonstration: Create and configure storage accounts'
     module: 'Guided Project - Azure Files and Azure Blobs'
 ---
-## Demonstration – Create and configure storage accounts
+## Demonstration – Create and configure storage accounts 
 
 In this demonstration, we will explore storage accounts.
 
-1. Before beginning this demonstration you may want to discuss factors for determining the number of storage accounts needed. There is a slide for this. 
+1. [Slide] Before beginning this demonstration you may want to discuss factors for determining the number of storage accounts needed. 
 
 1. Access the Azure portal.
 
@@ -25,11 +25,11 @@ In this demonstration, we will explore storage accounts.
 
 1. Enter a name for your storage account. Discuss the storage account naming restrictions.
 
-1. Select a region for your storage account. There is a slide to discuss regions. Learn more about [Azure geographies](https://azure.microsoft.com/explore/global-infrastructure/geographies/).
+1. [Slide] Select a region for your storage account. Learn more about [Azure geographies](https://azure.microsoft.com/explore/global-infrastructure/geographies/).
 
-1. Select the **standard** performance. There is a slide to highlight the differences between Standard and Premium. Learn more, [Types of storage accounts](https://learn.microsoft.com/azure/storage/common/storage-account-overview).
+1. [Slide] Select the **standard** performance. Learn more, [Types of storage accounts](https://learn.microsoft.com/azure/storage/common/storage-account-overview).
 
-1. Select **Redundancy** as **Locally-redundant** storage. There is a slide to review redundancy options. Learn more, [Azure storage redundancy](https://docs.microsoft.com/azure/storage/common/storage-redundancy).
+1. [Slide] Select **Redundancy** as **Locally-redundant** storage. Learn more, [Azure storage redundancy](https://docs.microsoft.com/azure/storage/common/storage-redundancy).
 
 1. Move to the **Advanced** tab. In the **Security** section highlight these settings. Note we are only covering a few things to get the student started on their first lab. 
 
@@ -45,6 +45,6 @@ In this demonstration, we will explore storage accounts.
 
 1. Click **Create** and wait while the storage account is deployed. Point out the notification messages.
 
-1. Show how to **Go to the resource**. 
+1. Show how to **Go to the resource**. Discuss other ways of getting to the resource.
 
 >**Note**: Students should be ready for LAB_01.
