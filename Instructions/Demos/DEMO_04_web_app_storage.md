@@ -12,7 +12,7 @@ In this demonstration, we will explore encryption and app security.
 
 1. Create a new Azure storage account. This will be used to show secure storage features.
 
-1. Review how the new developer app must securely access the storage it needs. The app is accessed by a managed identity. The managed identity uses an encryption key that is stored in the Azure Key Vault. The Azure Key Vault is a cloud service used to manage keys, secrets, and certificates. This process replaces the need to store security information in the app code. There is a slide to explain how managed identities and the key vault work together to secure the process. Not all students may be familiar with these concepts. 
+1. [Slide] Before beginning, review how the new developer app must securely access the storage it needs. The app is accessed by a managed identity. The managed identity uses an encryption key that is stored in the Azure Key Vault. The Azure Key Vault is a cloud service used to manage keys, secrets, and certificates. This process replaces the need to store security information in the app code.  Not all students may be familiar with these concepts. 
 
 1. Create a **managed identity**. Learn more, [Managed identities](https://learn.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview).
 
@@ -36,17 +36,17 @@ In this demonstration, we will explore encryption and app security.
 
 - For **key store type** select **key vault**. Keys can be stored in software (key vault) or in hardware (hardware security module). We are using the key vault.
 
-* Select your **key vault** and **key**.
+- Select your **key vault** and **key**.
 
 - For **identity typ**e select a **system-assigned managed identity**. This is the default that configures the managed identity so it can access the key vault.
 
-1. At this point you have given the managed identity access to the key vault and associated the identity with the storage account. Now, we need to give the managed identity access to the storage account. There is a slide to review Azure storage roles. Learn more, [Azure role assignments](https://learn.microsoft.com/azure/role-based-access-control/role-assignments).
+1. [Slide] At this point you have given the managed identity access to the key vault and associated the identity with the storage account. Now, we need to give the managed identity access to the storage account. Learn more, [Azure role assignments](https://learn.microsoft.com/azure/role-based-access-control/role-assignments).
 
 1. Return to your storage account and select **Access control (IAM)**. Learn more, [Azure built-in roles](https://learn.microsoft.com/azure/role-based-access-control/built-in-roles).
 
 - Click **Add** and then **Add role assignment**. On the **Assignment type** tab, point out we are assigning a job position role.
 
-- Move to the **Role** tab and search for **blob**. Point out the built-in roles that were discussed on the slide. Select the **Storage blob data reader** role.
+- Move to the **Role** tab and search for **blob**. Select the **Storage blob data reader** role.
 
 - Move to the **Members** tab and assign access to the **Managed identity.**
 
@@ -54,7 +54,7 @@ In this demonstration, we will explore encryption and app security.
 
 ### Configure immutable storage.
 
-1. The developers need to way to store business-critical data that can't be modified for deleted for a user-specified time. Immutable storage lets you protect your data from being overwritten or deleted. There is a slide to discuss time-based retention policies and legal-hold policies. Learn more, [Immutable storage](https://learn.microsoft.com/azure/storage/blobs/immutable-storage-overview).
+1. [Slide] The developers need to way to store business-critical data that can't be modified for deleted for a user-specified time. Immutable storage lets you protect your data from being overwritten or deleted. Discuss time-based retention policies and legal-hold policies. Learn more, [Immutable storage](https://learn.microsoft.com/azure/storage/blobs/immutable-storage-overview).
 
 1. In your **storage account**, select the **Container** blade.
 
@@ -76,7 +76,7 @@ In this demonstration, we will explore encryption and app security.
 
 ### Configure an encryption scope for infrastructure encryption.
 
-1. The developers also need to scope infrastructure encryption at the container level. There is a slide to discuss encryption scopes and infrastructure encryption. Learn more, [Encryption scopes](https://learn.microsoft.com/azure/storage/blobs/encryption-scope-overview).
+1. [Slide] The developers also need to scope infrastructure encryption at the container level. Discuss encryption scopes and infrastructure encryption. Learn more, [Encryption scopes](https://learn.microsoft.com/azure/storage/blobs/encryption-scope-overview).
 
 1. Continue in the **storage account**.
 
