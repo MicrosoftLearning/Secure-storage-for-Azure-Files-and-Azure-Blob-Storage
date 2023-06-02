@@ -84,4 +84,4 @@ In this demonstration, we will explore Azure Files storage and storage networkin
 
 1. As you have time, give a quick demonstration of the **Storage browser**. 
 
->**Note**: Students should now be able to complete LAB04. 
+>**Note**: Students should now be able to complete LAB_04. 
