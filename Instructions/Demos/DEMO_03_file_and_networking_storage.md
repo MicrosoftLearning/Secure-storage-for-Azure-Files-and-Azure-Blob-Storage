@@ -60,7 +60,7 @@ In this demonstration, we will explore Azure Files storage and storage networkin
 
 1. Search the portal for **virtual networks.**
 
-1. Use the **Basics** tab to create the corpnet virtual network. Create a **subnet**, **finance**. Point out this network would already be created.
+1. Use the **Basics** tab to create a virtual network named **corpnet**. Create a **subnet**, **finance**. Point out this network would already be created.
 
 1. Return to the storage account.
 
@@ -68,7 +68,7 @@ In this demonstration, we will explore Azure Files storage and storage networkin
 
 1. Select **Enabled from selected virtual networks and IP addresses**.
 
-1. In the **Add network** page, add the **corpnet** and **finance** subnets.
+1. In the **Add network** page, add the **corpnet** virtual network and **finance** subnet.
 
 1. **Enable the endpoint**. Explain that a new service endpoint may take up to 15 minutes to create.
 
@@ -85,4 +85,3 @@ In this demonstration, we will explore Azure Files storage and storage networkin
 1. As you have time, give a quick demonstration of the **Storage browser**. Students will get to use the browser in the lab.
 
   
-‎ 
