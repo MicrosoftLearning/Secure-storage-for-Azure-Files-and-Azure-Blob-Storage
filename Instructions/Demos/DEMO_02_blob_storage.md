@@ -1,5 +1,7 @@
 ---
-
+demo:
+    title: 'Demonstration: Create and configure blob storage'
+    module: 'Guided Project - Azure Files and Azure Blobs'
 ---
 
 
