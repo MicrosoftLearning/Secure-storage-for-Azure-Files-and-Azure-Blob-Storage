@@ -88,4 +88,4 @@ In this demonstration, we will explore encryption and app security.
 
 1. Ensure **Infrastructure encryption** is **Enabled**. Point out the note, "This option cannot be changed after this encryption scope is created."
 
->**Note**: Students should be ready for LAB_02 and LAB_03. 
+>**Note**: Students should now be able to compleate LAB_05. 
