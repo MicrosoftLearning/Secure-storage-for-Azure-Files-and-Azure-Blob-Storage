@@ -7,7 +7,7 @@ demo:
 
 In this demonstration, we will explore storage accounts.
 
-1. [Slide] Before beginning this demonstration you may want to discuss factors for determining the number of storage accounts needed. 
+1. [Slide] Before beginning this demonstration you may want to discuss how storage is organized and factors to consider. 
 
 1. Access the **Azure portal**.
 
@@ -17,11 +17,11 @@ In this demonstration, we will explore storage accounts.
 
 1. Click **Create**.
 
-1. Discuss how the Azure portal provides an easy-to-use interface. Remind the students that items marked with a red asterisk are required.
+1. Explain how the Azure portal provides an easy-to-use wizard interface. Remind the students that items marked with a red asterisk are required.
 
-1. Select the available **subscription**.
+1. Select the **subscription**.
 
-1. Select the available **resource group**.
+1. Select the **resource group**.
 
 1. Enter a name for your storage account. Discuss the storage account naming restrictions.
 
