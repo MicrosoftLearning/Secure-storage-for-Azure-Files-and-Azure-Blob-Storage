@@ -13,7 +13,7 @@ In this demonstration, we will explore blob storage.
 
 1. [Slide] Before beginning the demonstration, review blob storage uses and organization. Which of our business groups will need blob storage?
 
-1. Access the Azure portal.
+1. Access the **Azure portal**.
 
 1. You can continue using the previous storage account. 
 
@@ -37,7 +37,7 @@ In this demonstration, we will explore blob storage.
 
 1. Click **Create**.
 
-1. Wait for the container to be deployed, then **select** the **public** container.
+1. Wait for the container to be deployed, then continue work in the **public** container.
 
 1. **Upload a blob**. As you have time, discuss the options. 
 
@@ -51,9 +51,9 @@ In this demonstration, we will explore blob storage.
 
 ### Configure lifecycle management.
 
-1. [Slide] The marketing group has product literature that is seasonal. For example, the winter clothing and accessory line. This content can be archived until the next season. Archiving content is easy to accomplish with a lifecycle management rule. Learn more, [Blob lifecycle management policies](https://learn.microsoft.com/azure/storage/blobs/lifecycle-management-overview).
+1. [Slide] Begin with a discussion of lifecycle management. The marketing group has product literature that is seasonal. For example, the winter clothing and accessory line. This content can be archived until the next season. Archiving content is easy to accomplish with a lifecycle management rule. Learn more, [Blob lifecycle management policies](https://learn.microsoft.com/azure/storage/blobs/lifecycle-management-overview).
 
-1. Continue working with the storage account.
+1. Continue working in the storage account.
 
 1. In the **Data management** blade, select **Lifecycle management**.
 
@@ -69,13 +69,13 @@ In this demonstration, we will explore blob storage.
 
 ### Configure limited access to content.
 
-1. Review usage cases for limited access. For example, the corporate content needs to be shared with third party vendors or partners. Access might be limited to a specific timeframe and action (read, write). There is a slide on SAS. Learn more, [Shared access signatures](https://learn.microsoft.com/azure/storage/common/storage-sas-overview).
+1. Review usage cases for limited access. For example, the corporate content needs to be shared with third party vendors or partners. Access might be limited to a specific timeframe and action (read, write). Learn more, [Shared access signatures](https://learn.microsoft.com/azure/storage/common/storage-sas-overview).
 
 1. Continue with the **storage account**.
 
 1. In the **Security + networking** blade, select **Shared access signature**.
 
-1. Review the **Allowed services** and **Allowed resource types**. Explain that a SAS must be scoped to a storage account, container, file, or individual blob file.
+1. Review the **Allowed services** and **Allowed resource types**. Explain that a SAS can be scoped to a storage account, container, file, or individual blob file.
 
 1. Review the **Allowed permissions**.
 
@@ -99,20 +99,20 @@ In this demonstration, we will explore blob storage.
 
 1. **Create** a **container**, **backup**, in the storage account.
 
-1. Return to the previous storage account and the **public** container. 
+1. Return to the first storage account and the **public** container. 
 
 1. In the **Data management** blade, select **Object replication**.
 
 1. Click **Create replication** rules.
 
-* Destination storage account: your second storage account
+    - Destination storage account: your second storage account
 
-* Source container: **public**
+    - Source container: **public**
 
-* Destination container: **backup**
+    - Destination container: **backup**
 
 1. **Create** the rule. Explain that it may take 5-10 minutes for the source container to replicate. Explain that students will take that time during the lab. 
 
-> **Note:** Students should now be able to complete LAB_02 and LAB_03. 
+> **Note:** Students should now be able to complete LAB_02a and LAB_02b. 
 
   
