@@ -81,4 +81,4 @@ The company website supplies product images, videos, marketing literature, and c
     - Don't forget to **Save**.
 
     
->**Note**: For additional practice complete the [Configure Azure blob storage](https://learn.microsoft.com/training/modules/configure-blob-storage/) module. The module has an interactive lab simulation where you can get more practice creating blob storage. 
+
