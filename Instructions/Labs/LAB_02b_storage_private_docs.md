@@ -88,3 +88,5 @@ The company needs storage for their offices and departments. This content is pri
     - Ensure the newly uploaded file was copied to the **backup** container. 
     - It may take 2-3 minutes for the file to appear. 
 
+>**Note**: For additional practice complete the [Configure Azure blob storage](https://learn.microsoft.com/training/modules/configure-blob-storage/) module. The module has an interactive lab simulation where you can get more practice creating blob storage. 
+
