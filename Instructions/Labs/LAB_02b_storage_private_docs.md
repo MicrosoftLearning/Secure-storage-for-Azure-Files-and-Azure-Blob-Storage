@@ -25,11 +25,11 @@ The company needs storage for their offices and departments. This content is pri
     - In the portal, search for and select **Storage accounts**.  
     - Click **+ Create**. 
     - Select your guided project resource group.  
-    - Set the **Storage account name** to **private**. 
+    - Set the **Storage account name** to **private**. Add an identifier to the name to ensure the name is unique. 
     - Click **Review** and then **Create** the storage account. 
     - Wait for the storage account to deploy, and then click **Go to resource**.
 
-1. This storage requires high availability if there's a regional outage. However, read access in a secondary region isn't required. Configure the appropriate level of **redundancy**. [Learn more about storage account redundancy](https://learn.microsoft.com//azure/storage/common/storage-redundancy)
+1. This storage requires high availability if there's a regional outage. Configure the appropriate level of **redundancy**. [Learn more about storage account redundancy](https://learn.microsoft.com//azure/storage/common/storage-redundancy)
 
     - In the storage account, select the **Redundancy** blade. 
     - Ensure **Geo-redundant storage (GRS)** is selected.
