@@ -8,11 +8,13 @@ demo:
 
 In this demonstration, we will explore encryption and app security.
 
+> **Note:** In this demonstration you will create a managed identity, key vault, and key. To save time you may want to pre-create these resources. 
+
 ### Create a key vault, key, and a managed identity.
 
 1. Create a new Azure storage account. This will be used to show secure storage features.
 
-1. [Slide] Before beginning, review how the new developer app must securely access the storage it needs. The app is accessed by a managed identity. The managed identity uses an encryption key that is stored in the Azure Key Vault. The Azure Key Vault is a cloud service used to manage keys, secrets, and certificates. This process replaces the need to store security information in the app code.  Not all students may be familiar with these concepts. 
+1. [Slide] Before beginning, review how the new developer app must securely access the storage it needs. The app is accessed by a managed identity. The managed identity uses an encryption key that is stored in the Azure Key Vault. The Azure Key Vault is a cloud service used to manage keys, secrets, and certificates. This process replaces the need to store security information in the app code.  Not all students may be familiar with these concepts.
 
 1. Create a **managed identity**. Learn more, [Managed identities](https://learn.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview).
 
@@ -38,7 +40,7 @@ In this demonstration, we will explore encryption and app security.
 
 - Select your **key vault** and **key**.
 
-- For **identity typ**e select a **system-assigned managed identity**. This is the default that configures the managed identity so it can access the key vault.
+- For **identity type** select a **system-assigned managed identity**. This is the default that configures the managed identity so it can access the key vault.
 
 1. [Slide] At this point you have given the managed identity access to the key vault and associated the identity with the storage account. Now, we need to give the managed identity access to the storage account. Learn more, [Azure role assignments](https://learn.microsoft.com/azure/role-based-access-control/role-assignments).
 
@@ -88,4 +90,4 @@ In this demonstration, we will explore encryption and app security.
 
 1. Ensure **Infrastructure encryption** is **Enabled**. Point out the note, "This option cannot be changed after this encryption scope is created."
 
->**Note**: Students should now be able to compleate LAB_05. 
+>**Note**: Students should now be able to compleate LAB_04. 
