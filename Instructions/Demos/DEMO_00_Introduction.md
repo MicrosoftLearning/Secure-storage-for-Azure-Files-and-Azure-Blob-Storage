@@ -1,48 +1,40 @@
-
-
-
-
-
+---
+demo:
+    title: 'Demonstration: Student materials and lab environment (Optional)'
+    module: 'Guided Project - Azure Files and Azure Blobs'
+---
 ## Demonstration - Student materials and lab environment (optional)
 
 Use this demonstration to show students how to access the lab environment and student materials. You can do this at the beginning of class or before the next demonstration. 
 
-Show students the lab environment (adjust for your lab hoster – these instructions are for Skillable)
+### Show students the lab environment (adjust for your lab hoster)
 
-* Discuss how students access the lab environment. 
+- Discuss how students access the lab environment. 
 
-* To sign-in to the virtual machine host, use the Resources tab to show the Administrator password.
+- Explain how to sign-in to the virtual machine host.
 
-* Once you have logged in to the virtual machine, open a browser and access the Azure portal, https://portal.azure.com. It is preferred to open the Azure portal in the lab environment instead of a separate window.
+- Explain how to access the [Azure portal](https://portal.azure.com). It is preferred to open the Azure portal in the lab environment instead of a separate window. Ask for a show of hands on how many students have used the portal. 
 
-* Ask for a show of hands on how many students have used the portal.
+- Explain what resources have already been configured for the labs.
 
-* Search for subscription. Point out a subscription has already been configured for the lab and students should use that in the lab steps.
+- Review how to use the lab instructions. 
 
-* Search for resource groups. Point out a resource group has already been created and should be used in the lab instructions.
+- Add other topics specific to your hoster. 
 
-* Review how the lab instructions are organized. 
+### Show students their course materials.
 
-Show students their course materials.
+- Access the [Microsoft Learn page](https://learn.microsoft.com).
 
-* Continue in the lab environment.
+- Discuss that Microsoft Learn is a great source for all Azure documentation, training, certifications, and assessments. 
 
-* Access the Microsoft Learn page, https://learn.microsoft.com.
+- Select **Learning Paths** and then search for the **Secure storage for Azure Files and Azure Blob Storage** learning path.
 
-* Discuss that Microsoft Learn is sole source for all Azure documentation, hands-on training, and certifications.
+- Discuss that the content in the learning path is specific to this assessment, but there is much more storage content they can review.
 
-* Select Training and then Browse learning paths.
+- Explain the content is reference material and there isn't a 1:1 mapping with the classroom presentations.
 
-* Search for the Secure storage for Azure Files and Azure Blob Storage learning path.
+- Discuss that each of these modules may have additional hands-on activities. You will identify these activities as the course progresses. 
 
-* Discuss that the content in the learning path is specific to this assessment, but there is much more storage content they can review.
-
-* Discuss the content is reference material and there isn't a 1:1 mapping with the classroom presentations.
-
-* Discuss that each of these modules may have additional hands-on activities. You will identify these activities as the course progresses. 
-
-* Discuss that if the student finds a problem with the content they can [report the issue](#_Feedback_-_Student). For example, typographical errors, sentence structure, or technical inaccuracy.
-
-* Ask the students to bookmark the learning path.
+- Ask the students to locate and bookmark the learning path.
 
  
