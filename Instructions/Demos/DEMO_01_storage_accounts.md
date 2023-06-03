@@ -9,7 +9,7 @@ In this demonstration, we will explore storage accounts.
 
 1. [Slide] Before beginning this demonstration you may want to discuss factors for determining the number of storage accounts needed. 
 
-1. Access the Azure portal.
+1. Access the **Azure portal**.
 
 1. In the search box, type **Storage Accounts**. As you begin typing, the list filters based on your input.
 
