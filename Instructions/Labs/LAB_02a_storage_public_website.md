@@ -25,12 +25,12 @@ The company website supplies product images, videos, marketing literature, and c
     - In the portal, search for and select **Storage accounts**.  
     - Click **+ Create**. 
     - Select your guided project resource group.  
-    - Set the **Storage account name** to **publicwebsite<xxxx>**. Make the storage account name unique by changing the **<xxxx>** identifier.  
+    - Set the **Storage account name** to **publicwebsite**. Make sure the storage account name is unique by adding an identifier.  
     - Click **Review** and then **Create**.
     - Wait for the storage account to deploy, and then click **Go to resource**.
          
      
-1. This storage requires high availability if there's a regional outage. To support your global customer base, there should be read access in the secondary region. [Learn more about storage account redundancy](https://learn.microsoft.com//azure/storage/common/storage-redundancy)
+1. This storage requires high availability if there's a regional outage. [Learn more about storage account redundancy](https://learn.microsoft.com//azure/storage/common/storage-redundancy)
 
     - In the storage account, select the **Redundancy** blade. 
     - Ensure **Read-access Geo-redundant storage** is selected.
@@ -64,7 +64,7 @@ The company website supplies product images, videos, marketing literature, and c
 
 1. It's important the images can be restored if they're deleted. Configure blob soft delete for 21 days. [Learn more about soft delete for blobs](https://learn.microsoft.com/azure/storage/blobs/soft-delete-blob-overview)
     - Go to the **Overview** blade of the storage account.
-    - In the **Properties** section, **Blob service** section, ensure Blob soft delete is **Enabled (7 days)**.
+    - In the **Properties** section, **Blob service** section, ensure Blob soft delete is **Enabled (21 days)**.
     - Don't forget to **Save** your changes. 
 
 1. If something does get deleted, you need to practice using soft delete to restore the files.
