@@ -6,7 +6,7 @@ lab:
 
 ## Architecture diagram
 
-![Diagram with a storage account, file share, and directory](../Media/task-4.png)
+![Diagram with a storage account, file share, and directory](../Media/task_04.png)
 
 ## Skilling tasks
 - Create a storage account. 
