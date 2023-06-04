@@ -9,7 +9,7 @@ The company is designing and developing a new app. Developers need to ensure the
 
 ## Architecture diagram
 
-![Diagram with a storage account, managed identities, and a key vault.](../Media/task-5.png)
+![Diagram with a storage account, managed identities, and a key vault.](../Media/task_05.png)
 
 ## Skilling tasks
 
