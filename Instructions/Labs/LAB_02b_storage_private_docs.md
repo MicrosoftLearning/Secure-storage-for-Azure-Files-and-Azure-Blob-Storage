@@ -8,7 +8,7 @@ The company needs storage for their offices and departments. This content is pri
 
 ## Architecture diagram
 
-![Diagram with one storage account and two blob containers}(../Media/task_02b.png)
+![Diagram with one storage account and two blob containers](../Media/task_02b.png)
 
 ## Skilling tasks
 - Create a storage account.
