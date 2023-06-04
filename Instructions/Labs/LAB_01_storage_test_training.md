@@ -10,7 +10,6 @@ The IT department needs to prototype different storage scenarios and to train ne
 ![Diagram with one storage account](../Media/task-1.png)
 
 ## Skilling tasks
-- Establish a naming convention. 
 - Create a storage account. 
 - Configure basic settings for security and networking. 
 
