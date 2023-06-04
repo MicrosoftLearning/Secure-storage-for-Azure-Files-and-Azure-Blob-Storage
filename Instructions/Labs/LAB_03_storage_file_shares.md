@@ -4,6 +4,9 @@ lab:
     module: 'Guided Project - Azure Files and Azure Blobs'
 ---
 
+The company is geographically dispersed with offices in different locations.  These offices need a way to share files and disseminate information. For example, the Finance department needs to confirm cost information for auditing and compliance. This file shares should be easy to access and load without delay. Some content should only be accessed from selected corporate virtual networks.
+
+
 ## Architecture diagram
 
 ![Diagram with a storage account, file share, and directory](../Media/task_04.png)
