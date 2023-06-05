@@ -25,7 +25,7 @@ In this demonstration, we will explore blob storage.
 
 1. In the **Blob service** section, point out the **Versioning** setting. This might be important to the Marketing department. Product literature might need to be tracked.
 
-### Create a blob container, upload a file, and configure access.
+## Create a blob container, upload a file, and configure access.
 
 1. In your storage account, locate the **Data storage** blade.
 
@@ -49,7 +49,7 @@ In this demonstration, we will explore blob storage.
 
 1. **Refresh the URL tab** and confirm access to the resource is now **denied**.
 
-### Configure lifecycle management.
+## Configure lifecycle management.
 
 1. [Slide] Begin with a discussion of lifecycle management. The marketing group has product literature that is seasonal. For example, the winter clothing and accessory line. This content can be archived until the next season. Archiving content is easy to accomplish with a lifecycle management rule. Learn more, [Blob lifecycle management policies](https://learn.microsoft.com/azure/storage/blobs/lifecycle-management-overview).
 
@@ -67,7 +67,7 @@ In this demonstration, we will explore blob storage.
 
 1. Open the **Then** drop-down and discuss the options. Try to give examples based on our lab scenario. For example, the IT department might want blobs deleted after 30 days because it is a test account.
 
-### Configure limited access to content.
+## Configure limited access to content.
 
 1. Review usage cases for limited access. For example, the corporate content needs to be shared with third party vendors or partners. Access might be limited to a specific timeframe and action (read, write). Learn more, [Shared access signatures](https://learn.microsoft.com/azure/storage/common/storage-sas-overview).
 
@@ -91,7 +91,7 @@ In this demonstration, we will explore blob storage.
 
 1. Discuss how the content is displayed even though this is a private container.
 
-### Configure blob object replication. 
+## Configure blob object replication. 
 
 1. [Slide] Before continuing the demonstration, review usage cases for blob object replication. For example, the public website content needs to be backed up. Explain that storage accounts may be in different Azure regions, but that is not required. Learn more, [Object replication](https://learn.microsoft.com/azure/storage/blobs/object-replication-overview).
 
