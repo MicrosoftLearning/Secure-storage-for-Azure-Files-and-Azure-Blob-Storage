@@ -18,10 +18,6 @@ Looking for the **[HTML pages](https://microsoftlearning.github.io/Secure-storag
 
 - It is recommended that for every delivery, trainers check GitHub for any changes that may have been made to support the latest Microsoft cloud services and get the latest files for their delivery.
 
-## What about changes to the student handbook?
-
-- We will review the student handbook on a quarterly basis and update through the normal MOC (Microsoft Official Curriculum) release channels as needed.
-
 ## How do I contribute?
 
 - Any MCT (Microsoft Certified Trainer) can submit a pull request to the code or content in the GitHub repro. Microsoft and the course author will then triage and include content and lab code changes as needed.
