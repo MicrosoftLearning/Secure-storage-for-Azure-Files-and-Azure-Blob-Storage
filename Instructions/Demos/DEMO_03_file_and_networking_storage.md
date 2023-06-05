@@ -10,7 +10,7 @@ In this demonstration, we will explore Azure Files storage and storage networkin
 
 > **Note:** In this demo you will create a new storage account, and a virtual network with subnet. These can be pre-created to save time. 
 
-### Review Azure Files and create a storage account specifically for file shares.
+## Review Azure Files and create a storage account specifically for file shares.
 
 1. [Slide] Before beginning the demonstration, discuss what Azure File storage is and how it is different from Azure blob storage. Learn more, [Scenarios for Azure Storage](https://learn.microsoft.com/azure/storage/common/storage-introduction).
 
@@ -28,7 +28,7 @@ In this demonstration, we will explore Azure Files storage and storage networkin
 
 1. **Review** the storage account and then **Create**.
 
-### Configure the file share.
+## Configure the file share.
 
 1. Continue in the storage account.
 
@@ -42,7 +42,7 @@ In this demonstration, we will explore Azure Files storage and storage networkin
 
 1. Click **Create**.
 
-### Configure the file share settings and create a snapshot.
+## Configure the file share settings and create a snapshot.
 
 1. Click the **finance** file share.
 
@@ -56,7 +56,7 @@ In this demonstration, we will explore Azure Files storage and storage networkin
 
 1. Students will upload, snapshot, and restore files in the lab.
 
-### Configure network access for storage.
+## Configure network access for storage.
 
 1. [Slide] Before configuring storage networking, discuss the various options.
 
@@ -78,7 +78,7 @@ In this demonstration, we will explore Azure Files storage and storage networkin
 
 1. Review the **Network Routing** section, and that Microsoft network routing is being used.
 
-### Using storage tools (optional)
+## Using storage tools (optional)
 
 1. [Slide] Before continuing, discuss there are other storage tools other than the Azure portal. Students will get to use the browser in the lab.
 
