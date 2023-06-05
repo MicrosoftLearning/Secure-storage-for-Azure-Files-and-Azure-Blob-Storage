@@ -10,7 +10,7 @@ In this demonstration, we will explore encryption and app security.
 
 > **Note:** In this demonstration you will create a managed identity, key vault, and key. To save time you may want to pre-create these resources. 
 
-### Create a key vault, key, and a managed identity.
+## Create a key vault, key, and a managed identity.
 
 1. Create a new Azure storage account. This will be used to show secure storage features.
 
@@ -28,7 +28,7 @@ In this demonstration, we will explore encryption and app security.
 
 1. Give the key a **name** and then **Create** the key. Take the defaults.
 
-### Configure the storage account for the managed identity and the key vault, assign permissions.
+## Configure the storage account for the managed identity and the key vault, assign permissions.
 
 1. Return to the storage account.
 
@@ -54,7 +54,7 @@ In this demonstration, we will explore encryption and app security.
 
 - Click **Select members** and select your **user-assigned managed identity**.
 
-### Configure immutable storage.
+## Configure immutable storage.
 
 1. [Slide] The developers need to way to store business-critical data that can't be modified for deleted for a user-specified time. Immutable storage lets you protect your data from being overwritten or deleted. Discuss time-based retention policies and legal-hold policies. Learn more, [Immutable storage](https://learn.microsoft.com/azure/storage/blobs/immutable-storage-overview).
 
@@ -76,7 +76,7 @@ In this demonstration, we will explore encryption and app security.
 
 1. Verify you cannot delete the file due to policy.
 
-### Configure an encryption scope for infrastructure encryption.
+## Configure an encryption scope for infrastructure encryption.
 
 1. [Slide] The developers also need to scope infrastructure encryption at the container level. Discuss encryption scopes and infrastructure encryption. Learn more, [Encryption scopes](https://learn.microsoft.com/azure/storage/blobs/encryption-scope-overview).
 
