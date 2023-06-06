@@ -1,6 +1,6 @@
 ---
 demo:
-    title: 'Demonstration: Student materials and lab environment (Optional)'
+    title: 'Demonstration: Student materials and lab environment (adjust)'
     module: 'Guided Project - Azure Files and Azure Blobs'
 ---
 ## Demonstration - Student materials and lab environment (optional)
