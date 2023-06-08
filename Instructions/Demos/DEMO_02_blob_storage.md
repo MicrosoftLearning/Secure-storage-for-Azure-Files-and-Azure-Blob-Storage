@@ -11,7 +11,7 @@ In this demonstration, we will explore blob storage.
 
 ## Review blob storage settings
 
-1. [Slide] Before beginning the demonstration, review blob storage uses and organization. Which of our business groups will need blob storage?
+1. [Supporting Slide] Before beginning the demonstration, review blob storage uses and organization. Which of our business groups will need blob storage?
 
 1. Access the **Azure portal**.
 
@@ -19,9 +19,9 @@ In this demonstration, we will explore blob storage.
 
 1. Select the **Overview** tab.
 
-1. [Slide] In the **Blob service** section, highlight the **Default access tier** setting. Explain how corporate content might be in the hot access tier. Auditing information could be in the cool tier. Logs or seasonal marketing literature could be in the archive tier. Learn more, [Access tiers for blob storage](https://docs.microsoft.com/azure/storage/blobs/access-tiers-overview).
+1. [Supporting Slide] In the **Blob service** section, highlight the **Default access tier** setting. Explain how corporate content might be in the hot access tier. Auditing information could be in the cool tier. Logs or seasonal marketing literature could be in the archive tier. Learn more, [Access tiers for blob storage](https://docs.microsoft.com/azure/storage/blobs/access-tiers-overview).
 
-1. [Slide] In the **Blob service** section, highlight the **soft delete** settings. This would be important to the public website in case something is accidentally deleted or overwritten. Students will practice soft delete in the lab. Learn more, [Blob soft delete](https://learn.microsoft.com/azure/storage/blobs/soft-delete-blob-overview).
+1. [Supporting Slide] In the **Blob service** section, highlight the **soft delete** settings. This would be important to the public website in case something is accidentally deleted or overwritten. Students will practice soft delete in the lab. Learn more, [Blob soft delete](https://learn.microsoft.com/azure/storage/blobs/soft-delete-blob-overview).
 
 1. In the **Blob service** section, point out the **Versioning** setting. This might be important to the Marketing department. Product literature might need to be tracked.
 
@@ -51,7 +51,7 @@ In this demonstration, we will explore blob storage.
 
 ## Configure lifecycle management.
 
-1. [Slide] Begin with a discussion of lifecycle management. The marketing group has product literature that is seasonal. For example, the winter clothing and accessory line. This content can be archived until the next season. Archiving content is easy to accomplish with a lifecycle management rule. Learn more, [Blob lifecycle management policies](https://learn.microsoft.com/azure/storage/blobs/lifecycle-management-overview).
+1. [Supporting Slide] Begin with a discussion of lifecycle management. The marketing group has product literature that is seasonal. For example, the winter clothing and accessory line. This content can be archived until the next season. Archiving content is easy to accomplish with a lifecycle management rule. Learn more, [Blob lifecycle management policies](https://learn.microsoft.com/azure/storage/blobs/lifecycle-management-overview).
 
 1. Continue working in the storage account.
 
@@ -93,7 +93,7 @@ In this demonstration, we will explore blob storage.
 
 ## Configure blob object replication. 
 
-1. [Slide] Before continuing the demonstration, review usage cases for blob object replication. For example, the public website content needs to be backed up. Explain that storage accounts may be in different Azure regions, but that is not required. Learn more, [Object replication](https://learn.microsoft.com/azure/storage/blobs/object-replication-overview).
+1. [Supporting Slide] Before continuing the demonstration, review usage cases for blob object replication. For example, the public website content needs to be backed up. Explain that storage accounts may be in different Azure regions, but that is not required. Learn more, [Object replication](https://learn.microsoft.com/azure/storage/blobs/object-replication-overview).
 
 1. Create a **new** storage account.
 
