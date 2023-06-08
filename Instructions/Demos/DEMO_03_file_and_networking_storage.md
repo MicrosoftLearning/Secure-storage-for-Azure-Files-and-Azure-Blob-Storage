@@ -12,13 +12,13 @@ In this demonstration, we will explore Azure Files storage and storage networkin
 
 ## Review Azure Files and create a storage account specifically for file shares.
 
-1. [Slide] Before beginning the demonstration, discuss what Azure File storage is and how it is different from Azure blob storage. Learn more, [Scenarios for Azure Storage](https://learn.microsoft.com/azure/storage/common/storage-introduction).
+1. [Supporting Slide] Before beginning the demonstration, discuss what Azure File storage is and how it is different from Azure blob storage. Learn more, [Scenarios for Azure Storage](https://learn.microsoft.com/azure/storage/common/storage-introduction).
 
 1. Access the **Azure portal**.
 
 1. Create a **new** Azure storage account. This account will be used to address the shared files requirements.
 
-1. [Slide] For **Performance** select **Premium**. Premium file shares are for enterprise or high-performance file share applications. Our scenario requirement is for a corporate file share. 
+1. [Supporting Slide] For **Performance** select **Premium**. Premium file shares are for enterprise or high-performance file share applications. Our scenario requirement is for a corporate file share. 
 
 1. For **Redundancy** select **Zone-redundant** storage. Remind students this is recommended for high availability scenarios and protects against datacenter failures.
 
@@ -48,7 +48,7 @@ In this demonstration, we will explore Azure Files storage and storage networkin
 
 1. Review the settings at the top of the page. For example, **Upload** and **Change size and performance**.
 
-1. [Slide] Before configuring a file share snapshot, discuss the purpose of snapshots. Learn more, [File share snapshots](https://learn.microsoft.com/azure/storage/files/storage-snapshots-files).
+1. [Supporting Slide] Before configuring a file share snapshot, discuss the purpose of snapshots. Learn more, [File share snapshots](https://learn.microsoft.com/azure/storage/files/storage-snapshots-files).
 
 1. In the **Operations** blade, click **Snapshots**.
 
@@ -58,7 +58,7 @@ In this demonstration, we will explore Azure Files storage and storage networkin
 
 ## Configure network access for storage.
 
-1. [Slide] Before configuring storage networking, discuss the various options.
+1. [Supporting Slide] Before configuring storage networking, discuss the various options.
 
 1. Search the portal for **virtual networks.**
 
@@ -80,7 +80,7 @@ In this demonstration, we will explore Azure Files storage and storage networkin
 
 ## Using storage tools (optional)
 
-1. [Slide] Before continuing, discuss there are other storage tools other than the Azure portal. Students will get to use the browser in the lab.
+1. [Supporting Slide] Before continuing, discuss there are other storage tools other than the Azure portal. Students will get to use the browser in the lab.
 
 1. In the portal, access the **Storage browser**.
 
