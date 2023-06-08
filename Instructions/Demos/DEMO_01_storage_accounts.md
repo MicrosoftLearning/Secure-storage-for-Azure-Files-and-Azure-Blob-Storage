@@ -7,7 +7,7 @@ demo:
 
 In this demonstration, we will explore storage accounts.
 
-1. [Slide] Before beginning this demonstration you may want to discuss how storage is organized and factors to consider. 
+1. [Supporting Slide] Before beginning this demonstration you may want to discuss how storage is organized and factors to consider. 
 
 1. Access the **Azure portal**.
 
@@ -25,11 +25,11 @@ In this demonstration, we will explore storage accounts.
 
 1. Enter a name for your storage account. Discuss the storage account naming restrictions.
 
-1. [Slide] Select a region for your storage account. Learn more about [Azure geographies](https://azure.microsoft.com/explore/global-infrastructure/geographies/).
+1. [Supporting Slide] Select a region for your storage account. Learn more about [Azure geographies](https://azure.microsoft.com/explore/global-infrastructure/geographies/).
 
-1. [Slide] Select the **standard** performance. Learn more, [Types of storage accounts](https://learn.microsoft.com/azure/storage/common/storage-account-overview).
+1. [Supporting Slide] Select the **standard** performance. Learn more, [Types of storage accounts](https://learn.microsoft.com/azure/storage/common/storage-account-overview).
 
-1. [Slide] Select **Redundancy** as **Locally-redundant** storage. Learn more, [Azure storage redundancy](https://docs.microsoft.com/azure/storage/common/storage-redundancy).
+1. [Supporting Slide] Select **Redundancy** as **Locally-redundant** storage. Learn more, [Azure storage redundancy](https://docs.microsoft.com/azure/storage/common/storage-redundancy).
 
 1. Move to the **Advanced** tab. In the **Security** section highlight these settings. Note we are only covering a few things to get the student started on their first lab. 
 
