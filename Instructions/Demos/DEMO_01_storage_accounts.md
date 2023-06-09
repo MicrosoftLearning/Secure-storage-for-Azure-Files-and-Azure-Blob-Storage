@@ -15,7 +15,7 @@ In this demonstration, we will explore storage accounts.
 
 1. Select **Storage Accounts**.
 
-1. Click **Create**.
+1. Select **Create**.
 
 1. Explain how the Azure portal provides an easy-to-use wizard interface. Remind the students that items marked with a red asterisk are required.
 
@@ -41,9 +41,9 @@ In this demonstration, we will explore storage accounts.
 
 1. Explain that other tabs will be covered as students go through the labs.
 
-1. Click **Review** and ensure there are no validation errors. Discuss possible validation errors. 
+1. Select **Review** and ensure there are no validation errors. Discuss possible validation errors. 
 
-1. Click **Create** and wait while the storage account is deployed. Point out the notification messages.
+1. Select **Create** and wait while the storage account is deployed. Point out the notification messages.
 
 1. Show how to **Go to the resource**. Discuss other ways of getting to the resource.
 
