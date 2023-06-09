@@ -19,19 +19,19 @@ The IT department needs to prototype different storage scenarios and to train ne
 
 1. Create and deploy a resource group to hold all your guided project resources. [Learn more about resource groups](https://learn.microsoft.com/azure/azure-resource-manager/management/manage-resource-groups-portal)
     - In the Azure portal, search for and select **Resource groups**.
-    - Click **+ Create**.
+    - Select **+ Create**.
     - Give your resource group a **name**. Use this resource group for all project resources.
     - Select a **region**. Use this region throughout the project. 
-    - Click **Review and create** to validate the resource group.
-    - Click **Create** to deploy the resource group.
+    - Select **Review and create** to validate the resource group.
+    - Select **Create** to deploy the resource group.
 
 1. Create and deploy a storage account to support testing and training. [Learn more about the types of storage accounts](https://learn.microsoft.com/azure/storage/common/storage-account-overview#types-of-storage-accounts)
     - In the Azure portal, search for and select  **Storage accounts**. 
-    - Click **+ Create**.
+    - Select **+ Create**.
     - On the **Basics** tab, select your **Resource group**.
     - Provide a **Storage account name**.
     - Set the **Performance** to **Standard**. 
-    - Click **Review**, and then **Create**. 
+    - Select **Review**, and then **Create**. 
     - Wait for the storage account to deploy and then **Go to resource**.  
 
 1. The data in this storage account doesn't require high availability or durability. A lowest cost storage solution is desired. [Learn more about storage account redundancy](https://learn.microsoft.com//azure/storage/common/storage-redundancy)
@@ -41,7 +41,7 @@ The IT department needs to prototype different storage scenarios and to train ne
     - Refresh the page and notice the content only exists in the primary data center. 
 
 1. The storage account should only accept requests from secure connections. [Learn more about requiring secure transfer from secure connections](https://learn.microsoft.com/azure/storage/common/storage-require-secure-transfer)
-    - In the **Settings** section, click the **Configuration** blade.
+    - In the **Settings** section, select the **Configuration** blade.
     - Ensure **Secure transfer required** is **Enabled**.
     - Be sure to **Save** your changes. 
 
