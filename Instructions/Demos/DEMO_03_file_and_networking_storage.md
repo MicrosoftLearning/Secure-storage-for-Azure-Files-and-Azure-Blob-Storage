@@ -34,25 +34,25 @@ In this demonstration, we will explore Azure Files storage and storage networkin
 
 1. In the **Data storage** blade, select **File shares**.
 
-1. Click **File share** and give the file share a name, **finance**.
+1. Select **File share** and give the file share a name, **finance**.
 
 1. Discuss **Provisioned capacity** and how a premium file share is billed by provisioned file size, regardless of the used capacity. As you have time, discuss other settings. 
 
 1. Discuss **Protocol**, select **SMB**.
 
-1. Click **Create**.
+1. Select **Create**.
 
 ## Configure the file share settings and create a snapshot.
 
-1. Click the **finance** file share.
+1. Select the **finance** file share.
 
 1. Review the settings at the top of the page. For example, **Upload** and **Change size and performance**.
 
 1. [Supporting Slide] Before configuring a file share snapshot, discuss the purpose of snapshots. Learn more, [File share snapshots](https://learn.microsoft.com/azure/storage/files/storage-snapshots-files).
 
-1. In the **Operations** blade, click **Snapshots**.
+1. In the **Operations** blade, select **Snapshots**.
 
-1. Click **Add snapshot** and click **OK**. Adding a comment is optional.
+1. Select **Add snapshot** and select **OK**. Adding a comment is optional.
 
 1. Students will upload, snapshot, and restore files in the lab.
 
