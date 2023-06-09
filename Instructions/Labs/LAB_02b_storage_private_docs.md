@@ -29,7 +29,7 @@ The company needs storage for their offices and departments. This content is pri
     - Click **Review** and then **Create** the storage account. 
     - Wait for the storage account to deploy, and then click **Go to resource**.
 
-1. This storage requires high availability if there's a regional outage. Configure the appropriate level of **redundancy**. [Learn more about storage account redundancy](https://learn.microsoft.com//azure/storage/common/storage-redundancy)
+1. This storage requires high availability if there's a regional outage. Configure the appropriate level of **redundancy**. [Learn more about storage account redundancy](https://learn.microsoft.com//azure/storage/common/storage-redundancy).
 
     - In the storage account, select the **Redundancy** blade. 
     - Ensure **Geo-redundant storage (GRS)** is selected.
@@ -54,7 +54,7 @@ The company needs storage for their offices and departments. This content is pri
     - Verify the file doesn't display and isn't publically accessible. 
 
 
-1. An external partner requires read and write access to the file for at least the next 24 hours. Configure and test a shared access signature (SAS). [Learn more about Shared Access Signatures](https://learn.microsoft.com/rest/api/storageservices/delegate-access-with-shared-access-signature)
+1. An external partner requires read and write access to the file for at least the next 24 hours. Configure and test a shared access signature (SAS). [Learn more about Shared Access Signatures](https://learn.microsoft.com/rest/api/storageservices/delegate-access-with-shared-access-signature).
 
     - Select your uploaded blob file and move to the **Generate SAS** tab. 
     - Ensure the **Read** and **Write** permissions are selected. 
@@ -63,7 +63,7 @@ The company needs storage for their offices and departments. This content is pri
     - Using a browser, navigate to the **Blob SAS URL** page. 
     - Ensure that your file displays. 
     
-1. To save on cost, after 30 days, move blobs from the hot tier to the cool tier. [Manage the Azure Blob storage lifecycle](https://learn.microsoft.com/training/modules/manage-azure-blob-storage-lifecycle/)
+1. To save on cost, after 30 days, move blobs from the hot tier to the cool tier. [Manage the Azure Blob storage lifecycle](https://learn.microsoft.com/training/modules/manage-azure-blob-storage-lifecycle/).
 
     - In the storage account, under **Data management** select the **Lifecycle management blade**.
     - Click **Add rule**. 
@@ -75,7 +75,7 @@ The company needs storage for their offices and departments. This content is pri
     - In the **Then** drop-down select **Move to cool storage**. 
     - **Add** the rule.
   
-1. The public website files need to be backed up to another storage account. [Learn more about object replication](https://learn.microsoft.com/azure/storage/blobs/object-replication-overview)
+1. The public website files need to be backed up to another storage account. [Learn more about object replication](https://learn.microsoft.com/azure/storage/blobs/object-replication-overview).
 
     - In your storage account, create a new container called **backup**. Use the default values.
     - Navigate to your **publicwebsite** storage account. This storage account was created in the previous exercise. 
