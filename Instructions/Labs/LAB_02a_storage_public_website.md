@@ -23,11 +23,11 @@ The company website supplies product images, videos, marketing literature, and c
 1. Create a storage account to support the public website.
 
     - In the portal, search for and select **Storage accounts**.  
-    - Click **+ Create**. 
+    - Select **+ Create**. 
     - Select your guided project resource group.  
     - Set the **Storage account name** to **publicwebsite**. Make sure the storage account name is unique by adding an identifier.  
-    - Click **Review** and then **Create**.
-    - Wait for the storage account to deploy, and then click **Go to resource**.
+    - Select **Review** and then **Create**.
+    - Wait for the storage account to deploy, and then select **Go to resource**.
          
      
 1. This storage requires high availability if there's a regional outage. [Learn more about storage account redundancy](https://learn.microsoft.com//azure/storage/common/storage-redundancy)
@@ -42,7 +42,7 @@ The company website supplies product images, videos, marketing literature, and c
     - In your storage account, select the **Containers** blade. 
     - Select **+ Container**. 
     - Ensure the **Name** of the container is **public**. 
-    - Click **Create**. 
+    - Select **Create**. 
     
 
 1. Customers should be able to view the images without being authenticated. Configure anonymous read access for the public container blobs.  [Learn more about configuring anonymous public access.](https://learn.microsoft.com/azure/storage/blobs/anonymous-read-access-configure?tabs=portal).
@@ -52,9 +52,9 @@ The company website supplies product images, videos, marketing literature, and c
     
 1. To proceed with testing, upload a file to the **public** container. The type of file doesn't matter. A small image or text file is a good choice.  
     - Select your container.
-    - Click **Upload**. 
+    - Select **Upload**. 
     - Browse to a file of your choice. 
-    - Click **Upload**. 
+    - Select **Upload**. 
 
 1. Determine the URL for your uploaded file. Open a browser and test the URL. 
     - Select your uploaded file.
@@ -68,7 +68,7 @@ The company website supplies product images, videos, marketing literature, and c
     - Don't forget to **Save** your changes. 
 
 1. If something does get deleted, you need to practice using soft delete to restore the files.
-    - Click **Delete** to remove the file you uploaded.
+    - Select **Delete** to remove the file you uploaded.
     - Refresh the URL page and verify the file doesn't display. 
     - On the container **Overview** page, toggle the slider **Show deleted blobs**. 
     - Select your deleted file, and use the ellipses on the far right, to **Undelete** the file. 
@@ -77,7 +77,7 @@ The company website supplies product images, videos, marketing literature, and c
     
 1. It's important to keep track of the different product literature versions. [Learn more about blob versioning](https://learn.microsoft.com/azure/storage/blobs/versioning-overview).
     - Go to the **Overview** blade of the storage account.
-    - In the **Properties** section, **Blob service** section, click on **Versioning**, ensure **Enable versioning for blobs** is selected.
+    - In the **Properties** section, **Blob service** section, select on **Versioning**, ensure **Enable versioning for blobs** is selected.
     - Don't forget to **Save**.
 
     
