@@ -27,7 +27,7 @@ The company is designing and developing a new app. Developers need to ensure the
 1. Provide a storage account for the app. 
 
     - Search the portal for **Storage accounts**. 
-    - Click **+ Create**. 
+    - Select **+ Create**. 
     - Provide a name for your storage account. 
     - **Review** and then **Create** the storage account.
     - Wait for the resource to deploy.
@@ -35,35 +35,35 @@ The company is designing and developing a new app. Developers need to ensure the
 1. Provide a user-assigned managed identity for the storage to use.  [Learn more about managed identities](https://learn.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview).
 
     - Search for and select **Managed identities**.
-    - Click **Create**.
+    - Select **Create**.
         - Use your guided project resource group. 
         - Give your managed identity a name.
-    - Click **Review and create** and then **Create**. 
+    - Select **Review and create** and then **Create**. 
 
 1. Assign the correct permissions to the user-assigned managed identity. The identity only needs read and list containers and blobs. [Learn more about how to assign Azure roles](https://learn.microsoft.com/azure/role-based-access-control/role-assignments-portal).
     
     - Browse to your storage account and select the **Access Control (IAM)** blade.
-    - Click **Add role assignment**.
+    - Select **Add role assignment**.
     - Search for and select the **Storage Data Blob Reader** role. 
     - On the **Members** tab, select **Managed identity**.
-    - Click **Select members**, select the managed identity
-    - Click **Select** and then **Review + assign** the role. 
-    - Click **Review + assign** a second time to add the role assignment. 
+    - Select **Select members**, select the managed identity
+    - Select **Select** and then **Review + assign** the role. 
+    - Select **Review + assign** a second time to add the role assignment. 
 
 
 1. Create a key vault to store the access keys. [Learn more about the Azure Key Vault](https://learn.microsoft.com/azure/key-vault/general/overview).
 
-    - Search for and select **Key vaults** in the portal, and then click **Create**.
+    - Search for and select **Key vaults** in the portal, and then select **Create**.
     - Use your resource group.
     - Provide the name for the key vault.
-    - Click **Review + create**, and then **Create**.
-    - After the deployment, click **Go to resource**. 
+    - Select **Review + create**, and then **Create**.
+    - After the deployment, select **Go to resource**. 
 
 
 1. Create a customer-managed key in the key vault. [Learn more about Azure Key Vault keys, secrets and certificates](https://learn.microsoft.com/azure/key-vault/general/about-keys-secrets-certificates).
 
     - Select your key vault and then the **keys** blade.
-    - Click **Generate/Import** and **Name** the key.
+    - Select **Generate/Import** and **Name** the key.
     - Take the defaults for the rest of the parameters, and **Create** the key.
 
 1. Configure the storage account encryption to use customer managed keys in your key vault. [Learn more about customer managed keys on an existing storage account](https://learn.microsoft.com/azure/storage/common/customer-managed-keys-configure-existing-account?WT.mc_id=Portal-Microsoft_Azure_Storage&tabs=azure-portal).
@@ -79,7 +79,7 @@ The company is designing and developing a new app. Developers need to ensure the
     - In your storage account, select the **Container** blade. 
     - Create a container called **hold** and upload a file to the container. 
     - From the **Overview** blade of your container, select the **Access policy** blade. 
-    - In the **Immutable blob storage** section, click **+ Add policy**. 
+    - In the **Immutable blob storage** section, select **+ Add policy**. 
     - For the **Policy type**, select **time-based retention**. 
     - Set the **Retention period** to **5 days**. 
     - Be sure to **Save** your changes. 
@@ -90,7 +90,7 @@ The company is designing and developing a new app. Developers need to ensure the
 
     - Continue working with your new storage account. 
     - In the **Security + networking** blade, select **Encryption**.
-     -In the **Encryption scopes** tab, click **Add**.
+     -In the **Encryption scopes** tab, select **Add**.
         - Give your encryption scope a **name**. 
         - The encryption type is **Microsoft-managed key**.
         - Set infrastructure encryption to **Enable**. 
