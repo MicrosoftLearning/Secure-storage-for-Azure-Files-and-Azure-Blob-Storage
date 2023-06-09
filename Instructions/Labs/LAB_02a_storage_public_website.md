@@ -38,14 +38,14 @@ The company website supplies product images, videos, marketing literature, and c
     - Refresh the page to review the primary and secondary zone information. 
 
 
-1. The public website has various images and documents. Create a storage container for the content. [Learn more about storage containers](https://learn.microsoft.com/azure/storage/blobs/storage-blobs-introduction#containers)
+1. The public website has various images and documents. Create a storage container for the content. [Learn more about storage containers](https://learn.microsoft.com/azure/storage/blobs/storage-blobs-introduction#containers).
     - In your storage account, select the **Containers** blade. 
     - Select **+ Container**. 
     - Ensure the **Name** of the container is **public**. 
     - Click **Create**. 
     
 
-1. Customers should be able to view the images without being authenticated. Configure anonymous read access for the public container blobs.  [Learn more about configuring anonymous public access.](https://learn.microsoft.com/azure/storage/blobs/anonymous-read-access-configure?tabs=portal)
+1. Customers should be able to view the images without being authenticated. Configure anonymous read access for the public container blobs.  [Learn more about configuring anonymous public access.](https://learn.microsoft.com/azure/storage/blobs/anonymous-read-access-configure?tabs=portal).
     - Select your **public** container. 
     - On the **Overview** blade, select **Change access level**. 
     - Ensure the **Public access level** is **Blob (anonymous read access for blobs only)**.
@@ -62,7 +62,7 @@ The company website supplies product images, videos, marketing literature, and c
     - Paste the URL into a new browser tab.
     - Confirm your file displays in the browser. 
 
-1. It's important the images can be restored if they're deleted. Configure blob soft delete for 21 days. [Learn more about soft delete for blobs](https://learn.microsoft.com/azure/storage/blobs/soft-delete-blob-overview)
+1. It's important the images can be restored if they're deleted. Configure blob soft delete for 21 days. [Learn more about soft delete for blobs](https://learn.microsoft.com/azure/storage/blobs/soft-delete-blob-overview).
     - Go to the **Overview** blade of the storage account.
     - In the **Properties** section, **Blob service** section, ensure Blob soft delete is **Enabled (21 days)**.
     - Don't forget to **Save** your changes. 
@@ -75,7 +75,7 @@ The company website supplies product images, videos, marketing literature, and c
     - Refresh the container and confirm the file has been restored.     
 
     
-1. It's important to keep track of the different product literature versions. [Learn more about blob versioning](https://learn.microsoft.com/azure/storage/blobs/versioning-overview)
+1. It's important to keep track of the different product literature versions. [Learn more about blob versioning](https://learn.microsoft.com/azure/storage/blobs/versioning-overview).
     - Go to the **Overview** blade of the storage account.
     - In the **Properties** section, **Blob service** section, click on **Versioning**, ensure **Enable versioning for blobs** is selected.
     - Don't forget to **Save**.
