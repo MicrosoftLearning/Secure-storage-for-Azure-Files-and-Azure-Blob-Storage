@@ -24,7 +24,7 @@ In this demonstration, we will explore encryption and app security.
 
 1. In the **Objects** blade, point out the **Keys, Secrets, and Certificates**.
 
-1. Click **Keys** and then **Generate/Import**.
+1. Select **Keys** and then **Generate/Import**.
 
 1. Give the key a **name** and then **Create** the key. Take the defaults.
 
@@ -46,13 +46,13 @@ In this demonstration, we will explore encryption and app security.
 
 1. Return to your storage account and select **Access control (IAM)**. Learn more, [Azure built-in roles](https://learn.microsoft.com/azure/role-based-access-control/built-in-roles).
 
-- Click **Add** and then **Add role assignment**. On the **Assignment type** tab, point out we are assigning a job position role.
+- Select **Add** and then **Add role assignment**. On the **Assignment type** tab, point out we are assigning a job position role.
 
 - Move to the **Role** tab and search for **blob**. Select the **Storage blob data reader** role.
 
 - Move to the **Members** tab and assign access to the **Managed identity.**
 
-- Click **Select members** and select your **user-assigned managed identity**.
+- Select **Select members** and select your **user-assigned managed identity**.
 
 ## Configure immutable storage.
 
@@ -64,7 +64,7 @@ In this demonstration, we will explore encryption and app security.
 
 1. Access your **hold**container and select the **Access policy** blade.
 
-1. In the **Immutable blob storage** section, click **+ Add policy**.
+1. In the **Immutable blob storage** section, select **+ Add policy**.
 
 1. For the **Policy type** select **Time-based retention**.
 
@@ -84,7 +84,7 @@ In this demonstration, we will explore encryption and app security.
 
 1. In the **Security + networking** section, select **Encryption**.
 
-1. Move to the **Encryption scope** tab and click **+ Add**.
+1. Move to the **Encryption scope** tab and select **+ Add**.
 
 1. Give your **encryption scope** a **name**.
 
