@@ -32,7 +32,7 @@ The company is designing and developing a new app. Developers need to ensure the
     - **Review** and then **Create** the storage account.
     - Wait for the resource to deploy.
 
-1. Provide a user-assigned managed identity for the storage to use.  [Learn more about managed identities](https://learn.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview)
+1. Provide a user-assigned managed identity for the storage to use.  [Learn more about managed identities](https://learn.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview).
 
     - Search for and select **Managed identities**.
     - Click **Create**.
@@ -40,7 +40,7 @@ The company is designing and developing a new app. Developers need to ensure the
         - Give your managed identity a name.
     - Click **Review and create** and then **Create**. 
 
-1. Assign the correct permissions to the user-assigned managed identity. The identity only needs read and list containers and blobs. [Learn more about how to assign Azure roles](https://learn.microsoft.com/azure/role-based-access-control/role-assignments-portal)
+1. Assign the correct permissions to the user-assigned managed identity. The identity only needs read and list containers and blobs. [Learn more about how to assign Azure roles](https://learn.microsoft.com/azure/role-based-access-control/role-assignments-portal).
     
     - Browse to your storage account and select the **Access Control (IAM)** blade.
     - Click **Add role assignment**.
@@ -51,7 +51,7 @@ The company is designing and developing a new app. Developers need to ensure the
     - Click **Review + assign** a second time to add the role assignment. 
 
 
-1. Create a key vault to store the access keys. [Learn more about the Azure Key Vault](https://learn.microsoft.com/azure/key-vault/general/overview)
+1. Create a key vault to store the access keys. [Learn more about the Azure Key Vault](https://learn.microsoft.com/azure/key-vault/general/overview).
 
     - Search for and select **Key vaults** in the portal, and then click **Create**.
     - Use your resource group.
@@ -60,13 +60,13 @@ The company is designing and developing a new app. Developers need to ensure the
     - After the deployment, click **Go to resource**. 
 
 
-1. Create a customer-managed key in the key vault. [Learn more about Azure Key Vault keys, secrets and certificates](https://learn.microsoft.com/azure/key-vault/general/about-keys-secrets-certificates)
+1. Create a customer-managed key in the key vault. [Learn more about Azure Key Vault keys, secrets and certificates](https://learn.microsoft.com/azure/key-vault/general/about-keys-secrets-certificates).
 
     - Select your key vault and then the **keys** blade.
     - Click **Generate/Import** and **Name** the key.
     - Take the defaults for the rest of the parameters, and **Create** the key.
 
-1. Configure the storage account encryption to use customer managed keys in your key vault. [Learn more about customer managed keys on an existing storage account](https://learn.microsoft.com/azure/storage/common/customer-managed-keys-configure-existing-account?WT.mc_id=Portal-Microsoft_Azure_Storage&tabs=azure-portal)
+1. Configure the storage account encryption to use customer managed keys in your key vault. [Learn more about customer managed keys on an existing storage account](https://learn.microsoft.com/azure/storage/common/customer-managed-keys-configure-existing-account?WT.mc_id=Portal-Microsoft_Azure_Storage&tabs=azure-portal).
 
     - Select the storage account and the **Encryption** blade.
     - On the **Encryption** tab, select **Customer-managed keys**.
@@ -74,7 +74,7 @@ The company is designing and developing a new app. Developers need to ensure the
         - Ensure the **Identity type** is **System-assigned**
         - **Save** your changes. 
 
-1. The developers require a storage container where files can't be modified, even by the administrator. [Learn more about blob immutable storage](https://learn.microsoft.com/azure/storage/blobs/immutable-storage-overview)
+1. The developers require a storage container where files can't be modified, even by the administrator. [Learn more about blob immutable storage](https://learn.microsoft.com/azure/storage/blobs/immutable-storage-overview).
 
     - In your storage account, select the **Container** blade. 
     - Create a container called **hold** and upload a file to the container. 
@@ -86,7 +86,7 @@ The company is designing and developing a new app. Developers need to ensure the
     - Try to remove the file in the container. 
     - Verify you can't delete the file due to policy. 
 
-1. The developers require an encryption scope that enables infrastructure encryption. [Learn more about infrastructure encryption](https://learn.microsoft.com/azure/storage/common/infrastructure-encryption-enable?tabs=portal)
+1. The developers require an encryption scope that enables infrastructure encryption. [Learn more about infrastructure encryption](https://learn.microsoft.com/azure/storage/common/infrastructure-encryption-enable?tabs=portal).
 
     - Continue working with your new storage account. 
     - In the **Security + networking** blade, select **Encryption**.
