@@ -23,11 +23,11 @@ The company needs storage for their offices and departments. This content is pri
 
 1. Create a storage account for the internal private company documents.
     - In the portal, search for and select **Storage accounts**.  
-    - Click **+ Create**. 
+    - Select **+ Create**. 
     - Select your guided project resource group.  
     - Set the **Storage account name** to **private**. Add an identifier to the name to ensure the name is unique. 
-    - Click **Review** and then **Create** the storage account. 
-    - Wait for the storage account to deploy, and then click **Go to resource**.
+    - Select **Review** and then **Create** the storage account. 
+    - Wait for the storage account to deploy, and then select **Go to resource**.
 
 1. This storage requires high availability if there's a regional outage. Configure the appropriate level of **redundancy**. [Learn more about storage account redundancy](https://learn.microsoft.com//azure/storage/common/storage-redundancy).
 
@@ -39,12 +39,12 @@ The company needs storage for their offices and departments. This content is pri
 1. Create a private storage container for the corporate data. 
 
     - In the storage account, select the **Containers** blade. 
-    - Click **+ Container**. 
+    - Select **+ Container**. 
     - Ensure the **Name** of the container is **private**.
     - Ensure the **Public access level** is **Private (no anonymous access)**.
     - Take the defaults for the other values.
-    - Click **Review** and then **Create**. 
-    - Wait for the container to deploy then click **Go to resource**.
+    - Select **Review** and then **Create**. 
+    - Wait for the container to deploy then select **Go to resource**.
    
 1.  Test to ensure the private container isn't publically accessible. 
 
@@ -59,17 +59,17 @@ The company needs storage for their offices and departments. This content is pri
     - Select your uploaded blob file and move to the **Generate SAS** tab. 
     - Ensure the **Read** and **Write** permissions are selected. 
     - Verify the **Start and expiry date/time** is for the next 24 hours. 
-    - Click **Generate SAS token and URL**. 
+    - Select **Generate SAS token and URL**. 
     - Using a browser, navigate to the **Blob SAS URL** page. 
     - Ensure that your file displays. 
     
 1. To save on cost, after 30 days, move blobs from the hot tier to the cool tier. [Manage the Azure Blob storage lifecycle](https://learn.microsoft.com/training/modules/manage-azure-blob-storage-lifecycle/).
 
     - In the storage account, under **Data management** select the **Lifecycle management blade**.
-    - Click **Add rule**. 
+    - Select **Add rule**. 
     - Set the **Rule name** to **movetocool**.
     - Set the **Rule scope** to **Apply rule to all blobs in the storage account**.
-    - Click **Next**.
+    - Select **Next**.
     - Ensure **Last modified** is selected.
     - Set **More than (days ago)** to **30**.
     - In the **Then** drop-down select **Move to cool storage**. 
@@ -80,7 +80,7 @@ The company needs storage for their offices and departments. This content is pri
     - In your storage account, create a new container called **backup**. Use the default values.
     - Navigate to your **publicwebsite** storage account. This storage account was created in the previous exercise. 
         - Select the **Object replication** blade. 
-        - Click **Create replication rules** and set the **Destination storage account** to **private** storage account.
+        - Select **Create replication rules** and set the **Destination storage account** to **private** storage account.
         - Set the **Source container** to **public** and the **Destination container** to **backup**.
         - **Create** the replication rule. 
         - Upload a file to the **public** container. This will be your replication test file. 
