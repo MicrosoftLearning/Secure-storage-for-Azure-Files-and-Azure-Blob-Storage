@@ -7,7 +7,7 @@ demo:
 
 Use this demonstration to show students how to access the lab environment and student materials. You can do this at the beginning of class or before the next demonstration. 
 
-### Show students the lab environment (adjust for your lab hoster)
+## Show students the lab environment (adjust for your lab hoster)
 
 - Discuss how students access the lab environment. 
 
@@ -21,7 +21,7 @@ Use this demonstration to show students how to access the lab environment and st
 
 - Add other topics specific to your hoster. 
 
-### Show students their course materials.
+## Show students their course materials.
 
 - Access the [Microsoft Learn page](https://learn.microsoft.com).
 
