@@ -29,13 +29,14 @@ In this demonstration, we will explore blob storage.
 
 1. In your storage account, locate the **Data storage** blade.
 
-1. Select **Containers** and then click **+ Container**.
+1. Select **Containers** and then select **+ Container**.
 
-1. Provide a **name** for your new container, **public**. This is storage for the public website.
+1. Provide a **name** for your new conta
+2. iner, **public**. This is storage for the public website.
 
 1. Set the access level to **Container (anonymous access read access for containers and blobs)**. Briefly describe the access levels. This is covered in more detail in the last demonstration. 
 
-1. Click **Create**.
+1. Select **Create**.
 
 1. Wait for the container to be deployed, then continue work in the **public** container.
 
@@ -83,7 +84,7 @@ In this demonstration, we will explore blob storage.
 
 1. Review the **Start** and **expiry date/time** settings.
 
-1. Click **Generate SAS and connection string**.
+1. Select **Generate SAS and connection string**.
 
 1. **Save** your changes. 
 
@@ -103,7 +104,7 @@ In this demonstration, we will explore blob storage.
 
 1. In the **Data management** blade, select **Object replication**.
 
-1. Click **Create replication** rules.
+1. Select **Create replication** rules.
 
     - Destination storage account: your second storage account
 
