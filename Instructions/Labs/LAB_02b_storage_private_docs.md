@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Exercise: Provide private storage for internal company documents'
+    title: 'Exercise 02b: Provide private storage for internal company documents'
     module: 'Guided Project - Azure Files and Azure Blobs'
 ---
 
