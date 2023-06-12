@@ -1,6 +1,6 @@
 ---
 demo:
-    title: 'Demonstration: Create and configure encryption and secure app access'
+    title: 'Demonstration 04: Create and configure encryption and secure app access'
     module: 'Guided Project - Azure Files and Azure Blobs'
 --- 
 
