@@ -1,6 +1,6 @@
 ---
 demo:
-    title: 'Demonstration: Create and configure files and storage networking'
+    title: 'Demonstration 03: Create and configure files and storage networking'
     module: 'Guided Project - Azure Files and Azure Blobs'
 --- 
 
