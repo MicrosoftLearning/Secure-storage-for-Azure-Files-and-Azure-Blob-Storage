@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Exercise: Provide storage for a new company app     '
+    title: 'Exercise 04: Provide storage for a new company app     '
     module: 'Guided Project - Azure Files and Azure Blobs'
 ---
 
