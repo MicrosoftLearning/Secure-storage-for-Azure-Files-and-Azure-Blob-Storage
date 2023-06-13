@@ -78,7 +78,7 @@ In this demonstration, explore encryption and app security.
 
 ## Configure an encryption scope for infrastructure encryption.
 
-1. [Supporting Slide] The developers also need to scope infrastructure encryption at the container level. Discuss encryption scopes and infrastructure encryption. Learn more, [Encryption scopes](https://learn.microsoft.com/azure/storage/blobs/encryption-scope-overview).
+1. The developers also need to scope infrastructure encryption at the container level. Discuss encryption scopes and infrastructure encryption. Learn more, [Encryption scopes](https://learn.microsoft.com/azure/storage/blobs/encryption-scope-overview).
 
 1. Continue in the **storage account**.
 
