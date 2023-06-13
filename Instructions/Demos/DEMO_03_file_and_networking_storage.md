@@ -78,11 +78,7 @@ In this demonstration, explore Azure Files storage and storage networking.
 
 1. Review the **Network Routing** section, and that Microsoft network routing is being used.
 
-## Using storage tools (optional)
 
-1. [Supporting Slide] Before continuing, discuss there are other storage tools other than the Azure portal. Students will get to use the browser in the lab.
-
-1. In the portal, access the **Storage browser**.
 
 1. As you have time, give a quick demonstration of the **Storage browser**. 
 
