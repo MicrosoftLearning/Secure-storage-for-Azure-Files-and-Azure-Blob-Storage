@@ -18,7 +18,9 @@ In this demonstration, explore Azure Files storage and storage networking.
 
 1. Create a **new** Azure storage account. This account will be used to address the shared files requirements.
 
-1. [Supporting Slide] For **Performance** select **Premium**. Premium file shares are for enterprise or high-performance file share applications. Our scenario requirement is for a corporate file share. 
+1. [Supporting Slide] For **Performance** select **Premium**. 
+
+1. For **Premium account type** select **File shares**. Premium file shares are for enterprise or high-performance file share applications. Our scenario requirement is for a corporate file share. 
 
 1. For **Redundancy** select **Zone-redundant** storage. Remind students this is recommended for high availability scenarios and protects against datacenter failures.
 
