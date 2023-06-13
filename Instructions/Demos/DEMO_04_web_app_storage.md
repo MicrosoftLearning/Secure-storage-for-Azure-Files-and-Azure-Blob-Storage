@@ -6,7 +6,7 @@ demo:
 
 ## Demonstration - Create and configure encryption and secure app access. 
 
-In this demonstration, we will explore encryption and app security.
+In this demonstration, explore encryption and app security.
 
 > **Note:** In this demonstration you will create a managed identity, key vault, and key. To save time you may want to pre-create these resources. 
 
