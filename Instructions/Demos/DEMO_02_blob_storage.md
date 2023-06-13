@@ -7,7 +7,7 @@ demo:
 
 ## Demonstration - Create and configure blob storage.
 
-In this demonstration, we will explore blob storage.
+In this demonstration, explore blob storage.
 
 ## Review blob storage settings
 
