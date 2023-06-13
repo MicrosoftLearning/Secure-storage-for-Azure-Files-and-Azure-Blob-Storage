@@ -5,7 +5,7 @@ demo:
 ---
 ## Demonstration – Create and configure storage accounts 
 
-In this demonstration, we will explore storage accounts.
+In this demonstration, explore storage accounts.
 
 1. [Supporting Slide] Before beginning this demonstration you may want to discuss how storage is organized and factors to consider. 
 
