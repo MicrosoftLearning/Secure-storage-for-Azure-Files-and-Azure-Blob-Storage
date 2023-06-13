@@ -6,7 +6,7 @@ demo:
 
 ## Demonstration - Create and configure files and storage networking.
 
-In this demonstration, we will explore Azure Files storage and storage networking.
+In this demonstration, explore Azure Files storage and storage networking.
 
 > **Note:** In this demo you will create a new storage account, and a virtual network with subnet. These can be pre-created to save time. 
 
