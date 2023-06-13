@@ -48,7 +48,7 @@ In this demonstration, we will explore Azure Files storage and storage networkin
 
 1. Review the settings at the top of the page. For example, **Upload** and **Change size and performance**.
 
-1. [Supporting Slide] Before configuring a file share snapshot, discuss the purpose of snapshots. Learn more, [File share snapshots](https://learn.microsoft.com/azure/storage/files/storage-snapshots-files).
+1. Discuss the purpose of snapshots. Learn more, [File share snapshots](https://learn.microsoft.com/azure/storage/files/storage-snapshots-files).
 
 1. In the **Operations** blade, select **Snapshots**.
 
@@ -58,7 +58,7 @@ In this demonstration, we will explore Azure Files storage and storage networkin
 
 ## Configure network access for storage.
 
-1. [Supporting Slide] Before configuring storage networking, discuss the various options.
+1. [Supporting Slide] Before configuring storage networking, discuss the various options. Review some of the previous networking options that have configured. 
 
 1. Search the portal for **virtual networks.**
 
