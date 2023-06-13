@@ -25,7 +25,7 @@ In this demonstration, we will explore storage accounts.
 
 1. Enter a name for your storage account. Discuss the storage account naming restrictions.
 
-1. [Supporting Slide] Select a region for your storage account. Learn more about [Azure geographies](https://azure.microsoft.com/explore/global-infrastructure/geographies/).
+1. Select a region for your storage account. Review which region students should use in the lab. Learn more about [Azure geographies](https://azure.microsoft.com/explore/global-infrastructure/geographies/).
 
 1. [Supporting Slide] Select the **standard** performance. Learn more, [Types of storage accounts](https://learn.microsoft.com/azure/storage/common/storage-account-overview).
 
