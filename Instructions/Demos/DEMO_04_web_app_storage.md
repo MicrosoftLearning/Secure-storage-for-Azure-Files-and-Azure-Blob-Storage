@@ -34,25 +34,25 @@ In this demonstration, we will explore encryption and app security.
 
 1. In the **Security + networking** blade, select **Encryption**.
 
-- Select **Customer-managed keys**. Discuss the difference between a Microsoft-managed key and customer-managed keys. For example, a Microsoft-managed key is used for automatic storage encryption and decryption. A customer-managed key could be used by an app. Learn more, [Customer-managed keys](https://learn.microsoft.com/azure/storage/common/customer-managed-keys-overview).
+    - Select **Customer-managed keys**. Discuss the difference between a Microsoft-managed key and customer-managed keys. For example, a Microsoft-managed key is used for automatic storage encryption and decryption. A customer-managed key could be used by an app. Learn more, [Customer-managed keys](https://learn.microsoft.com/azure/storage/common/customer-managed-keys-overview).
 
-- For **key store type** select **key vault**. Keys can be stored in software (key vault) or in hardware (hardware security module). We are using the key vault.
+    - For **key store type** select **key vault**. Keys can be stored in software (key vault) or in hardware (hardware security module). We are using the key vault.
 
-- Select your **key vault** and **key**.
+    - Select your **key vault** and **key**.
 
-- For **identity type** select a **system-assigned managed identity**. This is the default that configures the managed identity so it can access the key vault.
+    - For **identity type** select a **system-assigned managed identity**. This is the default that configures the managed identity so it can access the key vault.
 
 1. [Supporting Slide] At this point you have given the managed identity access to the key vault and associated the identity with the storage account. Now, we need to give the managed identity access to the storage account. Learn more, [Azure role assignments](https://learn.microsoft.com/azure/role-based-access-control/role-assignments).
 
 1. Return to your storage account and select **Access control (IAM)**. Learn more, [Azure built-in roles](https://learn.microsoft.com/azure/role-based-access-control/built-in-roles).
 
-- Select **Add** and then **Add role assignment**. On the **Assignment type** tab, point out we are assigning a job position role.
+    - Select **Add** and then **Add role assignment**. On the **Assignment type** tab, point out we are assigning a job position role.
 
-- Move to the **Role** tab and search for **blob**. Select the **Storage blob data reader** role.
+    - Move to the **Role** tab and search for **blob**. Select the **Storage blob data reader** role.
 
-- Move to the **Members** tab and assign access to the **Managed identity.**
+    - Move to the **Members** tab and assign access to the **Managed identity.**
 
-- Select **Select members** and select your **user-assigned managed identity**.
+    - Select **Select members** and select your **user-assigned managed identity**.
 
 ## Configure immutable storage.
 
