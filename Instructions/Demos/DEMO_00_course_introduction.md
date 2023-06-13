@@ -19,7 +19,7 @@ Use this demonstration to show students how to access the lab environment and st
 
 - Review how to use the lab instructions. 
 
-- Add other topics specific to your hoster. 
+- Add other topics specific to your lab hosting environment. 
 
 ## Show students their course materials.
 
@@ -29,7 +29,7 @@ Use this demonstration to show students how to access the lab environment and st
 
 - Select **Learning Paths** and then search for the **Secure storage for Azure Files and Azure Blob Storage** learning path.
 
-- Discuss that the content in the learning path is specific to this assessment, but there is much more storage content they can review.
+- Discuss that the content in the learning path is specific to this course. There is more storage content they can review.
 
 - Explain the content is reference material and there isn't a 1:1 mapping with the classroom presentations.
 
