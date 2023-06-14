@@ -20,7 +20,7 @@ The IT department needs to prototype different storage scenarios and to train ne
 1. Create and deploy a resource group to hold all your guided project resources. [Learn more about resource groups](https://learn.microsoft.com/azure/azure-resource-manager/management/manage-resource-groups-portal).
     - In the Azure portal, search for and select **Resource groups**.
     - Select **+ Create**.
-    - Give your resource group a **name**. Use this resource group for all project resources.
+    - Give your resource group a **name**. 
     - Select a **region**. Use this region throughout the project. 
     - Select **Review and create** to validate the resource group.
     - Select **Create** to deploy the resource group.
