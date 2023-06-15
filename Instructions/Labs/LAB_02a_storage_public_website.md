@@ -18,28 +18,26 @@ The company website supplies product images, videos, marketing literature, and c
 
 ## Exercise instructions
 
->**Note**: To complete this lab you will need an [Azure subscription](https://azure.microsoft.com/free/).
-
 1. Create a storage account to support the public website.
 
     - In the portal, search for and select **Storage accounts**.  
     - Select **+ Create**. 
-    - Select your guided project resource group.  
-    - Set the **Storage account name** to **publicwebsite**. Make sure the storage account name is unique by adding an identifier.  
+    - For **resource group** select **new**. Give your resource group a **name** and select **OK**. 
+    - Set the **Storage account name** to **publicwebsite**. Make sure the storage account name is unique by adding an identifier.
+    - Take the defaults for other settings. 
     - Select **Review** and then **Create**.
     - Wait for the storage account to deploy, and then select **Go to resource**.
          
      
 1. This storage requires high availability if there's a regional outage. [Learn more about storage account redundancy](https://learn.microsoft.com//azure/storage/common/storage-redundancy).
 
-    - In the storage account, select the **Redundancy** blade. 
+    - In the storage account, in the **Data management** section, select the **Redundancy** blade. 
     - Ensure **Read-access Geo-redundant storage** is selected.
-    - Be sure to **Save** your changes.
-    - Refresh the page to review the primary and secondary zone information. 
+    - Review the primary and secondary location information. 
 
 
-1. The public website has various images and documents. Create a storage container for the content. [Learn more about storage containers](https://learn.microsoft.com/azure/storage/blobs/storage-blobs-introduction#containers).
-    - In your storage account, select the **Containers** blade. 
+1. The public website has various images and documents. Create a blob storage container for the content. [Learn more about storage containers](https://learn.microsoft.com/azure/storage/blobs/storage-blobs-introduction#containers).
+    - In your storage account, in the **Data storage** section, select the **Containers** blade. 
     - Select **+ Container**. 
     - Ensure the **Name** of the container is **public**. 
     - Select **Create**. 
@@ -49,36 +47,43 @@ The company website supplies product images, videos, marketing literature, and c
     - Select your **public** container. 
     - On the **Overview** blade, select **Change access level**. 
     - Ensure the **Public access level** is **Blob (anonymous read access for blobs only)**.
+    - Select **OK**. 
     
-1. To proceed with testing, upload a file to the **public** container. The type of file doesn't matter. A small image or text file is a good choice.  
-    - Select your container.
+1. For testing, upload a file to the **public** container. The type of file doesn't matter. A small image or text file is a good choice.  
+    - Ensure you are viewing your container. 
     - Select **Upload**. 
-    - Browse to a file of your choice. 
+    - **Browse to files** and select a file. Browse to a file of your choice. 
     - Select **Upload**. 
 
 1. Determine the URL for your uploaded file. Open a browser and test the URL. 
     - Select your uploaded file.
     - On the **Overview** tab, copy the **URL**.
     - Paste the URL into a new browser tab.
-    - Confirm your file displays in the browser. 
+    - If you have uploaded an image file it will display in the browser. Other file types should be downloaded. 
 
-1. It's important the images can be restored if they're deleted. Configure blob soft delete for 21 days. [Learn more about soft delete for blobs](https://learn.microsoft.com/azure/storage/blobs/soft-delete-blob-overview).
-    - Go to the **Overview** blade of the storage account.
-    - In the **Properties** section, **Blob service** section, ensure Blob soft delete is **Enabled (21 days)**.
+1. It's important that the website documents can be restored if they're deleted. Configure blob soft delete for 21 days. [Learn more about soft delete for blobs](https://learn.microsoft.com/azure/storage/blobs/soft-delete-blob-overview).
+    - Go to the **Overview** blade of the **storage account**.
+    - On the **Properties** page, locate the **Blob service** section.
+    - Select the **Blob soft delete** setting.
+    - Ensure the **Enable soft delete for blobs** is **checked**.
+    - Change the **Keep deleted blobs for (in days** setting is **21**. 
     - Don't forget to **Save** your changes. 
 
 1. If something does get deleted, you need to practice using soft delete to restore the files.
-    - Select **Delete** to remove the file you uploaded.
-    - Refresh the URL page and verify the file doesn't display. 
-    - On the container **Overview** page, toggle the slider **Show deleted blobs**. 
+    - Navigate to your container where you uploaded a file.
+    - Select the file you uploaded and then select **Delete**.
+    - Select **OK** to confirm deleting the file.  
+    - On the container **Overview** page, toggle the slider **Show deleted blobs**. This toggle is to the right of the search box. 
     - Select your deleted file, and use the ellipses on the far right, to **Undelete** the file. 
     - Refresh the container and confirm the file has been restored.     
 
-    
-1. It's important to keep track of the different product literature versions. [Learn more about blob versioning](https://learn.microsoft.com/azure/storage/blobs/versioning-overview).
-    - Go to the **Overview** blade of the storage account.
-    - In the **Properties** section, **Blob service** section, select on **Versioning**, ensure **Enable versioning for blobs** is selected.
-    - Don't forget to **Save**.
+1. It's important to keep track of the different website product document versions. [Learn more about blob versioning](https://learn.microsoft.com/azure/storage/blobs/versioning-overview).
+    - Go to the **Overview** blade of the **storage account**.
+    - In the **Properties** section, locate the **Blob service** section.
+    - Select on **Versioning** setting.
+    - Select the **Enable versioning for blobs** checkbox is checked.
+    - Notice your options to **keep all versions** or **delete versions after**. 
+    - Don't forget to **Save** your changes. 
 
     
 
