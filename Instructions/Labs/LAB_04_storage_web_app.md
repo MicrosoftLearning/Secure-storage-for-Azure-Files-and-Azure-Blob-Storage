@@ -62,7 +62,7 @@ The company is designing and developing a new app. Developers need to ensure the
 ### Secure access to the storage account with a key vault and key
 
 1. To create the key vault and key needed for this part of the lab, your identity must be Key Vault Administrator. Learn more, [Provide access to Key Vault keys, certificates, and secrets with an Azure role-based access control](https://learn.microsoft.com/azure/key-vault/general/rbac-guide?tabs=azure-cli)
-
+    - 
 
 1. Create a key vault to store the access keys. [Learn more about the Azure Key Vault](https://learn.microsoft.com/azure/key-vault/general/overview).
 
