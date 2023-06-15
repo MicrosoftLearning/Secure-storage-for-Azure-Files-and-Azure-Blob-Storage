@@ -19,8 +19,6 @@ The company needs storage for their offices and departments. This content is pri
 
 ## Exercise instructions
 
->**Note**: To complete this lab you will need an [Azure subscription](https://azure.microsoft.com/free/).
-
 1. Create a storage account for the internal private company documents.
     - In the portal, search for and select **Storage accounts**.  
     - Select **+ Create**. 
