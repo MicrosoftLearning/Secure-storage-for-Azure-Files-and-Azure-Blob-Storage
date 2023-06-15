@@ -29,7 +29,7 @@ The company website supplies product images, videos, marketing literature, and c
     - Wait for the storage account to deploy, and then select **Go to resource**.
          
      
-1. This storage requires high availability if there's a regional outage. [Learn more about storage account redundancy](https://learn.microsoft.com//azure/storage/common/storage-redundancy).
+1. This storage requires high availability if there's a regional outage. Additionally, enable read access to the secondary region, [Learn more about storage account redundancy](https://learn.microsoft.com//azure/storage/common/storage-redundancy).
 
     - In the storage account, in the **Data management** section, select the **Redundancy** blade. 
     - Ensure **Read-access Geo-redundant storage** is selected.
