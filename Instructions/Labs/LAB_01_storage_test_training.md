@@ -35,7 +35,7 @@ The IT department needs to prototype different storage scenarios and to train ne
     - Wait for the storage account to deploy and then **Go to resource**.  
 
 1. The data in this storage account doesn't require high availability or durability. A lowest cost storage solution is desired. [Learn more about storage account redundancy](https://learn.microsoft.com//azure/storage/common/storage-redundancy).
-    - In your storage account, in the **data management** section, select the **Redundancy** blade.
+    - In your storage account, in the **Data management** section, select the **Redundancy** blade.
     - Select **Locally-redundant storage (LRS)** in the **Redundancy** drop-down. 
     - Be sure to **Save** your changes. 
     - Refresh the page and notice the content only exists in the primary location. 
@@ -44,7 +44,7 @@ The IT department needs to prototype different storage scenarios and to train ne
     - In the **Settings** section, select the **Configuration** blade.
     - Ensure **Secure transfer required** is **Enabled**. &#128712;  
 
-1. The storage account should use at least TLS version 1.2. [Learn more about transport layer security (TLS)](https://learn.microsoft.com//azure/storage/common/transport-layer-security-configure-minimum-version?tabs=portal).
+1. Developers would like the storage account to use at least TLS version 1.2. [Learn more about transport layer security (TLS)](https://learn.microsoft.com//azure/storage/common/transport-layer-security-configure-minimum-version?tabs=portal).
     - In the **Settings** section, select the **Configuration** blade.
     - Ensure the **Minimal TLS version** is set to **Version 1.2**. &#128712; 
 
