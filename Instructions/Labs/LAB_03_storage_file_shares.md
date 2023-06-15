@@ -23,55 +23,64 @@ The company is geographically dispersed with offices in different locations.  Th
 
 1. Create a storage account for the finance department's shared files.  [Learn more about storage accounts for Azure Files deployments](https://learn.microsoft.com/azure/storage/files/storage-files-planning#management-concepts).
 
-    - Search the portal for **Storage accounts**. 
-    - Select **+ Create**. 
-    - Provide a name for the storage account. 
-    - Set the **Performance** to **Standard**.  
-    - Set the **Redundancy** to **Geo-redundant storage**.
+    - In the portal, search for and select **Storage accounts**.
+    - Select **+ Create**.
+    - For **Resource group** select **Create new**. Give your resource group a **name** and select **OK** to save your changes. 
+    - Provide a **Storage account name**. Ensure the name meets the naming requirements. 
+    - Set the **Performance** to **Premium**.
+    - Set the **Premium account type** to **File shares**.
+    - Set the **Redundancy** to **Zone-redundant storage**.
     - Select **Review** and then **Create** the storage account.
-    - Wait for the resource to deploy. 
+    - Wait for the resource to deploy.
+    - Select **Go to resource**. 
 
-1. Create a general purpose file share for the corporate office. [Learn more about Azure File tiers](https://learn.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers).
+1. Create a file share for the corporate office. [Learn more about Azure File tiers](https://learn.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers).
 
-    - Select the storage account, and then under **Data storage**, select the **File shares** blade. 
+    - In the storage account, in the **Data storage** section, select the **File shares** blade. 
     - Select **+ File share** and provide a **Name**.
-    - For the **Tier** choose **Hot**. 
-    - Select **Create**. 
+    - Review the other options, but take the defaults.
+    - Select **Create**
 
 
 1. Add a directory to the file share for the finance department. For future testing, upload a file. 
 
     - Select your file share and select **+ Add directory**. 
     - Name the new directory **finance**.
-    - Browse to the new **finance directory** and add a file to it. 
+    - Select **Browse** and then select the **finance** directory.
+    - Notice you can **Add directory** to further organize your file share.
+    - **Upload** a file of your choosing. 
 
 1. Similar to blob storage, you need to protect against accidental deletion of files. You decide to use snapshots. [Learn more about file snapshots](https://learn.microsoft.com/azure/storage/files/storage-snapshots-files).
     
-    - Select your file share and then select the **Snapshots** blade. 
-    - Select **+ Add snapshot** and add an optional comment. 
-    - Select your uploaded file and in the **Properties** pane select **Delete**.
-    - Select the **Snapshot** blade and then select your snapshot. 
+    - Select your file share.
+    - In the **Operations** section, select the **Snapshots** blade. 
+    - Select **+ Add snapshot**. The comment is optional. Select **OK**. 
+    - Select your uploaded file and in the **Properties** pane select **Delete**. Select **Yes** to confirm the deletion. 
+    - Select the **Snapshots** blade and then select your snapshot. 
     - Navigate to the file you want to restore,
-    - Select the file and select **Restore**.
+    - Select the file and the select **Restore**.
     - Confirm the file has been restored. 
 
 1. The corporate file server is in a separate virtual network. This storage should only be accessed from virtual machines in that network. [Learn more about using private storage endpoints.](https://learn.microsoft.com/azure/storage/common/storage-private-endpoints).
 
     - Search for and select **Virtual networks**.
-        - Select **Create**. Give the virtual network a **name** and select your resource group. 
-        - Take the defaults for other parameters, select **Create and review** and wait for the resource to deploy. 
-    - Navigate to your virtual network, and then the **Subnets** blade.
-        - Select the **default** subnet and then **Service endpoints** and **Services**.
-        - Select the **Microsoft.Storage** option.     
-        - Don't forget to **Save** your changes. 
-    - Return to your files storage account. 
-    - Select the **Networking** blade and the **Firewalls and virtual networks** tab. 
+        - Select **Create**. Select your resource group. and give the virtual network a **name**.
+        - Take the defaults for other parameters, select **Create and review**, and then **Create**.
+        - Wait for the resource to deploy.
+        - Select **Go to resource**. 
+    - In the **Settings** section, select the **Subnets** blade.
+        - Select the **default** subnet.
+        - In the **Service endpoints** section choose **Microsoft.Storage** in the **Services** drop-down.
+        - Do not make any other changes.    
+        - Be sure to **Save** your changes. 
+    - Return to your **files storage account**. 
+    - In the **Security + networking** section, select the **Networking** blade.
         - Change the **Public network access** to **Enabled from selected virtual networks and IP addresses**.
         - In the **Virtual networks** section, select **Add existing virtual network**.
-        - **Add** your virtual network and the default subnet. 
+        - Select your virtual network and subnet, select **Add**.
         - Be sure to **Save** your changes. 
     - Select the **Storage browser** and navigate to your file share. 
-    - Verify the message *not authorized to perform this operation*. 
+    - Verify the message *not authorized to perform this operation*. You are not connecting from the virtual network. 
 
 
 >**Note**: For additional practice complete the [Configure Azure storage security](https://learn.microsoft.com/training/modules/configure-storage-security/) module. The module has an interactive lab simulation where you can get more practice creating secure storage. 
