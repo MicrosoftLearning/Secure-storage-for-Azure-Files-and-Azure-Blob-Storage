@@ -4,7 +4,7 @@ lab:
     module: 'Guided Project - Azure Files and Azure Blobs'
 ---
 
-The company needs storage for their offices and departments. This content is private to the company and shouldn't be shared without consent. This storage requires high availability if there's a regional outage. The company wants to use this storage to back up the public website storage. 
+The company needs storage for their offices and departments. This content is private to the company and shouldn't be shared without consent. This storage requires high availability if there's a regional outage. The company wants to use this storage to back up the public website. 
 
 ## Architecture diagram
 
@@ -19,20 +19,24 @@ The company needs storage for their offices and departments. This content is pri
 
 ## Exercise instructions
 
+> **Note**: These instruction require you to have completed **Lab 02a**, Provide storage for internal documents.
+
 1. Create a storage account for the internal private company documents.
     - In the portal, search for and select **Storage accounts**.  
     - Select **+ Create**. 
-    - Select your guided project resource group.  
+    - Select the **Resource group** created in the previous lab.   
     - Set the **Storage account name** to **private**. Add an identifier to the name to ensure the name is unique. 
-    - Select **Review** and then **Create** the storage account. 
+    - Select **Review**, and then **Create** the storage account. 
     - Wait for the storage account to deploy, and then select **Go to resource**.
 
 1. This storage requires high availability if there's a regional outage. Configure the appropriate level of **redundancy**. [Learn more about storage account redundancy](https://learn.microsoft.com//azure/storage/common/storage-redundancy).
 
-    - In the storage account, select the **Redundancy** blade. 
+    - In the storage account, in the **Data management** section, select the **Redundancy** blade. 
     - Ensure **Geo-redundant storage (GRS)** is selected.
+    - **Refresh** the page. 
+    - Review the primary and secondary location information. 
     - **Save** your changes.
-    - Refresh the page and review the primary and secondary zone information. 
+
 
 1. Create a private storage container for the corporate data. 
 
