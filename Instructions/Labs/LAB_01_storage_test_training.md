@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Exercise 01: Provide storage for the IT department testing and training        '
+    title: 'Exercise 01: Provide storage for the IT department testing and training'
     module: 'Guided Project - Azure Files and Azure Blobs'
 ---
 # Provide storage for the IT department testing and training 
