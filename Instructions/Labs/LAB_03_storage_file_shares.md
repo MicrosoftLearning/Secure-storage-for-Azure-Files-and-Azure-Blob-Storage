@@ -23,7 +23,7 @@ The company is geographically dispersed with offices in different locations.  Th
 
 ### Create and configure a storage account for Azure Files. 
 
-1. Create a storage account for the finance department's shared files.  [Learn more about storage accounts for Azure Files deployments](https://learn.microsoft.com/azure/storage/files/storage-files-planning#management-concepts).
+1. Create a storage account for the finance department's shared files.  Learn more about storage accounts for [Azure Files deployments](https://learn.microsoft.com/azure/storage/files/storage-files-planning#management-concepts).
 
     - In the portal, search for and select **Storage accounts**.
     - Select **+ Create**.
@@ -38,7 +38,7 @@ The company is geographically dispersed with offices in different locations.  Th
 
 ### Create and configure a file share with directory.
 
-1. Create a file share for the corporate office. [Learn more about Azure File tiers](https://learn.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers).
+1. Create a file share for the corporate office. Learn more about [Azure File tiers](https://learn.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers).
 
     - In the storage account, in the **Data storage** section, select the **File shares** blade. 
     - Select **+ File share** and provide a **Name**.
@@ -55,7 +55,7 @@ The company is geographically dispersed with offices in different locations.  Th
 
 ### Configure and test snapshots.
 
-1. Similar to blob storage, you need to protect against accidental deletion of files. You decide to use snapshots. [Learn more about file snapshots](https://learn.microsoft.com/azure/storage/files/storage-snapshots-files).
+1. Similar to blob storage, you need to protect against accidental deletion of files. You decide to use snapshots. Learn more about [file snapshots](https://learn.microsoft.com/azure/storage/files/storage-snapshots-files).
     
     - Select your file share.
     - In the **Operations** section, select the **Snapshots** blade. 
@@ -82,7 +82,7 @@ The company is geographically dispersed with offices in different locations.  Th
         - Do not make any other changes.    
         - Be sure to **Save** your changes. 
    
-1. The storage should only be accessed from the selected virtual network. [Learn more about using private storage endpoints.](https://learn.microsoft.com/azure/storage/common/storage-private-endpoints).
+1. The storage should only be accessed from the selected virtual network. Learn more about using [private storage endpoints.](https://learn.microsoft.com/azure/storage/common/storage-private-endpoints).
 
     - Return to your **files storage account**. 
     - In the **Security + networking** section, select the **Networking** blade.
