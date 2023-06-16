@@ -21,6 +21,8 @@ The company is geographically dispersed with offices in different locations.  Th
 
 >**Note**: To complete this lab you will need an [Azure subscription](https://azure.microsoft.com/free/).
 
+### Create and configure a storage account for Azure Files. 
+
 1. Create a storage account for the finance department's shared files.  [Learn more about storage accounts for Azure Files deployments](https://learn.microsoft.com/azure/storage/files/storage-files-planning#management-concepts).
 
     - In the portal, search for and select **Storage accounts**.
@@ -34,13 +36,14 @@ The company is geographically dispersed with offices in different locations.  Th
     - Wait for the resource to deploy.
     - Select **Go to resource**. 
 
+### Create and configure a file share with directory.
+
 1. Create a file share for the corporate office. [Learn more about Azure File tiers](https://learn.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers).
 
     - In the storage account, in the **Data storage** section, select the **File shares** blade. 
     - Select **+ File share** and provide a **Name**.
     - Review the other options, but take the defaults.
     - Select **Create**
-
 
 1. Add a directory to the file share for the finance department. For future testing, upload a file. 
 
@@ -49,6 +52,8 @@ The company is geographically dispersed with offices in different locations.  Th
     - Select **Browse** and then select the **finance** directory.
     - Notice you can **Add directory** to further organize your file share.
     - **Upload** a file of your choosing. 
+
+### Configure and test snapshots.
 
 1. Similar to blob storage, you need to protect against accidental deletion of files. You decide to use snapshots. [Learn more about file snapshots](https://learn.microsoft.com/azure/storage/files/storage-snapshots-files).
     
@@ -61,8 +66,9 @@ The company is geographically dispersed with offices in different locations.  Th
     - Select the file and the select **Restore**.
     - Confirm the file has been restored. 
 
-1. The corporate file server is in a separate virtual network. This storage should only be accessed from virtual machines in that network. [Learn more about using private storage endpoints.](https://learn.microsoft.com/azure/storage/common/storage-private-endpoints).
+### Configure restricting storage access to selected virtual networks.
 
+1. Configure the virtual network and subnet this task requires. In a production environment these resources would already be created.
     - Search for and select **Virtual networks**.
         - Select **Create**. Select your resource group. and give the virtual network a **name**.
         - Take the defaults for other parameters, select **Create and review**, and then **Create**.
@@ -73,6 +79,9 @@ The company is geographically dispersed with offices in different locations.  Th
         - In the **Service endpoints** section choose **Microsoft.Storage** in the **Services** drop-down.
         - Do not make any other changes.    
         - Be sure to **Save** your changes. 
+   
+1. The storage should only be accessed from the selected virtual network. [Learn more about using private storage endpoints.](https://learn.microsoft.com/azure/storage/common/storage-private-endpoints).
+
     - Return to your **files storage account**. 
     - In the **Security + networking** section, select the **Networking** blade.
         - Change the **Public network access** to **Enabled from selected virtual networks and IP addresses**.
