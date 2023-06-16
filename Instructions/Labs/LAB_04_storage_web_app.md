@@ -14,12 +14,11 @@ The company is designing and developing a new app. Developers need to ensure the
 
 ## Skilling tasks
 
-- Create a storage account. 
-- Configure a user-assigned managed identity. 
-- Configure a system-assigned managed identity.
-- Configure a key vault with key. 
-- Configure a container with immutable storage.
-- Configure an encryption scope. 
+- Create the storage account for the developers.
+- Create and configure a managed identity to access to the storage account.
+- Secure access to the storage account with a key vault and key
+- Configure an time-based retention immutable storage policy.
+- Configure an encryption scope that enables infrastructure encryption.
 
 ## Exercise instructions
 
