@@ -91,34 +91,37 @@ The company is designing and developing a new app. Developers need to ensure the
 
 1. Configure the storage account encryption to use customer managed keys in your key vault. [Learn more about customer managed keys on an existing storage account](https://learn.microsoft.com/azure/storage/common/customer-managed-keys-configure-existing-account?WT.mc_id=Portal-Microsoft_Azure_Storage&tabs=azure-portal).
 
-    - Select the storage account and the **Encryption** blade.
-    - On the **Encryption** tab, select **Customer-managed keys**.
-        - Select your key vault and key. 
-        - Ensure the **Identity type** is **System-assigned**
-        - **Save** your changes. 
+    - Return to your the storage account.
+    - In the **Security + networking** section, selet the **Encryption** blade.
+    - Select **Customer-managed keys**.
+    - **Select a key vault and key**. Work through the selection to locate your key vault and key. Make sure to **Save** your selections.
+    - Ensure the **Identity type** is **System-assigned**
+    - **Save** your changes. 
 
 ### Configure an time-based retention policy and an encryption scope.
 
 1. The developers require a storage container where files can't be modified, even by the administrator. [Learn more about blob immutable storage](https://learn.microsoft.com/azure/storage/blobs/immutable-storage-overview).
 
-    - In your storage account, select the **Container** blade. 
-    - Create a container called **hold** and upload a file to the container.
-    - From the **Overview** blade of your container, select the **Access policy** blade. 
+    - In the **Data storage** section, select the **Container** blade. 
+    - Create a container called **hold** and upload a file to the container. 
+    - In the **Settings** section, select the **Access policy** blade. 
     - In the **Immutable blob storage** section, select **+ Add policy**. 
     - For the **Policy type**, select **time-based retention**. 
-    - Set the **Retention period** to **5 days**. 
+    - Set the **Retention period** to **5** days. 
     - Be sure to **Save** your changes. 
-    - Try to remove the file in the container. 
-    - Verify you can't delete the file due to policy. 
+    - Try to **delete** the file in the container. 
+    - Verify you are notified **failed to delete blobs** due to policy.  
 
 1. The developers require an encryption scope that enables infrastructure encryption. [Learn more about infrastructure encryption](https://learn.microsoft.com/azure/storage/common/infrastructure-encryption-enable?tabs=portal).
 
-    - Continue working with your new storage account. 
+    - Naviage back to your storage account. 
     - In the **Security + networking** blade, select **Encryption**.
-     -In the **Encryption scopes** tab, select **Add**.
-        - Give your encryption scope a **name**. 
-        - The encryption type is **Microsoft-managed key**.
-        - Set infrastructure encryption to **Enable**. 
+    -In the **Encryption scopes** tab, select **Add**.
+    - Give your encryption scope a **name**. 
+    - The **encryption type** is **Microsoft-managed key**.
+    - Set **infrastructure encryption** to **Enable**.
+    - Notice the warning that enabling infrastructure encryption can not be changed after the scope is created.
+    - **Create** the encryption scope.
 
 
 >**Note**: For additional practice complete the [Secure and isolate access to Azure resources by using network security groups and service endpoints](https://learn.microsoft.com/training/modules/secure-and-isolate-with-nsg-and-service-endpoints/) module. The module has a sandbox where you can get more practice restricting access to storage.
