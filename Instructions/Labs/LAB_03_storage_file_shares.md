@@ -48,7 +48,7 @@ The company is geographically dispersed with offices in different locations.  Th
 1. Add a directory to the file share for the finance department. For future testing, upload a file. 
 
     - Select your file share and select **+ Add directory**. 
-    - Name the new directory **finance**.
+    - Name the new directory `finance`.
     - Select **Browse** and then select the **finance** directory.
     - Notice you can **Add directory** to further organize your file share.
     - **Upload** a file of your choosing. 
