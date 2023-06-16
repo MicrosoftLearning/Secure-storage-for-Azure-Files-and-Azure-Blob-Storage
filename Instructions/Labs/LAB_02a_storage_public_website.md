@@ -66,7 +66,7 @@ The company website supplies product images, videos, marketing literature, and c
 
 ### Configure soft delete
 
-1. It's important that the website documents can be restored if they're deleted. Configure blob soft delete for 21 days. Learn more about [soft delete for blobs](https://learn.microsoft.com/azure/storage/blobs/soft-delete-blob-overview).
+1. It's important that the website documents can be restored if they're deleted. Configure blob soft delete for 21 days. Learn more about [soft delete for blobs](https://learn.microsoft.com/azure/storage/blobs/soft-delete-container-enable?tabs=azure-portal).
     - Go to the **Overview** blade of the **storage account**.
     - On the **Properties** page, locate the **Blob service** section.
     - Select the **Blob soft delete** setting.
@@ -83,7 +83,7 @@ The company website supplies product images, videos, marketing literature, and c
     - Refresh the container and confirm the file has been restored.     
 
 ### Configure blob versioning
-1. It's important to keep track of the different website product document versions. Learn more about [blob versioning](https://learn.microsoft.com/azure/storage/blobs/versioning-overview).
+1. It's important to keep track of the different website product document versions. Learn more about [blob versioning](https://learn.microsoft.com/azure/storage/blobs/versioning-enable?tabs=portal).
     - Go to the **Overview** blade of the **storage account**.
     - In the **Properties** section, locate the **Blob service** section.
     - Select on **Versioning** setting.
