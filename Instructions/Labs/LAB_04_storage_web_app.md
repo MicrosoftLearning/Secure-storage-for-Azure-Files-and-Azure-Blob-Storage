@@ -24,16 +24,26 @@ The company is designing and developing a new app. Developers need to ensure the
 
 >**Note**: To complete this lab you will need an [Azure subscription](https://azure.microsoft.com/free/).
 
-### Create the storage account for the developers.
+### Create the storage account for the developers and configure your permissions.
 
 1. Provide a storage account for the app. 
-
-    - Search the portal for **Storage accounts**. 
+    - In the portal, search for and select **Storage accounts**. 
     - Select **+ Create**.
     - For **Resource group** select **Create new**. Give your resource group a **name** and select **OK** to save your changes.
     - Provide a **Storage account name**. Ensure the name is unique and meets the naming requirements. 
     - **Review**, and then **Create** the storage account.
     - Wait for the resource to deploy.
+
+1. To ensure you can complete this lab, assign permissions to your user.
+    - In the portal, search for and select **Resource groups**. 
+    - Select your **resource group**, and then the **Access Control (IAM)** blade.
+    - Select **Add role assignment** (center of the page).
+    - On the **Job functions roles** page, search for and select the **Key Vault Administrator** role.
+    - On the **Members** page, select **User, group, or service principal**.
+    - Select **Select members**, and select your account. The user account is shown in the top right of the portal.
+    - Click **Select** and then **Review + assign** the role. 
+    - Select **Review + assign** a second time to add the role assignment.
+    - You are now ready to continue with the lab. 
 
 ### Create and configure a managed identity to access to the storage account.
 
@@ -50,9 +60,9 @@ The company is designing and developing a new app. Developers need to ensure the
     - Search for and select your **storage account**.
     - Select the **Access Control (IAM)** blade.
     - Select **Add role assignment** (center of the page).
-    - Search for and select the **Storage Data Blob Reader** role. 
-    - On the **Members** tab, select **Managed identity**.
-    - Select **Select members**, i the **Managed identity** drop-down select **User-assigned managed identity**.
+    - On the **Job functions roles** page, search for and select the **Storage Data Blob Reader** role. 
+    - On the **Members** page, select **Managed identity**.
+    - Select **Select members**, in the **Managed identity** drop-down select **User-assigned managed identity**.
     - Select the managed identity you created in the previous step. 
     - Click **Select** and then **Review + assign** the role. 
     - Select **Review + assign** a second time to add the role assignment.
@@ -87,12 +97,12 @@ The company is designing and developing a new app. Developers need to ensure the
         - Ensure the **Identity type** is **System-assigned**
         - **Save** your changes. 
 
-### Configure an time-based retention immutable storage policy.
+### Configure an time-based retention policy and an encryption scope.
 
 1. The developers require a storage container where files can't be modified, even by the administrator. [Learn more about blob immutable storage](https://learn.microsoft.com/azure/storage/blobs/immutable-storage-overview).
 
     - In your storage account, select the **Container** blade. 
-    - Create a container called **hold** and upload a file to the container. 
+    - Create a container called **hold** and upload a file to the container.
     - From the **Overview** blade of your container, select the **Access policy** blade. 
     - In the **Immutable blob storage** section, select **+ Add policy**. 
     - For the **Policy type**, select **time-based retention**. 
@@ -100,8 +110,6 @@ The company is designing and developing a new app. Developers need to ensure the
     - Be sure to **Save** your changes. 
     - Try to remove the file in the container. 
     - Verify you can't delete the file due to policy. 
-
-### Configure an encryption scope that enables infrastructure encryption
 
 1. The developers require an encryption scope that enables infrastructure encryption. [Learn more about infrastructure encryption](https://learn.microsoft.com/azure/storage/common/infrastructure-encryption-enable?tabs=portal).
 
