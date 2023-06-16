@@ -36,7 +36,7 @@ The IT department needs to prototype different storage scenarios and to train ne
 
 ### Configure simple settings in the storage account.
 
-1. The data in this storage account doesn't require high availability or durability. A lowest cost storage solution is desired. Learn more about [storage account redundancy](https://learn.microsoft.com//azure/storage/common/storage-redundancy).
+1. The data in this storage account doesn't require high availability or durability. A lowest cost storage solution is desired. Learn more about [storage account redundancy](https://learn.microsoft.com/azure/storage/common/storage-redundancy#locally-redundant-storage).
     - In your storage account, in the **Data management** section, select the **Redundancy** blade.
     - Select **Locally-redundant storage (LRS)** in the **Redundancy** drop-down. 
     - Be sure to **Save** your changes. 
