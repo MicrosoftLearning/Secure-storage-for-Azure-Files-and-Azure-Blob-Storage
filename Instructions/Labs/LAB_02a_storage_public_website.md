@@ -30,7 +30,7 @@ The company website supplies product images, videos, marketing literature, and c
     - Select **Review** and then **Create**.
     - Wait for the storage account to deploy, and then select **Go to resource**.
          
-1. This storage requires high availability if there's a regional outage. Additionally, enable read access to the secondary region, [Learn more about storage account redundancy](https://learn.microsoft.com//azure/storage/common/storage-redundancy).
+1. This storage requires high availability if there's a regional outage. Additionally, enable read access to the secondary region, Learn more about [storage account redundancy](https://learn.microsoft.com/azure/storage/common/storage-redundancy#geo-redundant-storage).
 
     - In the storage account, in the **Data management** section, select the **Redundancy** blade. 
     - Ensure **Read-access Geo-redundant storage** is selected.
@@ -38,13 +38,13 @@ The company website supplies product images, videos, marketing literature, and c
 
 ### Create a blob storage container with anonymous read access
 
-1. The public website has various images and documents. Create a blob storage container for the content. [Learn more about storage containers](https://learn.microsoft.com/azure/storage/blobs/storage-blobs-introduction#containers).
+1. The public website has various images and documents. Create a blob storage container for the content. Learn more about [storage containers](https://learn.microsoft.com/azure/storage/blobs/storage-blobs-introduction#containers).
     - In your storage account, in the **Data storage** section, select the **Containers** blade. 
     - Select **+ Container**. 
     - Ensure the **Name** of the container is **public**. 
     - Select **Create**. 
     
-1. Customers should be able to view the images without being authenticated. Configure anonymous read access for the public container blobs.  [Learn more about configuring anonymous public access.](https://learn.microsoft.com/azure/storage/blobs/anonymous-read-access-configure?tabs=portal).
+1. Customers should be able to view the images without being authenticated. Configure anonymous read access for the public container blobs.  Learn more about [configuring anonymous public access](https://learn.microsoft.com/azure/storage/blobs/anonymous-read-access-configure?tabs=portal).
     - Select your **public** container. 
     - On the **Overview** blade, select **Change access level**. 
     - Ensure the **Public access level** is **Blob (anonymous read access for blobs only)**.
@@ -66,7 +66,7 @@ The company website supplies product images, videos, marketing literature, and c
 
 ### Configure soft delete
 
-1. It's important that the website documents can be restored if they're deleted. Configure blob soft delete for 21 days. [Learn more about soft delete for blobs](https://learn.microsoft.com/azure/storage/blobs/soft-delete-blob-overview).
+1. It's important that the website documents can be restored if they're deleted. Configure blob soft delete for 21 days. Learn more about [soft delete for blobs](https://learn.microsoft.com/azure/storage/blobs/soft-delete-blob-overview).
     - Go to the **Overview** blade of the **storage account**.
     - On the **Properties** page, locate the **Blob service** section.
     - Select the **Blob soft delete** setting.
@@ -83,7 +83,7 @@ The company website supplies product images, videos, marketing literature, and c
     - Refresh the container and confirm the file has been restored.     
 
 ### Configure blob versioning
-1. It's important to keep track of the different website product document versions. [Learn more about blob versioning](https://learn.microsoft.com/azure/storage/blobs/versioning-overview).
+1. It's important to keep track of the different website product document versions. Learn more about [blob versioning](https://learn.microsoft.com/azure/storage/blobs/versioning-overview).
     - Go to the **Overview** blade of the **storage account**.
     - In the **Properties** section, locate the **Blob service** section.
     - Select on **Versioning** setting.
@@ -91,7 +91,7 @@ The company website supplies product images, videos, marketing literature, and c
     - Notice your options to **keep all versions** or **delete versions after**. 
     - Don't forget to **Save** your changes. 
 
-1. As you have time experiment with [blob versioning](https://learn.microsoft.com/azure/storage/blobs/versioning-enable?tabs=portal).
+1. As you have time experiment with restoring previous blob versions.
    - **Upload** another version of your container file. This overwrites your existing file. 
    - Your previous file version is listed on **Show deleted blobs** page. 
     
