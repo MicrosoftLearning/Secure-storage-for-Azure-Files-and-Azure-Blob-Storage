@@ -4,6 +4,8 @@ lab:
     module: 'Guided Project - Azure Files and Azure Blobs'
 ---
 
+# Provide private storage for internal company documents
+
 The company needs storage for their offices and departments. This content is private to the company and shouldn't be shared without consent. This storage requires high availability if there's a regional outage. The company wants to use this storage to back up the public website. 
 
 ## Architecture diagram
