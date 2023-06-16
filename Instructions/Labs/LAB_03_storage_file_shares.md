@@ -59,7 +59,9 @@ The company is geographically dispersed with offices in different locations.  Th
     
     - Select your file share.
     - In the **Operations** section, select the **Snapshots** blade. 
-    - Select **+ Add snapshot**. The comment is optional. Select **OK**. 
+    - Select **+ Add snapshot**. The comment is optional. Select **OK**.
+  
+1. Practice using snapshots to restore a file.
     - Select your uploaded file and in the **Properties** pane select **Delete**. Select **Yes** to confirm the deletion. 
     - Select the **Snapshots** blade and then select your snapshot. 
     - Navigate to the file you want to restore,
