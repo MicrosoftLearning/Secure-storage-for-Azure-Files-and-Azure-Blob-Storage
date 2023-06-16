@@ -27,7 +27,7 @@ The company needs storage for their offices and departments. This content is pri
     - In the portal, search for and select **Storage accounts**.  
     - Select **+ Create**. 
     - Select the **Resource group** created in the previous lab.   
-    - Set the **Storage account name** to **private**. Add an identifier to the name to ensure the name is unique. 
+    - Set the **Storage account name** to `private`. Add an identifier to the name to ensure the name is unique. 
     - Select **Review**, and then **Create** the storage account. 
     - Wait for the storage account to deploy, and then select **Go to resource**.
 
@@ -45,7 +45,7 @@ The company needs storage for their offices and departments. This content is pri
 
     - In the storage account, in the **Data storage** section, select the **Containers** blade. 
     - Select **+ Container**. 
-    - Ensure the **Name** of the container is **private**.
+    - Ensure the **Name** of the container is `private`.
     - Ensure the **Public access level** is **Private (no anonymous access)**.
     - As you have time, review the **Advanced** settings, but take the defaults. 
     - Select **Create**. 
@@ -77,7 +77,7 @@ The company needs storage for their offices and departments. This content is pri
     - Return to the **storage account**.
     - In the **Data management** section, select the **Lifecycle management blade**.
     - Select **Add rule**. 
-    - Set the **Rule name** to **movetocool**.
+    - Set the **Rule name** to `movetocool`.
     - Set the **Rule scope** to **Apply rule to all blobs in the storage account**.
     - Select **Next**.
     - Ensure **Last modified** is selected.
