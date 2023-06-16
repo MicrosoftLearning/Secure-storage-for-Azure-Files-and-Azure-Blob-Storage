@@ -18,7 +18,7 @@ The IT department needs to prototype different storage scenarios and to train ne
 ### Create a resource group and a storage account.
 
 1. Create and deploy a resource group to hold all your project resources. Learn more about [resource groups](https://learn.microsoft.com/azure/azure-resource-manager/management/manage-resource-groups-portal).
-    - In the Azure portal, search for and select **Resource groups**.
+    - In the Azure portal, search for and select `Resource groups`.
     - Select **+ Create**.
     - Give your resource group a **name**. 
     - Select a **region**. Use this region throughout the project. 
@@ -26,7 +26,7 @@ The IT department needs to prototype different storage scenarios and to train ne
     - Select **Create** to deploy the resource group.
 
 1. Create and deploy a storage account to support testing and training. Learn more about the [types of storage accounts](https://learn.microsoft.com/azure/storage/common/storage-account-overview#types-of-storage-accounts).
-    - In the Azure portal, search for and select  **Storage accounts**. 
+    - In the Azure portal, search for and select  `Storage accounts`. 
     - Select **+ Create**.
     - On the **Basics** tab, select your **Resource group**.
     - Provide a **Storage account name**. The storage account name must be unique in Azure. 
