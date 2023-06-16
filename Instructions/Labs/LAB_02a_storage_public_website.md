@@ -25,7 +25,7 @@ The company website supplies product images, videos, marketing literature, and c
     - In the portal, search for and select **Storage accounts**.  
     - Select **+ Create**. 
     - For **resource group** select **new**. Give your resource group a **name** and select **OK**. 
-    - Set the **Storage account name** to **publicwebsite**. Make sure the storage account name is unique by adding an identifier.
+    - Set the **Storage account name** to `publicwebsite`. Make sure the storage account name is unique by adding an identifier.
     - Take the defaults for other settings. 
     - Select **Review** and then **Create**.
     - Wait for the storage account to deploy, and then select **Go to resource**.
@@ -41,7 +41,7 @@ The company website supplies product images, videos, marketing literature, and c
 1. The public website has various images and documents. Create a blob storage container for the content. Learn more about [storage containers](https://learn.microsoft.com/azure/storage/blobs/storage-blobs-introduction#containers).
     - In your storage account, in the **Data storage** section, select the **Containers** blade. 
     - Select **+ Container**. 
-    - Ensure the **Name** of the container is **public**. 
+    - Ensure the **Name** of the container is `public`. 
     - Select **Create**. 
     
 1. Customers should be able to view the images without being authenticated. Configure anonymous read access for the public container blobs.  Learn more about [configuring anonymous public access](https://learn.microsoft.com/azure/storage/blobs/anonymous-read-access-configure?tabs=portal).
