@@ -12,9 +12,9 @@ The company needs storage for their offices and departments. This content is pri
 ![Diagram with one storage account and two blob containers](../Media/task_02b.png)
 
 ## Skilling tasks
-- Create a storage account.
-- Create a storage container with restricted access.
-- Configure a shared access signature for partners.
+- Create a storage account for the company private documents.
+- Configure redundancy for the storage account. 
+- Configure a shared access signature so partners have restricted access to a file. 
 - Back up the public website storage.
 - Implement lifecycle management to move content to the cool tier.
 
@@ -65,7 +65,7 @@ The company needs storage for their offices and departments. This content is pri
 1. An external partner requires read and write access to the file for at least the next 24 hours. Configure and test a shared access signature (SAS). Learn more about [Shared Access Signatures](https://learn.microsoft.com/azure/storage/common/storage-sas-overview).
 
     - Select your uploaded blob file and move to the **Generate SAS** tab. 
-    - In the **Permissions** drop-down, ensure the **Read** and **Write** permissions are selected. 
+    - In the **Permissions** drop-down, ensure the partner has only **Read** permissions.
     - Verify the **Start and expiry date/time** is for the next 24 hours. 
     - Select **Generate SAS token and URL**.
     - Copy the **Blob SAS URL** to a new browser tab.
@@ -76,6 +76,7 @@ The company needs storage for their offices and departments. This content is pri
 1. To save on costs, after 30 days, move blobs from the hot tier to the cool tier. Learn more how manage the [Azure Blob storage lifecycle](https://learn.microsoft.com/azure/storage/blobs/lifecycle-management-policy-configure?tabs=azure-portal).
 
     - Return to the **storage account**.
+    - In the **Overview** section, notice the **Default access tier** is set to **Hot**. 
     - In the **Data management** section, select the **Lifecycle management blade**.
     - Select **Add rule**. 
     - Set the **Rule name** to `movetocool`.
@@ -89,7 +90,7 @@ The company needs storage for their offices and departments. This content is pri
   
 1. The public website files need to be backed up to another storage account.[Learn more about [object replication](https://learn.microsoft.com/azure/storage/blobs/object-replication-configure?tabs=portal).
 
-    - In your storage account, create a new container called **backup**. Use the default values.
+    - In your storage account, **create** a new container called `backup`. Use the default values. Refer back to Lab 02a if you need detailed instructions. 
     - Navigate to your **publicwebsite** storage account. This storage account was created in the previous exercise. 
         - In the **Data management** section, select the **Object replication** blade. 
         - Select **Create replication rules**.
