@@ -20,7 +20,7 @@ The IT department needs to prototype different storage scenarios and to train ne
 1. Create and deploy a resource group to hold all your project resources. Learn more about [resource groups](https://learn.microsoft.com/azure/azure-resource-manager/management/manage-resource-groups-portal).
     - In the Azure portal, search for and select `Resource groups`.
     - Select **+ Create**.
-    - Give your resource group a **name**. 
+    - Give your resource group a **name**. For example, `storagerg`.
     - Select a **region**. Use this region throughout the project. 
     - Select **Review and create** to validate the resource group.
     - Select **Create** to deploy the resource group.
@@ -51,7 +51,7 @@ The IT department needs to prototype different storage scenarios and to train ne
     - Ensure the **Minimal TLS version** is set to **Version 1.2**.  
 
 
-1. Until the storage is needed again, disable requests to the storage account for both shared keys and shared access signatures. Learn more about [disabling shared keys](https://learn.microsoft.com/azure/storage/common/shared-key-authorization-prevent?tabs=portal#disable-shared-key-authorization).
+1. Until the storage is needed again, disable requests to the storage account. Learn more about [disabling shared keys](https://learn.microsoft.com/azure/storage/common/shared-key-authorization-prevent?tabs=portal#disable-shared-key-authorization).
     - In the **Settings** section, select the **Configuration** blade.
     - Ensure **Allow storage account key access** is **Disabled**.
     - Be sure to **Save** your changes. 
