@@ -12,9 +12,11 @@ The company website supplies product images, videos, marketing literature, and c
 ![Diagram with one storage account and one blob container.](../Media/task_02a.png)
 
 ## Skilling tasks
-- Create a storage account with anonymous public access.
-- Create a blob storage container.
-- Enable soft delete and versioning.
+- Create a storage account with high availability.
+- Ensure the storage account has anonymous public access.
+- Create a blob storage container for the website documents.
+- Enable soft delete so files can be easily restored.
+- Enable blob versioning. 
 
 
 ## Exercise instructions
@@ -23,7 +25,7 @@ The company website supplies product images, videos, marketing literature, and c
 
 1. Create a storage account to support the public website.
 
-    - In the portal, search for and select **Storage accounts**.  
+    - In the portal, search for and select `Storage accounts`.  
     - Select **+ Create**. 
     - For **resource group** select **new**. Give your resource group a **name** and select **OK**. 
     - Set the **Storage account name** to `publicwebsite`. Make sure the storage account name is unique by adding an identifier.
@@ -72,10 +74,11 @@ The company website supplies product images, videos, marketing literature, and c
     - On the **Properties** page, locate the **Blob service** section.
     - Select the **Blob soft delete** setting.
     - Ensure the **Enable soft delete for blobs** is **checked**.
-    - Change the **Keep deleted blobs for (in days** setting is **21**. 
+    - Change the **Keep deleted blobs for (in days** setting is **21**.
+    - Notice you can also **Enable soft delete for containers**. 
     - Don't forget to **Save** your changes. 
 
-1. If something does get deleted, you need to practice using soft delete to restore the files.
+1. If something gets deleted, you need to practice using soft delete to restore the files.
     - Navigate to your container where you uploaded a file.
     - Select the file you uploaded and then select **Delete**.
     - Select **OK** to confirm deleting the file.  
@@ -87,8 +90,8 @@ The company website supplies product images, videos, marketing literature, and c
 1. It's important to keep track of the different website product document versions. Learn more about [blob versioning](https://learn.microsoft.com/azure/storage/blobs/versioning-enable?tabs=portal).
     - Go to the **Overview** blade of the **storage account**.
     - In the **Properties** section, locate the **Blob service** section.
-    - Select on **Versioning** setting.
-    - Select the **Enable versioning for blobs** checkbox is checked.
+    - Select the **Versioning** setting.
+    - Ensure the **Enable versioning for blobs** checkbox is checked.
     - Notice your options to **keep all versions** or **delete versions after**. 
     - Don't forget to **Save** your changes. 
 
