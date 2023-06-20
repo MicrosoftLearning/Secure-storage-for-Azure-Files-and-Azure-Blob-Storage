@@ -21,7 +21,7 @@ The company is designing and developing a new app. Developers need to ensure the
 
 ## Exercise instructions
 
-### Create the storage account for the developers and configure your permissions.
+### Create the storage account for the developers.
 
 1. Provide a storage account for the app. 
     - In the portal, search for and select **Storage accounts**. 
@@ -31,11 +31,9 @@ The company is designing and developing a new app. Developers need to ensure the
     - **Review**, and then **Create** the storage account.
     - Wait for the resource to deploy.
 
-
-
 ### Create and configure a managed identity to access to the storage account.
 
-1. Provide a user-assigned managed identity for the storage to use.  Learn more about [managed identities](https://learn.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview).
+1. Provide a user-assigned managed identity for the web app to use.  Learn more about [managed identities](https://learn.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview).
 
     - Search for and select **Managed identities**.
     - Select **Create**.
@@ -58,7 +56,7 @@ The company is designing and developing a new app. Developers need to ensure the
 
 ### Secure access to the storage account with a key vault and key
 
-1. To create the key vault and key needed for this part of the lab, your identity must have Key Vault Administrator permissions. Learn more about how to [provide access to Key Vault keys, certificates, and secrets with an Azure role-based access control](https://learn.microsoft.com/azure/key-vault/general/rbac-guide?tabs=azure-cli)
+1. To create the key vault and key needed for this part of the lab, your managed identity must have Key Vault Administrator permissions. Learn more about how to [provide access to Key Vault keys, certificates, and secrets with an Azure role-based access control](https://learn.microsoft.com/azure/key-vault/general/rbac-guide?tabs=azure-cli)
     - In the portal, search for and select **Resource groups**. 
     - Select your **resource group**, and then the **Access Control (IAM)** blade.
     - Select **Add role assignment** (center of the page).
@@ -78,20 +76,30 @@ The company is designing and developing a new app. Developers need to ensure the
     - Select **Review + create**, and then **Create**.
     - After the deployment, select **Go to resource**. 
 
-
 1. Create a customer-managed key in the key vault. 
 
     - In your **key vault**, in the **Objects** section, select the **Keys** blade.
     - Select **Generate/Import** and **Name** the key.
     - Take the defaults for the rest of the parameters, and **Create** the key.
 
-1. Configure the storage account to use a customer managed keys from your key vault. Learn more about [customer managed keys on an existing storage account](https://learn.microsoft.com/azure/storage/common/customer-managed-keys-configure-existing-account?WT.mc_id=Portal-Microsoft_Azure_Storage&tabs=azure-portal).
+### Configure the storage account to use the customer managed key in the key vault
 
+1. Before you can configure customer-managed keys with a system-assigned managed identity, you must assign the Key Vault Crypto Service Encryption User role to the system-assigned managed identity, scoped to the key vault. Learn more about how to [use a system-assigned managed identity to authorize access](https://learn.microsoft.com/azure/storage/common/customer-managed-keys-configure-existing-account?tabs=azure-portal#use-a-system-assigned-managed-identity-to-authorize-access)
+    - In the portal, search for and select **Storage accounts**. 
+    - Select your **storage account**, and then the **Access Control (IAM)** blade.
+    - Select **Add role assignment** (center of the page).
+    - On the **Job functions roles** page, search for and select the **Key Vault Crypto Service Encryption User** role.
+    - On the **Members** page, select **Managed identity**.
+    - Select **Select members**, and select your **managed identity**.
+    - Click **Select** and then **Review + assign** the role. 
+    - Select **Review + assign** a second time to add the role assignment.
+    
+1. Configure the storage account to use the customer managed key in your key vault. Learn more about [customer managed keys on an existing storage account](https://learn.microsoft.com/azure/storage/common/customer-managed-keys-configure-existing-account?WT.mc_id=Portal-Microsoft_Azure_Storage&tabs=azure-portal).
     - Return to your the storage account.
     - In the **Security + networking** section, selet the **Encryption** blade.
     - Select **Customer-managed keys**.
-    - **Select a key vault and key**. Select your key vault and key, then **Select** your choices. 
-    - Make sure to **Save** your selections.
+    - **Select a key vault and key**. Select your key vault and key.
+    - **Select** to confirm your choices. 
     - Ensure the **Identity type** is **System-assigned**
     - **Save** your changes. 
 
