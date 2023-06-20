@@ -26,7 +26,7 @@ The company is designing and developing a new app. Developers need to ensure the
 1. Provide a storage account for the app. 
     - In the portal, search for and select **Storage accounts**. 
     - Select **+ Create**.
-    - For **Resource group** select **Create new**. Give your resource group a **name** and select **OK** to save your changes. If you have an existing resource group you can use that in this lab. 
+    - For **Resource group** select **Create new**. Give your resource group a **name** and select **OK** to save your changes.
     - Provide a **Storage account name**. Ensure the name is unique and meets the naming requirements. 
     - **Review**, and then **Create** the storage account.
     - Wait for the resource to deploy.
