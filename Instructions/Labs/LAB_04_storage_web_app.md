@@ -26,21 +26,12 @@ The company is designing and developing a new app. Developers need to ensure the
 1. Provide a storage account for the app. 
     - In the portal, search for and select **Storage accounts**. 
     - Select **+ Create**.
-    - For **Resource group** select **Create new**. Give your resource group a **name** and select **OK** to save your changes.
+    - For **Resource group** select **Create new**. Give your resource group a **name** and select **OK** to save your changes. If you have an existing resource group you can use that in this lab. 
     - Provide a **Storage account name**. Ensure the name is unique and meets the naming requirements. 
     - **Review**, and then **Create** the storage account.
     - Wait for the resource to deploy.
 
-1. To ensure you can complete this lab, assign permissions to your user.
-    - In the portal, search for and select **Resource groups**. 
-    - Select your **resource group**, and then the **Access Control (IAM)** blade.
-    - Select **Add role assignment** (center of the page).
-    - On the **Job functions roles** page, search for and select the **Key Vault Administrator** role.
-    - On the **Members** page, select **User, group, or service principal**.
-    - Select **Select members**, and select your account. The user account is shown in the top right of the portal.
-    - Click **Select** and then **Review + assign** the role. 
-    - Select **Review + assign** a second time to add the role assignment.
-    - You are now ready to continue with the lab. 
+
 
 ### Create and configure a managed identity to access to the storage account.
 
@@ -48,7 +39,7 @@ The company is designing and developing a new app. Developers need to ensure the
 
     - Search for and select **Managed identities**.
     - Select **Create**.
-        - Use your new **resource group**. 
+        - Select your **resource group**. 
         - Give your managed identity a name.
     - Select **Review and create**, and then **Create**. 
 
@@ -67,7 +58,16 @@ The company is designing and developing a new app. Developers need to ensure the
 
 ### Secure access to the storage account with a key vault and key
 
-1. To create the key vault and key needed for this part of the lab, your identity must be Key Vault Administrator. Learn more about how to [provide access to Key Vault keys, certificates, and secrets with an Azure role-based access control](https://learn.microsoft.com/azure/key-vault/general/rbac-guide?tabs=azure-cli)
+1. To create the key vault and key needed for this part of the lab, your identity must have Key Vault Administrator permissions. Learn more about how to [provide access to Key Vault keys, certificates, and secrets with an Azure role-based access control](https://learn.microsoft.com/azure/key-vault/general/rbac-guide?tabs=azure-cli)
+    - In the portal, search for and select **Resource groups**. 
+    - Select your **resource group**, and then the **Access Control (IAM)** blade.
+    - Select **Add role assignment** (center of the page).
+    - On the **Job functions roles** page, search for and select the **Key Vault Administrator** role.
+    - On the **Members** page, select **User, group, or service principal**.
+    - Select **Select members**, and select your user account. Your user account is shown in the top right of the portal.
+    - Click **Select** and then **Review + assign** the role. 
+    - Select **Review + assign** a second time to add the role assignment.
+    - You are now ready to continue with the lab.
 
 1. Create a key vault to store the access keys. 
 
@@ -81,17 +81,17 @@ The company is designing and developing a new app. Developers need to ensure the
 
 1. Create a customer-managed key in the key vault. 
 
-    - Select your key vault.
-    - In the **Objects** section, select the **Keys** blade.
+    - In your **key vault**, in the **Objects** section, select the **Keys** blade.
     - Select **Generate/Import** and **Name** the key.
     - Take the defaults for the rest of the parameters, and **Create** the key.
 
-1. Configure the storage account encryption to use customer managed keys in your key vault. Learn more about [customer managed keys on an existing storage account](https://learn.microsoft.com/azure/storage/common/customer-managed-keys-configure-existing-account?WT.mc_id=Portal-Microsoft_Azure_Storage&tabs=azure-portal).
+1. Configure the storage account to use a customer managed keys from your key vault. Learn more about [customer managed keys on an existing storage account](https://learn.microsoft.com/azure/storage/common/customer-managed-keys-configure-existing-account?WT.mc_id=Portal-Microsoft_Azure_Storage&tabs=azure-portal).
 
     - Return to your the storage account.
     - In the **Security + networking** section, selet the **Encryption** blade.
     - Select **Customer-managed keys**.
-    - **Select a key vault and key**. Work through the selection to locate your key vault and key. Make sure to **Save** your selections.
+    - **Select a key vault and key**. Select your key vault and key, then **Select** your choices. 
+    - Make sure to **Save** your selections.
     - Ensure the **Identity type** is **System-assigned**
     - **Save** your changes. 
 
