@@ -100,14 +100,16 @@ The company is designing and developing a new app. Developers need to ensure the
     - **Select a key vault and key**. Select your key vault and key.
     - **Select** to confirm your choices. 
     - Ensure the **Identity type** is **User-assigned**.
-    - Select your managed identity. 
+    - **Select an identity**.
+    - Select your managed identity then select **Add**. 
     - **Save** your changes. 
 
 ### Configure an time-based retention policy and an encryption scope.
 
 1. The developers require a storage container where files can't be modified, even by the administrator. Learn more about [blob immutable storage](https://learn.microsoft.com/azure/storage/blobs/immutable-storage-overview).
 
-    - In the **Data storage** section, select the **Container** blade. 
+    - Navigate to your **storage account**.
+    - In the **Data storage** section, select the **Containers** blade. 
     - Create a container called **hold** and upload a file to the container. 
     - In the **Settings** section, select the **Access policy** blade. 
     - In the **Immutable blob storage** section, select **+ Add policy**. 
@@ -119,14 +121,17 @@ The company is designing and developing a new app. Developers need to ensure the
 
 1. The developers require an encryption scope that enables infrastructure encryption. Learn more about [infrastructure encryption](https://learn.microsoft.com/azure/storage/common/infrastructure-encryption-enable?tabs=portal).
 
-    - Naviage back to your storage account. 
+    - Navigate back to your storage account. 
     - In the **Security + networking** blade, select **Encryption**.
-    -In the **Encryption scopes** tab, select **Add**.
+    - In the **Encryption scopes** tab, select **Add**.
     - Give your encryption scope a **name**. 
     - The **encryption type** is **Microsoft-managed key**.
     - Set **infrastructure encryption** to **Enable**.
     - Notice the warning that enabling infrastructure encryption can not be changed after the scope is created.
     - **Create** the encryption scope.
+    - Return to your storage account and create a new container.
+    - Notice on the **New container** page, there is the **Name** and **Public access level**.
+    - Notice in the **Advanced** section you can select the **Encryption scope** you created and apply it to all blobs in the container. 
 
 
 >**Note**: For additional practice complete the [Secure and isolate access to Azure resources by using network security groups and service endpoints](https://learn.microsoft.com/training/modules/secure-and-isolate-with-nsg-and-service-endpoints/) module. The module has a sandbox where you can get more practice restricting access to storage.
