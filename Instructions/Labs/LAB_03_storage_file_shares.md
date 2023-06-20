@@ -13,8 +13,8 @@ The company is geographically dispersed with offices in different locations.  Th
 ![Diagram with a storage account, file share, and directory](../Media/task_03.png)
 
 ## Skilling tasks
-- Create a storage account. 
-- Configure a file share and directory. 
+- Create a storage account specifically for file shares. 
+- Configure a file share and directory.  
 - Configure snapshots and practice restoring files. 
 - Restrict access to a specific virtual network and subnet. 
 
@@ -26,7 +26,7 @@ The company is geographically dispersed with offices in different locations.  Th
 
 1. Create a storage account for the finance department's shared files.  Learn more about storage accounts for [Azure Files deployments](https://learn.microsoft.com/azure/storage/files/storage-files-planning#management-concepts).
 
-    - In the portal, search for and select **Storage accounts**.
+    - In the portal, search for and select `Storage accounts`.
     - Select **+ Create**.
     - For **Resource group** select **Create new**. Give your resource group a **name** and select **OK** to save your changes. 
     - Provide a **Storage account name**. Ensure the name meets the naming requirements. 
@@ -61,20 +61,24 @@ The company is geographically dispersed with offices in different locations.  Th
     - Select your file share.
     - In the **Operations** section, select the **Snapshots** blade. 
     - Select **+ Add snapshot**. The comment is optional. Select **OK**.
+    - Select your snapshot and verify your file directory and uploaded file are included.
   
 1. Practice using snapshots to restore a file.
-    - Select your uploaded file and in the **Properties** pane select **Delete**. Select **Yes** to confirm the deletion. 
+    - Return to your **file share**.
+    - **Browse** to your file directory. 
+    - Locate your uploaded file and in the **Properties** pane select **Delete**. Select **Yes** to confirm the deletion. 
     - Select the **Snapshots** blade and then select your snapshot. 
     - Navigate to the file you want to restore,
     - Select the file and the select **Restore**.
-    - Confirm the file has been restored. 
+    - Provide a **Restored file name**. 
+    - Verify your file directory has the restored file.  
 
 ### Configure restricting storage access to selected virtual networks.
 
-1. Configure the virtual network and subnet this task requires. In a production environment these resources would already be created.
+1. This tasks in this section require a virtual network with subnet. In a production environment these resources would already be created.
     - Search for and select **Virtual networks**.
         - Select **Create**. Select your resource group. and give the virtual network a **name**.
-        - Take the defaults for other parameters, select **Create and review**, and then **Create**.
+        - Take the defaults for other parameters, select **Review + create**, and then **Create**.
         - Wait for the resource to deploy.
         - Select **Go to resource**. 
     - In the **Settings** section, select the **Subnets** blade.
@@ -83,7 +87,7 @@ The company is geographically dispersed with offices in different locations.  Th
         - Do not make any other changes.    
         - Be sure to **Save** your changes. 
    
-1. The storage should only be accessed from the selected virtual network. Learn more about using [private storage endpoints.](https://learn.microsoft.com/azure/storage/common/storage-private-endpoints).
+1. The storage account should only be accessed from the virtual network you just created. Learn more about using [private storage endpoints.](https://learn.microsoft.com/azure/storage/common/storage-private-endpoints).
 
     - Return to your **files storage account**. 
     - In the **Security + networking** section, select the **Networking** blade.
