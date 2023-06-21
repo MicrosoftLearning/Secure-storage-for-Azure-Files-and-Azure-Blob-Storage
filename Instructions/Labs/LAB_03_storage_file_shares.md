@@ -10,7 +10,7 @@ The company is geographically dispersed with offices in different locations.  Th
 
 ## Architecture diagram
 
-![Diagram with a storage account, file share, and directory](../Media/task_03.png)
+![Diagram with a storage account, file share, and directory](../Media/task-4.png)
 
 ## Skilling tasks
 - Create a storage account specifically for file shares. 
