@@ -7,7 +7,7 @@ lab:
 The IT department needs to prototype different storage scenarios and to train new personnel. The content isn't important enough to back up and doesn't need to be restored if the data is overwritten or removed. A simple configuration that can be easily changed is desired.
 
 ## Architecture diagram
-![Diagram with one storage account](../Media/task_01.png)
+![Diagram with one storage account](../Media/task-1.png)
 
 ## Skilling tasks
 - Create a storage account. 
