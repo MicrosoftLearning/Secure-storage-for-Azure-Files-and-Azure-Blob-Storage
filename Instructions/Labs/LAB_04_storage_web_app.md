@@ -13,9 +13,9 @@ The company is designing and developing a new app. Developers need to ensure the
 
 - Create the storage account for the web app.
 - Create and configure a managed identity to access to the storage account.
-- Secure access to the storage account with a key vault and key
-- Configure an time-based retention immutable storage policy.
-- Configure an encryption scope that enables infrastructure encryption.
+- Secure access to the storage account with a key vault and key.
+- Configure the storage account to use the customer managed key in the key vault
+- Configure an time-based retention policy and an encryption scope.
 
 ## Exercise instructions
 
