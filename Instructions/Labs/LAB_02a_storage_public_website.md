@@ -9,7 +9,7 @@ The company website supplies product images, videos, marketing literature, and c
 
 ## Architecture diagram
 
-![Diagram with one storage account and one blob container.](../Media/task_02a.png)
+![Diagram with one storage account and one blob container.](../Media/task-2.png)
 
 ## Skilling tasks
 - Create a storage account with high availability.
