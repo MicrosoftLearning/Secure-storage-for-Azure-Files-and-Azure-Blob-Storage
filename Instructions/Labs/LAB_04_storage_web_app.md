@@ -11,15 +11,14 @@ The company is designing and developing a new app. Developers need to ensure the
 
 ## Skilling tasks
 
-- Create the storage account for the web app.
-- Create and configure a managed identity to access to the storage account.
+- Create the storage account and managed identity.
 - Secure access to the storage account with a key vault and key.
 - Configure the storage account to use the customer managed key in the key vault
 - Configure an time-based retention policy and an encryption scope.
 
 ## Exercise instructions
 
-### Create the storage account for the web app.
+### Create the storage account and managed identity
 
 1. Provide a storage account for the web app. 
     - In the portal, search for and select **Storage accounts**. 
@@ -28,8 +27,6 @@ The company is designing and developing a new app. Developers need to ensure the
     - Provide a **Storage account name**. Ensure the name is unique and meets the naming requirements. 
     - **Review**, and then **Create** the storage account.
     - Wait for the resource to deploy.
-
-### Create and configure a managed identity to access to the storage account.
 
 1. Provide a managed identity for the web app to use.  Learn more about [managed identities](https://learn.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview).
 
