@@ -21,7 +21,7 @@ The company website supplies product images, videos, marketing literature, and c
 
 ## Exercise instructions
 
-### Create a storage account with high availability.
+## Create a storage account with high availability.
 
 1. Create a storage account to support the public website.
 
@@ -39,7 +39,7 @@ The company website supplies product images, videos, marketing literature, and c
     - Ensure **Read-access Geo-redundant storage** is selected.
     - Review the primary and secondary location information. 
 
-### Create a blob storage container with anonymous read access
+## Create a blob storage container with anonymous read access
 
 1. The public website has various images and documents. Create a blob storage container for the content. Learn more about [storage containers](https://learn.microsoft.com/azure/storage/blobs/storage-blobs-introduction#containers).
     - In your storage account, in the **Data storage** section, select the **Containers** blade. 
@@ -53,7 +53,7 @@ The company website supplies product images, videos, marketing literature, and c
     - Ensure the **Public access level** is **Blob (anonymous read access for blobs only)**.
     - Select **OK**. 
 
-### Practice uploading files and testing access.
+## Practice uploading files and testing access.
 
 1. For testing, upload a file to the **public** container. The type of file doesn't matter. A small image or text file is a good choice.  
     - Ensure you are viewing your container. 
@@ -67,7 +67,7 @@ The company website supplies product images, videos, marketing literature, and c
     - Paste the URL into a new browser tab.
     - If you have uploaded an image file it will display in the browser. Other file types should be downloaded. 
 
-### Configure soft delete
+## Configure soft delete
 
 1. It's important that the website documents can be restored if they're deleted. Configure blob soft delete for 21 days. Learn more about [soft delete for blobs](https://learn.microsoft.com/azure/storage/blobs/soft-delete-container-enable?tabs=azure-portal).
     - Go to the **Overview** blade of the **storage account**.
@@ -86,7 +86,7 @@ The company website supplies product images, videos, marketing literature, and c
     - Select your deleted file, and use the ellipses on the far right, to **Undelete** the file. 
     - Refresh the container and confirm the file has been restored.     
 
-### Configure blob versioning
+## Configure blob versioning
 1. It's important to keep track of the different website product document versions. Learn more about [blob versioning](https://learn.microsoft.com/azure/storage/blobs/versioning-enable?tabs=portal).
     - Go to the **Overview** blade of the **storage account**.
     - In the **Properties** section, locate the **Blob service** section.
