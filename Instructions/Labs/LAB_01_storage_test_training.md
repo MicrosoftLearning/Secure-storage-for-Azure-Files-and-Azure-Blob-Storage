@@ -15,7 +15,7 @@ The IT department needs to prototype different storage scenarios and to train ne
 
 ## Exercise instructions
 
-### Create a resource group and a storage account.
+## Create a resource group and a storage account.
 
 1. Create and deploy a resource group to hold all your project resources. Learn more about [resource groups](https://learn.microsoft.com/azure/azure-resource-manager/management/manage-resource-groups-portal).
     - In the Azure portal, search for and select `Resource groups`.
@@ -34,7 +34,7 @@ The IT department needs to prototype different storage scenarios and to train ne
     - Select **Review**, and then **Create**. 
     - Wait for the storage account to deploy and then **Go to resource**.  
 
-### Configure simple settings in the storage account.
+## Configure simple settings in the storage account.
 
 1. The data in this storage account doesn't require high availability or durability. A lowest cost storage solution is desired. Learn more about [storage account redundancy](https://learn.microsoft.com/azure/storage/common/storage-redundancy#locally-redundant-storage).
     - In your storage account, in the **Data management** section, select the **Redundancy** blade.
