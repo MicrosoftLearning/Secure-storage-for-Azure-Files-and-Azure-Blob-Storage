@@ -40,7 +40,7 @@ The company needs storage for their offices and departments. This content is pri
     - Review the primary and secondary location information. 
     - **Save** your changes.
 
-## Create a storage conainer, upload a file, and restrict access to the file. 
+## Create a storage container, upload a file, and restrict access to the file. 
 
 1. Create a private storage container for the corporate data. 
 
