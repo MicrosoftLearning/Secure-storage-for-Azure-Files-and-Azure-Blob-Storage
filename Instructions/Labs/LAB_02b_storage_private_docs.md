@@ -22,7 +22,7 @@ The company needs storage for their offices and departments. This content is pri
 
 > **Note**: These instruction require you to have completed **Lab 02a**, Provide storage for internal documents.
 
-### Create a storage account and configure high availability.
+## Create a storage account and configure high availability.
 
 1. Create a storage account for the internal private company documents.
     - In the portal, search for and select **Storage accounts**.  
@@ -40,7 +40,7 @@ The company needs storage for their offices and departments. This content is pri
     - Review the primary and secondary location information. 
     - **Save** your changes.
 
-### Create a storage conainer, upload a file, and restrict access to the file. 
+## Create a storage conainer, upload a file, and restrict access to the file. 
 
 1. Create a private storage container for the corporate data. 
 
@@ -71,7 +71,7 @@ The company needs storage for their offices and departments. This content is pri
     - Copy the **Blob SAS URL** to a new browser tab.
     - Verify you can access the file. If you have uploaded an image file it will display in the browser. Other file types will be downloaded.
 
-### Configure storage access tiers and content replication.
+## Configure storage access tiers and content replication.
 
 1. To save on costs, after 30 days, move blobs from the hot tier to the cool tier. Learn more how manage the [Azure Blob storage lifecycle](https://learn.microsoft.com/azure/storage/blobs/lifecycle-management-policy-configure?tabs=azure-portal).
 
