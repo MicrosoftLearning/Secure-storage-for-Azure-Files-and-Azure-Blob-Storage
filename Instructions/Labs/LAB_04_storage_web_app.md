@@ -18,7 +18,7 @@ The company is designing and developing a new app. Developers need to ensure the
 
 ## Exercise instructions
 
-### Create the storage account and managed identity
+## Create the storage account and managed identity
 
 1. Provide a storage account for the web app. 
     - In the portal, search for and select **Storage accounts**. 
@@ -49,7 +49,7 @@ The company is designing and developing a new app. Developers need to ensure the
     - Select **Review + assign** a second time to add the role assignment.
     - Your storage account can now be accessed by a managed identity with the Storage Data Blob Reader permissions. 
 
-### Secure access to the storage account with a key vault and key
+## Secure access to the storage account with a key vault and key
 
 1. To create the key vault and key needed for this part of the lab, youruser account must have Key Vault Administrator permissions. Learn more about how to [provide access to Key Vault keys, certificates, and secrets with an Azure role-based access control](https://learn.microsoft.com/azure/key-vault/general/rbac-guide?tabs=azure-cli)
     - In the portal, search for and select **Resource groups**. 
@@ -79,7 +79,7 @@ The company is designing and developing a new app. Developers need to ensure the
     - Select **Generate/Import** and **Name** the key.
     - Take the defaults for the rest of the parameters, and **Create** the key.
 
-### Configure the storage account to use the customer managed key in the key vault
+## Configure the storage account to use the customer managed key in the key vault
 
 1. Before you can complete the next steps, you must assign the Key Vault Crypto Service Encryption User role to the managed identity. Learn more about how to [use a system-assigned managed identity to authorize access](https://learn.microsoft.com/azure/storage/common/customer-managed-keys-configure-existing-account?tabs=azure-portal#use-a-system-assigned-managed-identity-to-authorize-access)
     - In the portal, search for and select **Resource groups**. 
@@ -104,7 +104,7 @@ The company is designing and developing a new app. Developers need to ensure the
     - **Save** your changes.
     - If you receive an error that your identity does not have the correct permissions, wait a minute and try again. 
 
-### Configure an time-based retention policy and an encryption scope.
+## Configure an time-based retention policy and an encryption scope.
 
 1. The developers require a storage container where files can't be modified, even by the administrator. Learn more about [blob immutable storage](https://learn.microsoft.com/azure/storage/blobs/immutable-storage-overview).
 
