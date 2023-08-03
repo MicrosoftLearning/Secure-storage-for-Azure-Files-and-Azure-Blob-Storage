@@ -22,7 +22,7 @@ The company is geographically dispersed with offices in different locations.  Th
 
 >**Note**: To complete this lab you will need an [Azure subscription](https://azure.microsoft.com/free/).
 
-### Create and configure a storage account for Azure Files. 
+## Create and configure a storage account for Azure Files. 
 
 1. Create a storage account for the finance department's shared files.  Learn more about storage accounts for [Azure Files deployments](https://learn.microsoft.com/azure/storage/files/storage-files-planning#management-concepts).
 
@@ -37,7 +37,7 @@ The company is geographically dispersed with offices in different locations.  Th
     - Wait for the resource to deploy.
     - Select **Go to resource**. 
 
-### Create and configure a file share with directory.
+## Create and configure a file share with directory.
 
 1. Create a file share for the corporate office. Learn more about [Azure File tiers](https://learn.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers).
 
@@ -54,7 +54,7 @@ The company is geographically dispersed with offices in different locations.  Th
     - Notice you can **Add directory** to further organize your file share.
     - **Upload** a file of your choosing. 
 
-### Configure and test snapshots.
+## Configure and test snapshots.
 
 1. Similar to blob storage, you need to protect against accidental deletion of files. You decide to use snapshots. Learn more about [file snapshots](https://learn.microsoft.com/azure/storage/files/storage-snapshots-files).
     
@@ -73,7 +73,7 @@ The company is geographically dispersed with offices in different locations.  Th
     - Provide a **Restored file name**. 
     - Verify your file directory has the restored file.  
 
-### Configure restricting storage access to selected virtual networks.
+## Configure restricting storage access to selected virtual networks.
 
 1. This tasks in this section require a virtual network with subnet. In a production environment these resources would already be created.
     - Search for and select **Virtual networks**.
