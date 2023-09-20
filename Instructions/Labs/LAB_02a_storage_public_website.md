@@ -39,6 +39,12 @@ The company website supplies product images, videos, marketing literature, and c
     - Ensure **Read-access Geo-redundant storage** is selected.
     - Review the primary and secondary location information. 
 
+1. Information on the public website should be accessible without requiring customers to login.
+    - In the storage account, in the **Settings** section, select the **Configuration** blade.
+    - Ensure the **Allow blob anonymous access** setting is **Enabled**.
+    - Be sure to **Save** your changes. 
+  
+   
 ## Create a blob storage container with anonymous read access
 
 1. The public website has various images and documents. Create a blob storage container for the content. Learn more about [storage containers](https://learn.microsoft.com/azure/storage/blobs/storage-blobs-introduction#containers).
