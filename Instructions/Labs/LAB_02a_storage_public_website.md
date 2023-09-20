@@ -65,7 +65,8 @@ The company website supplies product images, videos, marketing literature, and c
     - Ensure you are viewing your container. 
     - Select **Upload**. 
     - **Browse to files** and select a file. Browse to a file of your choice. 
-    - Select **Upload**. 
+    - Select **Upload**.
+    - Close the upload window, **Refresh** the page and ensure your file was uploaded. 
 
 1. Determine the URL for your uploaded file. Open a browser and test the URL. 
     - Select your uploaded file.
