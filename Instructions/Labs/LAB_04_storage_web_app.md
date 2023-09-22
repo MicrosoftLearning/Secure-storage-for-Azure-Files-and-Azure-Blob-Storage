@@ -71,7 +71,8 @@ The company is designing and developing a new app. Developers need to ensure the
     - Provide the **name** for the key vault. The name must be unique. 
     - Select **Review + create**.
     - Wait for the validation checks to complete and then select **Create**.
-    - After the deployment, select **Go to resource**. 
+    - After the deployment, select **Go to resource**.
+    - On the **Overview** blade ensure both **Soft-delete** and **Purge protection** are **enabled**. 
 
 1. Create a customer-managed key in the key vault. 
 
