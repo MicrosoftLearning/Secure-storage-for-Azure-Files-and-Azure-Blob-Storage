@@ -51,7 +51,7 @@ The company is designing and developing a new app. Developers need to ensure the
 
 ## Secure access to the storage account with a key vault and key
 
-1. To create the key vault and key needed for this part of the lab, youruser account must have Key Vault Administrator permissions. Learn more about how to [provide access to Key Vault keys, certificates, and secrets with an Azure role-based access control](https://learn.microsoft.com/azure/key-vault/general/rbac-guide?tabs=azure-cli)
+1. To create the key vault and key needed for this part of the lab, your user account must have Key Vault Administrator permissions. Learn more about how to [provide access to Key Vault keys, certificates, and secrets with an Azure role-based access control](https://learn.microsoft.com/azure/key-vault/general/rbac-guide?tabs=azure-cli)
     - In the portal, search for and select **Resource groups**. 
     - Select your **resource group**, and then the **Access Control (IAM)** blade.
     - Select **Add role assignment** (center of the page).
