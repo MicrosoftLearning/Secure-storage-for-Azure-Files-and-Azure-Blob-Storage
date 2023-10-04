@@ -1,4 +1,4 @@
-# INF99X: Sample Course (Test and Dev)
+# INF99X: Secure storage for Azure Files and Azure Blob storage
 
 Looking for the **[HTML pages](https://microsoftlearning.github.io/Secure-storage-for-Azure-Files-and-Azure-Blob-Storage/)**?
 
