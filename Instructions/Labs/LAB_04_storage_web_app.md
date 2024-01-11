@@ -96,7 +96,7 @@ The company is designing and developing a new app. Developers need to ensure the
     
 1. Configure the storage account to use the customer managed key in your key vault. Learn more about [customer managed keys on an existing storage account](https://learn.microsoft.com/azure/storage/common/customer-managed-keys-configure-existing-account?WT.mc_id=Portal-Microsoft_Azure_Storage&tabs=azure-portal).
     - Return to your the storage account.
-    - In the **Security + networking** section, selet the **Encryption** blade.
+    - In the **Security + networking** section, select the **Encryption** blade.
     - Select **Customer-managed keys**.
     - **Select a key vault and key**. Select your key vault and key.
     - **Select** to confirm your choices. 
