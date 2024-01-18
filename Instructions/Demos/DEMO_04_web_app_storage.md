@@ -18,7 +18,7 @@ In this demonstration, explore encryption and app security.
 
 1. Create a **managed identity**. Learn more, [Managed identities](https://learn.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview).
 
-1. Create a **key vault**. Take the defaults, **except** on the **Access configuration** tab, ensure **Vault access policy** is selected. Learn more, [Azure key vault](https://learn.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview).
+1. Create a **key vault**. Take the defaults, **except** on the **Access configuration** tab, ensure **Azure role-based access control (recommended)** is selected. Learn more, [Azure key vault](https://learn.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview).
 
 1. Wait for the key vault to deploy then **Go to resource**.
 
