@@ -69,7 +69,7 @@ The company is designing and developing a new app. Developers need to ensure the
     - Select **Create**.
     - Select your **resource group**.
     - Provide the **name** for the key vault. The name must be unique.
-    - Ensure on the **Access configuration** tab that **Vault access policy** is selected. 
+    - Ensure on the **Access configuration** tab that **Azure role-based access control (recommended)** is selected. 
     - Select **Review + create**.
     - Wait for the validation checks to complete and then select **Create**.
     - After the deployment, select **Go to resource**.
