@@ -50,7 +50,7 @@ In this demonstration, explore Azure Files storage and storage networking.
 
 1. Review the settings at the top of the page. For example, **Upload** and **Change size and performance**.
 
-1. Discuss the purpose of snapshots. Learn more, [File share snapshots](https://learn.microsoft.com/azure/storage/files/storage-snapshots-files).
+1. [Supporting Slide] Discuss the purpose of snapshots. Learn more, [File share snapshots](https://learn.microsoft.com/azure/storage/files/storage-snapshots-files).
 
 1. In the **Operations** blade, select **Snapshots**.
 
