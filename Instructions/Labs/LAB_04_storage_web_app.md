@@ -24,8 +24,11 @@ The company is designing and developing a new app. Developers need to ensure the
     - In the portal, search for and select **Storage accounts**. 
     - Select **+ Create**.
     - For **Resource group** select **Create new**. Give your resource group a **name** and select **OK** to save your changes.
-    - Provide a **Storage account name**. Ensure the name is unique and meets the naming requirements. 
-    - **Review**, and then **Create** the storage account.
+    - Provide a **Storage account name**. Ensure the name is unique and meets the naming requirements.
+    - Move to the **Encryption** tab.
+    - Check the box for **Enable infrastructure encryption**.
+    - Notice the warning, *This option cannot be changed after this storage account is created.*
+    - Select **Review + Create**.
     - Wait for the resource to deploy.
 
 1. Provide a managed identity for the web app to use.  Learn more about [managed identities](https://learn.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview).
@@ -130,7 +133,6 @@ The company is designing and developing a new app. Developers need to ensure the
     - Give your encryption scope a **name**. 
     - The **Encryption type** is **Microsoft-managed key**.
     - Set **Infrastructure encryption** to **Enable**.
-    - Notice the warning that enabling infrastructure encryption can not be changed after the scope is created.
     - **Create** the encryption scope.
     - Return to your storage account and create a new container.
     - Notice on the **New container** page, there is the **Name** and **Public access level**.
