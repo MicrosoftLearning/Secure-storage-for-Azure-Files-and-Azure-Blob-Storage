@@ -100,3 +100,21 @@ The company is geographically dispersed with offices in different locations.  Th
 
 
 >**Note**: For additional practice complete the [Configure Azure storage security](https://learn.microsoft.com/training/modules/configure-storage-security/) module. The module has an interactive lab simulation where you can get more practice creating secure storage. 
+
+## Extend your learning with Copilot
+
+Copilot can assist you in your learning journey. Copilot can provide basic technical information, high-level steps, pros and cons, troubleshooting help, usage cases, coding examples, and much more. To access Copilot, open an Edge browser and choose Copilot (top right). Take a few minutes to try these prompts.
++ What is Azure File storage and how is it different from Azure blob storage? How do I decide which one to use?
++ What are the different ways to secure Azure file content?
+
+## Learn more with self-paced training
+
++ [Configure Azure Files and Azure File Sync](https://learn.microsoft.com/en-us/training/modules/configure-azure-files-file-sync/). In this module, you learn to configure Azure file shares and file share snapshots.
+
+## Key takeaways
+
+Congratulations on completing the lab. Here are the main takeaways for this lab. 
++ Azure Files offers fully managed file shares in the cloud that are accessible via the industry standard Server Message Block (SMB) protocol, Network File System (NFS) protocol, and Azure Files REST API.
++ Azure Files provides the capability to take snapshots of SMB and NFS file shares. Share snapshots capture the share state at that point in time. Share snapshots provide only file-level protection.
++ You can configure a storage account endpoint for accessing the Azure file share directly. Endpoints to restrict network access to your storage account.
+
