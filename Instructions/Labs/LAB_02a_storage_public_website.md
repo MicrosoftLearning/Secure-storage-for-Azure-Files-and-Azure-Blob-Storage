@@ -3,8 +3,6 @@ lab:
     title: 'Exercise 02a: Provide storage for the public website'
     module: 'Guided Project - Azure Files and Azure Blobs'
 ---
-
-
 The company website supplies product images, videos, marketing literature, and customer success stories. Customers are located worldwide and demand is rapidly expanding. The content is mission-critical and requires low latency load times. It's important to keep track of the document versions and to quickly restore documents if they're deleted.
 
 ## Architecture diagram
@@ -17,7 +15,6 @@ The company website supplies product images, videos, marketing literature, and c
 - Create a blob storage container for the website documents.
 - Enable soft delete so files can be easily restored.
 - Enable blob versioning. 
-
 
 ## Exercise instructions
 
@@ -106,4 +103,29 @@ The company website supplies product images, videos, marketing literature, and c
    - **Upload** another version of your container file. This overwrites your existing file. 
    - Your previous file version is listed on **Show deleted blobs** page. 
     
+## Cleanup your resources
 
+If you are working with **your own subscription** take a minute to delete the lab resources. This will ensure resources are freed up and cost is minimized. The easiest way to delete the lab resources is to delete the lab resource group. 
+
++ In the Azure portal, select the resource group, select **Delete the resource group**, **Enter resource group name**, and then click **Delete**.
++ Using Azure PowerShell, `Remove-AzResourceGroup -Name resourceGroupName`.
++ Using the CLI, `az group delete --name resourceGroupName`.
+
+## Extend your learning with Copilot
+
+Copilot can assist you in your learning journey. Copilot can provide basic technical information, high-level steps, pros and cons, troubleshooting help, usage cases, coding examples, and much more. To access Copilot, open an Edge browser and choose Copilot (top right). Take a few minutes to try these prompts.
++ What is Azure blob storage and when should it be used?
++ Compare the different Azure storage redundancy models, highlighting their key features and use cases.
++ What are the Azure storage tiers and how can those tiers save money?
+
+## Learn more with self-paced training
+
++ [Explore Azure Blob storage](https://learn.microsoft.com/training/modules/explore-azure-blob-storage/). In this module, you learn the core features and functionality of Azure Blob storage.
+
+## Key takeaways
+
+Congratulations on completing the lab. Here are the main takeaways for this lab. 
++ Azure Blob Storage is optimized for storing massive amounts of unstructured data. Unstructured data is data that doesn't adhere to a particular data model or definition, such as text or binary data.
++ Blob soft delete protects an individual blob, snapshot, or version from accidental deletes or overwrites by maintaining the deleted data in the system for a specified period of time. 
++ Blob versioning maintains previous versions of a blob. When blob versioning is enabled, you can restore an earlier version of a blob to recover your data if it's modified or deleted.
++ When a container is configured for anonymous access, any client can read data in that container.
