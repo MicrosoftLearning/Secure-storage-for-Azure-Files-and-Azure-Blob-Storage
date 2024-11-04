@@ -88,5 +88,5 @@ Copilot can assist you in your learning journey. Copilot can provide basic techn
 Congratulations on completing the lab. Here are the main takeaways for this lab. 
 + An Azure storage account is a container that holds all your Azure Storage data objects, including blobs, files, queues, and tables.
 + Azure Storage offers several types of storage accounts, Standard and Premium. Each type supports different features and has its own pricing model.
-+ Azure storage offers different storage tiers: Hot, Cool, Cold, and Archive. 
-+ Azure Storage always stores multiple copies of your data to protect it from planned and unplanned events. You can choose from primary and secondary redundancy models.  
++ Azure Storage always stores multiple copies of your data to protect it from planned and unplanned events.
++ Redundancy models can replicate data in the primary and secondary regions. 
