@@ -101,3 +101,21 @@ The company needs storage for their offices and departments. This content is pri
 
 >**Note**: For additional practice complete the [Configure Azure blob storage](https://learn.microsoft.com/training/modules/configure-blob-storage/) module. The module has an interactive lab simulation where you can get more practice creating blob storage. 
 
+## Extend your learning with Copilot
+
+Copilot can assist you in your learning journey. Copilot can provide basic technical information, high-level steps, pros and cons, troubleshooting help, usage cases, coding examples, and much more. To access Copilot, open an Edge browser and choose Copilot (top right). Take a few minutes to try these prompts.
++ What security features are available to protect Azure storage?
++ What is an Azure SAS and how is it used?
+
+## Learn more with self-paced training
+
++ [Configure Azure Storage security](https://learn.microsoft.com/training/modules/configure-storage-security/). In this module, you learn how to configure common Azure Storage security features like storage access signatures.
++ [Manage the Azure Blob storage lifecycle](https://learn.microsoft.com/training/modules/configure-storage-security/). In this module, you learn how to manage data availability throughout the Azure Blob storage lifecycle.
+
+## Key takeaways
+
+Congratulations on completing the lab. Here are the main takeaways for this lab. 
++ Azure storage has many data protection features including: encryption, access control, network security, monitoring, and alerts. 
++ A shared access signature (SAS) provides secure delegated access to resources in your storage account. With a SAS, you have granular control over how a client can access your data.
++ Azure Blob Storage lifecycle management offers a rule-based policy that you can use to transition blob data to the appropriate access tiers or to expire data at the end of the data lifecycle.
++ Object replication asynchronously copies block blobs between a source storage account and a destination account.
