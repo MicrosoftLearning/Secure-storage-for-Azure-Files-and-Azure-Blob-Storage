@@ -140,3 +140,28 @@ The company is designing and developing a new app. Developers need to ensure the
 
 
 >**Note**: For additional practice complete the [Secure and isolate access to Azure resources by using network security groups and service endpoints](https://learn.microsoft.com/training/modules/secure-and-isolate-with-nsg-and-service-endpoints/) module. The module has a sandbox where you can get more practice restricting access to storage.
+
+## Cleanup your resources
+
+If you are working with **your own subscription** and have completed these labs, take a minute to delete the lab resources. This will ensure resources are freed up and cost is minimized. The easiest way to delete the lab resources is to delete the lab resource group. 
+
++ In the Azure portal, select the resource group, select **Delete the resource group**, **Enter resource group name**, and then click **Delete**.
++ Using Azure PowerShell, `Remove-AzResourceGroup -Name resourceGroupName`.
++ Using the CLI, `az group delete --name resourceGroupName`.
+
+## Extend your learning with Copilot
+
+Copilot can assist you in your learning journey. Copilot can provide basic technical information, high-level steps, pros and cons, troubleshooting help, usage cases, coding examples, and much more. To access Copilot, open an Edge browser and choose Copilot (top right). Take a few minutes to try these prompts.
++ What is an Azure managed identity and how can it be used with Azure storage?
++ What built-in role-based access control (RBAC) roles are available for managing access to Azure Storage. 
++ What are customer-managed keys and how are they used for Azure storage?
+
+## Learn more with self-paced training
+
++ [Secure and isolate access to Azure resources by using network security groups and service endpoints](https://learn.microsoft.com/training/modules/secure-and-isolate-with-nsg-and-service-endpoints/). In this module, you learn to use virtual network service endpoints to control network traffic to and from Azure services.
+
+## Key takeaways
++ Azure has built-in RBAC roles for Azure storage. These roles include: Storage Account Contributor, Storage Blob Data Owner, and File Data SMB Share Contributor.
++ You can use your own encryption key to protect the data in your storage account. When you specify a customer-managed key, that key is used to protect and control access to the key that encrypts your data. 
++ Immutable storage ensures data can't be modified or deleted for a user-specified interval. There are two types of immutable policies: time-based and legal hold.
++ Infrastructure encryption can be enabled for the entire storage account, or for an encryption scope within an account. Infrastructure encryption is recommended for scenarios where doubly encrypting data is necessary for compliance requirements. 
