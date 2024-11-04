@@ -62,3 +62,31 @@ The IT department needs to prototype different storage scenarios and to train ne
     - Be sure to **Save** your changes. 
 
 >**Note**: For additional practice complete the [Create an Azure Storage Account](https://learn.microsoft.com/training/modules/create-azure-storage-account/) module. The module has a sandbox where you can practice creating a storage account.
+
+## Cleanup your resources
+
+If you are working with **your own subscription** take a minute to delete the lab resources. This will ensure resources are freed up and cost is minimized. The easiest way to delete the lab resources is to delete the lab resource group. 
+
++ In the Azure portal, select the resource group, select **Delete the resource group**, **Enter resource group name**, and then click **Delete**.
++ Using Azure PowerShell, `Remove-AzResourceGroup -Name resourceGroupName`.
++ Using the CLI, `az group delete --name resourceGroupName`.
+
+## Extend your learning with Copilot
+
+Copilot can assist you in your learning journey. Copilot can provide basic technical information, high-level steps, pros and cons, troubleshooting help, usage cases, coding examples, and much more. To access Copilot, open an Edge browser and choose Copilot (top right). Take a few minutes to try these prompts.
++ What is an Azure storage account? What types of Azure storage accounts are available?
++ Create a table comparing the Azure storage performance tiers. Hightlight their  key features and use cases. 
++ What Azure storage redundancy options are available? When should I use each option?
+
+## Learn more with self-paced training
+
++ [Describe Azure storage services](https://learn.microsoft.com/training/modules/describe-azure-storage-services/). In this module, you compare Azure storage services, describe storage tiers, and describe redundancy options.
++ [Create an Azure Storage account](https://learn.microsoft.com/training/modules/create-azure-storage-account/). In this module, you create and configure a storage account. 
+
+## Key takeaways
+
+Congratulations on completing the lab. Here are the main takeaways for this lab. 
++ An Azure storage account is a container that holds all your Azure Storage data objects, including blobs, files, queues, and tables.
++ Azure Storage offers several types of storage accounts, Standard and Premium. Each type supports different features and has its own pricing model.
++ Azure storage offers different storage tiers: Hot, Cool, Cold, and Archive. 
++ Azure Storage always stores multiple copies of your data to protect it from planned and unplanned events. You can choose from primary and secondary redundancy models.  
