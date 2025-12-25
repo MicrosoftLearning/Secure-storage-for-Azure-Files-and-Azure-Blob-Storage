@@ -78,7 +78,7 @@ The company website supplies product images, videos, marketing literature, and c
     - On the **Properties** page, locate the **Blob service** section.
     - Select the **Blob soft delete** setting.
     - Ensure the **Enable soft delete for blobs** is **checked**.
-    - Change the **Keep deleted blobs for (in days** setting is **21**.
+    - Change the **Keep deleted blobs for (in days)** setting to **21**.
     - Notice you can also **Enable soft delete for containers**. 
     - Don't forget to **Save** your changes. 
 
