@@ -16,6 +16,8 @@ The company is designing and developing a new app. Developers need to ensure the
 - Configure the storage account to use the customer managed key in the key vault
 - Configure an time-based retention policy and an encryption scope.
 
+## Estimated timing: 30 minutes
+
 ## Exercise instructions
 
 ## Create the storage account and managed identity
