@@ -18,6 +18,8 @@ The company needs storage for their offices and departments. This content is pri
 - Back up the public website storage.
 - Implement lifecycle management to move content to the cool tier.
 
+## Estimated timing: 20 minutes
+
 ## Exercise instructions
 
 > **Note**: These instruction require you to have completed **Lab 02a**, Provide storage for internal documents.
