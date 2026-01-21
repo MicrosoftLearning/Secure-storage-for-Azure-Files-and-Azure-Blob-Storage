@@ -16,6 +16,8 @@ The company website supplies product images, videos, marketing literature, and c
 - Enable soft delete so files can be easily restored.
 - Enable blob versioning. 
 
+## Estimated timing: 20 minutes
+
 ## Exercise instructions
 
 ## Create a storage account with high availability.
