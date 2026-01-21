@@ -13,6 +13,8 @@ The IT department needs to prototype different storage scenarios and to train ne
 - Create a storage account. 
 - Configure basic settings for security and networking. 
 
+## Estimated timing: 20 minutes
+
 ## Exercise instructions
 
 ## Create a resource group and a storage account.
