@@ -18,6 +18,8 @@ The company is geographically dispersed with offices in different locations.  Th
 - Configure snapshots and practice restoring files. 
 - Restrict access to a specific virtual network and subnet. 
 
+## Estimated timing: 30 minutes
+
 ## Exercise instructions
 
 >**Note**: To complete this lab you will need an [Azure subscription](https://azure.microsoft.com/free/).
