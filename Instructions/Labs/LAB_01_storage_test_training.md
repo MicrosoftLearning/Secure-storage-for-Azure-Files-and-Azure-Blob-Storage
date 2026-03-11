@@ -1,7 +1,14 @@
 ---
 lab:
-    title: 'Exercise 01: Provide storage for the IT department testing and training'
-    module: 'Guided Project - Azure Files and Azure Blobs'
+  title: 'Exercise 01: Provide storage for the IT department testing and training'
+  module: Guided Project - Azure Files and Azure Blobs
+  description: The IT department needs to prototype different storage scenarios and
+    to train new personnel. The content isn't important enough to back up and doesn't
+    need to be restored if the data is overwritten or removed. A simple configuration
+    that can be easily changed is desired.
+  duration: 20 minutes
+  level: 300
+  islab: true
 ---
 
 The IT department needs to prototype different storage scenarios and to train new personnel. The content isn't important enough to back up and doesn't need to be restored if the data is overwritten or removed. A simple configuration that can be easily changed is desired.
