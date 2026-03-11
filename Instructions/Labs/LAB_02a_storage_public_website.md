@@ -6,6 +6,10 @@ lab:
   duration: 20 minutes
   level: 300
   islab: true
+  primarytopics:
+  - Azure
+  - Storage accounts
+  - Blob storage
 ---
 
 The company website supplies product images, videos, marketing literature, and customer success stories. Customers are located worldwide and demand is rapidly expanding. The content is mission-critical and requires low latency load times. It's important to keep track of the document versions and to quickly restore documents if they're deleted.
