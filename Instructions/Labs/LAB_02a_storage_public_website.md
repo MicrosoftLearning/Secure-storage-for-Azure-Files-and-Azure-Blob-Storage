@@ -4,7 +4,7 @@ lab:
   module: Guided Project - Azure Files and Azure Blobs
   description: Create and configure blob storage. 
   duration: 20 minutes
-  level: 200
+  level: 300
   islab: true
 ---
 
