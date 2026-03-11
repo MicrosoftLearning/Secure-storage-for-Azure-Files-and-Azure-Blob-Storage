@@ -2,9 +2,9 @@
 lab:
   title: 'Exercise 03: Provide shared file storage for the company offices'
   module: Guided Project - Azure Files and Azure Blobs
-  description: Copilot can assist you in your learning journey. Copilot can provide basic technical information, high-level steps, pros and cons, troubleshooting help, usage cases, coding examples, and much more. To access Copilot, open an Edge browser and choose Copilot (top right). Take a few minutes to try these prompts.
+  description: Create and configure file shares. 
   duration: 30 minutes
-  level: 200
+  level: 300
   islab: true
 ---
 
