@@ -1,9 +1,12 @@
 ---
 lab:
-    title: 'Exercise 02b: Provide private storage for internal company documents'
-    module: 'Guided Project - Azure Files and Azure Blobs'
+  title: 'Exercise 02b: Provide private storage for internal company documents'
+  module: Guided Project - Azure Files and Azure Blobs
+  description: The company needs storage for their offices and departments. This content is private to the company and shouldn't be shared without consent. This storage requires high availability if there's a regional outage. The company wants to use this storage to back up the public website.
+  duration: 20 minutes
+  level: 300
+  islab: true
 ---
-
 
 The company needs storage for their offices and departments. This content is private to the company and shouldn't be shared without consent. This storage requires high availability if there's a regional outage. The company wants to use this storage to back up the public website. 
 
