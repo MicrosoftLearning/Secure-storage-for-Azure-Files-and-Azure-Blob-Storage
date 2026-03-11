@@ -1,9 +1,12 @@
 ---
 lab:
-    title: 'Exercise 03: Provide shared file storage for the company offices'
-    module: 'Guided Project - Azure Files and Azure Blobs'
+  title: 'Exercise 03: Provide shared file storage for the company offices'
+  module: Guided Project - Azure Files and Azure Blobs
+  description: Create and configure file shares. 
+  duration: 30 minutes
+  level: 300
+  islab: true
 ---
-
 
 The company is geographically dispersed with offices in different locations.  These offices need a way to share files and disseminate information. For example, the Finance department needs to confirm cost information for auditing and compliance. This file shares should be easy to access and load without delay. Some content should only be accessed from selected corporate virtual networks.
 

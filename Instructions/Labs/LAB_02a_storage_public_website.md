@@ -1,8 +1,13 @@
 ---
 lab:
-    title: 'Exercise 02a: Provide storage for the public website'
-    module: 'Guided Project - Azure Files and Azure Blobs'
+  title: 'Exercise 02a: Provide storage for the public website'
+  module: Guided Project - Azure Files and Azure Blobs
+  description: Create and configure blob storage. 
+  duration: 20 minutes
+  level: 300
+  islab: true
 ---
+
 The company website supplies product images, videos, marketing literature, and customer success stories. Customers are located worldwide and demand is rapidly expanding. The content is mission-critical and requires low latency load times. It's important to keep track of the document versions and to quickly restore documents if they're deleted.
 
 ## Architecture diagram
