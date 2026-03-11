@@ -2,9 +2,9 @@
 lab:
   title: 'Exercise 04: Provide storage for a new company app'
   module: Guided Project - Azure Files and Azure Blobs
-  description: The company is designing and developing a new app. Developers need to ensure the storage is only accessed using keys and managed identities. The developers would like to use role-based access control. To help with testing, protected immutable storage is needed.
+  description: Configure storage access with keys and managed identities. 
   duration: 30 minutes
-  level: 500
+  level: 300
   islab: true
 ---
 
