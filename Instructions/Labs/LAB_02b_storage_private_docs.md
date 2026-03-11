@@ -6,6 +6,9 @@ lab:
   duration: 20 minutes
   level: 300
   islab: true
+  primarytopics:
+  - Azure
+  - Storage security
 ---
 
 The company needs storage for their offices and departments. This content is private to the company and shouldn't be shared without consent. This storage requires high availability if there's a regional outage. The company wants to use this storage to back up the public website. 
