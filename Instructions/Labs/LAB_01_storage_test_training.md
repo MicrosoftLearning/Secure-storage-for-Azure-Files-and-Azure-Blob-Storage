@@ -4,7 +4,7 @@ lab:
   module: Guided Project - Azure Files and Azure Blobs
   description: Create and configure a basic storage account. 
   duration: 20 minutes
-  level: 200
+  level: 300
   islab: true
 ---
 
