@@ -6,6 +6,10 @@ lab:
   duration: 30 minutes
   level: 300
   islab: true
+  primarytopics:
+  - Azure
+  - Key vault
+  - Storage security
 ---
 
 The company is designing and developing a new app. Developers need to ensure the storage is only accessed using keys and managed identities. The developers would like to use role-based access control. To help with testing, protected immutable storage is needed. 
