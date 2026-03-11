@@ -1,8 +1,13 @@
 ---
 lab:
-    title: 'Exercise 02a: Provide storage for the public website'
-    module: 'Guided Project - Azure Files and Azure Blobs'
+  title: 'Exercise 02a: Provide storage for the public website'
+  module: Guided Project - Azure Files and Azure Blobs
+  description: Copilot can assist you in your learning journey. Copilot can provide basic technical information, high-level steps, pros and cons, troubleshooting help, usage cases, coding examples, and much more. To access Copilot, open an Edge browser and choose Copilot (top right). Take a few minutes to try these prompts.
+  duration: 20 minutes
+  level: 200
+  islab: true
 ---
+
 The company website supplies product images, videos, marketing literature, and customer success stories. Customers are located worldwide and demand is rapidly expanding. The content is mission-critical and requires low latency load times. It's important to keep track of the document versions and to quickly restore documents if they're deleted.
 
 ## Architecture diagram
