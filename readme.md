@@ -1,6 +1,6 @@
 # Secure storage for Azure Files and Azure Blob storage
 
-Looking for the **[HTML pages](https://microsoftlearning.github.io/Secure-storage-for-Azure-Files-and-Azure-Blob-Storage/)**?
+Link to demonstrations and labs **[HTML version](https://microsoftlearning.github.io/Secure-storage-for-Azure-Files-and-Azure-Blob-Storage/)**?
 
 **Are you an MCT?** - Have a look at our [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/)
 
