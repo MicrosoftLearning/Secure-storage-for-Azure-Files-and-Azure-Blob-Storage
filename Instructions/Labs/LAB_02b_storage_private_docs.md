@@ -118,7 +118,6 @@ Copilot can assist you in your learning journey. Copilot can provide basic techn
 ## Learn more with self-paced training
 
 + [Configure Azure Storage security](https://learn.microsoft.com/training/modules/configure-storage-security/). In this module, you learn how to configure common Azure Storage security features like storage access signatures.
-+ [Manage the Azure Blob storage lifecycle](https://learn.microsoft.com/training/modules/configure-storage-security/). In this module, you learn how to manage data availability throughout the Azure Blob storage lifecycle.
 
 ## Key takeaways
 
