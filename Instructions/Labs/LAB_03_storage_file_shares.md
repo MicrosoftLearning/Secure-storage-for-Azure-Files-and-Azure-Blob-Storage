@@ -117,7 +117,7 @@ Copilot can assist you in your learning journey. Copilot can provide basic techn
 
 ## Learn more with self-paced training
 
-+ [Configure Azure Files and Azure File Sync](https://learn.microsoft.com/en-us/training/modules/configure-azure-files-file-sync/). In this module, you learn to configure Azure file shares and file share snapshots.
++ [Configure Azure Files](https://learn.microsoft.com/en-us/training/modules/configure-azure-files-file-sync/). In this module, you learn to configure Azure file shares and file share snapshots.
 
 ## Key takeaways
 
