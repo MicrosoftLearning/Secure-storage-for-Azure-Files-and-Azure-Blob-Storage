@@ -49,8 +49,8 @@ The company is geographically dispersed with offices in different locations.  Th
 
 1. Create a file share for the corporate office. Learn more about [Azure File tiers](https://learn.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers).
 
-    - In the storage account, in the **Data storage** section, select the **File shares** blade. 
-    - Select **+ File share** and provide a **Name**.
+    - In the storage account, in the **Data storage** section, select the **Classic file shares** blade. 
+    - Select **+ Classic file share** and provide a **Name**.
     - Review the other options, but take the defaults.
     - Select **Create**
 
@@ -99,7 +99,7 @@ The company is geographically dispersed with offices in different locations.  Th
 
     - Return to your **files storage account**. 
     - In the **Security + networking** section, select the **Networking** blade.
-        - Change the **Public network access** to **Enabled from selected virtual networks and IP addresses**.
+        - Change the **Public network access** to **Enabled from selected networks**.
         - In the **Virtual networks** section, select **Add existing virtual network**.
         - Select your virtual network and subnet, select **Add**.
         - Be sure to **Save** your changes. 

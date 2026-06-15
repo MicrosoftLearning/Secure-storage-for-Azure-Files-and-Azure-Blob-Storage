@@ -157,6 +157,7 @@ The company is designing and developing a new app. Developers need to ensure the
 If you are working with **your own subscription** and have completed these labs, take a minute to delete the lab resources. This will ensure resources are freed up and cost is minimized. The easiest way to delete the lab resources is to delete the lab resource group. 
 
 + In the Azure portal, select the resource group, select **Delete the resource group**, **Enter resource group name**, and then click **Delete**.
++ If a second **Delete confirmation** dialog appears, click **Delete** again.
 + Using Azure PowerShell, `Remove-AzResourceGroup -Name resourceGroupName`.
 + Using the CLI, `az group delete --name resourceGroupName`.
 
