@@ -86,8 +86,7 @@ The company website supplies product images, videos, marketing literature, and c
 
 1. It's important that the website documents can be restored if they're deleted. Configure blob soft delete for 21 days. Learn more about [soft delete for blobs](https://learn.microsoft.com/azure/storage/blobs/soft-delete-container-enable?tabs=azure-portal).
     - Go to the **Overview** blade of the **storage account**.
-    - On the **Properties** page, locate the **Blob service** section.
-    - Select the **Blob soft delete** setting.
+    - In the **Data management** section, select the **Data protection** blade.
     - Ensure the **Enable soft delete for blobs** is **checked**.
     - Change the **Keep deleted blobs for (in days)** setting to **21**.
     - Notice you can also **Enable soft delete for containers**. 
@@ -96,23 +95,22 @@ The company website supplies product images, videos, marketing literature, and c
 1. If something gets deleted, you need to practice using soft delete to restore the files.
     - Navigate to your container where you uploaded a file.
     - Select the file you uploaded and then select **Delete**.
-    - Select **OK** to confirm deleting the file.  
-    - On the container **Overview** page, toggle the slider **Show deleted blobs**. This toggle is to the right of the search box. 
+    - Select **Delete** to confirm deleting the file.  
+    - On the container **Overview** page, use the **Soft delete** dropdown and select **Show active and deleted blobs**. This control is to the right of the search box. 
     - Select your deleted file, and use the ellipses on the far right, to **Undelete** the file. 
     - Refresh the container and confirm the file has been restored.     
 
 ## Configure blob versioning
 1. It's important to keep track of the different website product document versions. Learn more about [blob versioning](https://learn.microsoft.com/azure/storage/blobs/versioning-enable?tabs=portal).
     - Go to the **Overview** blade of the **storage account**.
-    - In the **Properties** section, locate the **Blob service** section.
-    - Select the **Versioning** setting.
+    - In the **Data management** section, select the **Data protection** blade.
     - Ensure the **Enable versioning for blobs** checkbox is checked.
     - Notice your options to **keep all versions** or **delete versions after**. 
     - Don't forget to **Save** your changes. 
 
 1. As you have time experiment with restoring previous blob versions.
    - **Upload** another version of your container file. This overwrites your existing file. 
-   - Your previous file version is listed on **Show deleted blobs** page. 
+   - Open the blob and select the **Versions** tab to view the previous file version. 
     
 ## Extend your learning with Copilot
 
