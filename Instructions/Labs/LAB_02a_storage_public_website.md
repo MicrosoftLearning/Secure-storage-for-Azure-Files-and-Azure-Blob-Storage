@@ -96,7 +96,7 @@ The company website supplies product images, videos, marketing literature, and c
     - Navigate to your container where you uploaded a file.
     - Select the file you uploaded and then select **Delete**.
     - Select **Delete** to confirm deleting the file.  
-    - On the container **Overview** page, use the **Soft delete** dropdown and select **Show active and deleted blobs**. This control is to the right of the search box. 
+    - On the container **Overview** page, use the dropdown next to the search bar and select **Show active and deleted blobs**. This control is to the right of the search box. 
     - Select your deleted file, and use the ellipses on the far right, to **Undelete** the file. 
     - Refresh the container and confirm the file has been restored.     
 
